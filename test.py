@@ -14,31 +14,51 @@ driver.get(siteUrl)  # Replace "https://example.com" with the URL of the website
 
 sleep(2)
 questionsContainer = driver.find_element(By.CLASS_NAME, "questions-container")
-questionsBlocks = questionsContainer.find_elements(By.CLASS_NAME, "exam-question-card")
+questionCard = questionsContainer.find_elements(By.CLASS_NAME, "exam-question-card")
 
-print(len(questionsBlocks))
-for questionBlock in questionsBlocks:
-    questionNumber = questionBlock.find_element(By.CSS_SELECTOR, ".card-header.text-white.bg-primary").text
-    questionIs = questionBlock.find_elements(By.CLASS_NAME, "card-text")[0].text
-    answerIs = questionBlock.find_element(By.CLASS_NAME, "correct-answer").text
-    descriptionIs = questionBlock.find_element(By.CLASS_NAME, "answer-description").text
+print(len(questionCard))
+for cardData in questionCard:
+    questionNumber = cardData.find_element(By.CSS_SELECTOR, ".card-header.text-white.bg-primary").text
+
+    questionBody = cardData.find_element(By.CSS_SELECTOR, ".card-body.question-body")
+    questionIs = questionBody.find_elements(By.CLASS_NAME, "card-text")[0].text
+    
+    answerIs = cardData.find_element(By.CLASS_NAME, "correct-answer").text
+    descriptionIs = cardData.find_element(By.CLASS_NAME, "answer-description").text
+
     linkIs = siteUrl
+    mostVotedIs, correctAnswerIs = None, None
 
     try:
-        votedAnswers = questionBlock.find_element(By.CLASS_NAME, "voted-answers-tally")
-        optionsBlock = votedAnswers.find_elements(By.CSS_SELECTOR, "question-choices-container")
-        scriptBlock = questionBlock.find_element(By.CLASS_NAME, "question-choices-container")
-        optionsBlock = questionBlock.find_element(By.CLASS_NAME, "question-choices-container")
+        # For MultiChoice Questions babyyyyyyyyyy
+        optionsBlock = questionBody.find_element(By.CLASS_NAME, "question-choices-container")
+        optionsAre = optionsBlock.find_elements(By.CLASS_NAME, "multi-choice-item")
+        for option in optionsAre:
+            print(option.text)
+            # Check if the option is Most Votedd
+            try:
+                mostVoted = option.find_element(By.CSS_SELECTOR, "span.most-voted-answer-badge")
+                if mostVoted:
+                    mostVotedIs = option.text
+            except: pass
+        print(f"Most Voted Answer is {mostVotedIs}")
+        print(f"Correct Answer is {correctAnswerIs}")
+        print(questionNumber)
+        print("QuestionIs:", questionIs)
+        print("AnswerIs: ", answerIs)
+        print("DescriptionIs: ", descriptionIs)
+        print("LinkIs: ", linkIs)
+
+        print()
+        print()
+        print()
         
     except:
         # It has an image
         pass
 
-    print(questionText)
+    break
 
-
-
-# # html_content = questionsContainer.get_attribute('innerHTML')
-html_content = driver.page_source
+# html_content = driver.page_source
 driver.quit()
 # print(html_content)
