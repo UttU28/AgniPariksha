@@ -7,6 +7,7 @@ import json
 import subprocess
 import sys
 
+certificationName = "az-400"
 
 def writeData(questionsInJSON):
     try: 
@@ -19,7 +20,7 @@ def writeData(questionsInJSON):
     print("Updated JSON data saved to", "questions.json")
 
 
-siteUrl = "https://www.examtopics.com/exams/microsoft/az-400/view/"
+siteUrl = f"https://www.examtopics.com/exams/microsoft/{certificationName}/view/"
 chrome_driver_path = "C:/chromeDriver/chromedriver.exe"
 
 subprocess.Popen(['C:/Program Files/Google/Chrome/Application/chrome.exe', '--remote-debugging-port=8989', '--user-data-dir=C:/Users/midhdesk1/Desktop/AgniPariksha/chromeData/'])
@@ -115,14 +116,11 @@ while driver.title != "404 - Page not found":
         questionsJSON.append(questionData)
         # print(questionData)
         # break
-    # with open("questions.json", "w") as updated_file:
-    #     json.dump(questionsJSON, updated_file, indent=4)
-    # writeData(questionsJSON)
     pageIndex+=1
     driver.get(siteUrl + str(pageIndex))
 
 # jsonData = json.dumps(questionsJSON, indent=4)
-fileName = "az400-questionData.json"
+fileName = f"{certificationName}-questionData.json"
 with open(fileName, "w") as questionData:
     json.dump(questionsJSON, questionData, indent=4)
 # print("JSON data saved to", fileName)
