@@ -117,10 +117,11 @@ while driver.title != "404 - Page not found":
         # print(questionData)
         # break
     pageIndex+=1
-    driver.get(siteUrl + str(pageIndex))
+    linkIs = siteUrl + str(pageIndex)
+    driver.get(linkIs)
 
 # jsonData = json.dumps(questionsJSON, indent=4)
-fileName = f"{certificationName}-questionData.json"
+fileName = f"{certificationName}-rawData.json"
 with open(fileName, "w") as questionData:
     json.dump(questionsJSON, questionData, indent=4)
 # print("JSON data saved to", fileName)
