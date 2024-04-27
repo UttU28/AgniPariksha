@@ -8,17 +8,23 @@ with open(f"{certificationName}-rawData.json", "r") as oldFile: iAmData = json.l
 dataCollector = []
 # for questionBlock in iAmData[:2]:
 for index, questionBlock in enumerate(iAmData):
+    sampleData = questionBlock['questionNumber'].split('--')
+    questionBlock['questionNumber'] = sampleData[0].replace('Question #','').strip()
+    questionBlock['topicNumber'] = sampleData[-1].replace('Topic ','').strip()
+
     reformattedOptions = []
     correctAnswer = questionBlock['answersAre']
     votedAnswers = questionBlock['mostVotedAre']
     print("correctAnswer", correctAnswer, len(correctAnswer))
-    questionBlock['multipleAnswers'] = len(correctAnswer) < 1 if False else True
+    # questionBlock['multipleAnswers'] = len(correctAnswer) >= 2 if '1' else 0
+    questionBlock['multipleAnswers'] = False
 
     if questionBlock['isMCQ']:
+        if len(correctAnswer) >= 2 : questionBlock['multipleAnswers'] = True
         for option in questionBlock['myOptionsAre']:
-            print(votedAnswers, questionBlock['questionNumber'])
+            # print(votedAnswers, questionBlock['questionNumber'])
             if votedAnswers == None or votedAnswers == []:
-                print("sdv")
+                # print("sdv")
                 if option[0] in correctAnswer and votedAnswers == None:
                     reformattedOptions.append({'text': option[3:], 'correct': True, 'voted': True})
                 elif option[0] not in correctAnswer and votedAnswers == None:

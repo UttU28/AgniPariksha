@@ -39,8 +39,8 @@ sleep(1)
 pageIndex = 1
 questionsJSON = []
 
-# while driver.title != "404 - Page not found":
-for i in range(2):
+while driver.title != "404 - Page not found":
+# for i in range(2):
     questionsContainer = driver.find_element(By.CLASS_NAME, "questions-container")
     questionCard = questionsContainer.find_elements(By.CLASS_NAME, "exam-question-card")
     print(len(questionCard))
