@@ -16,7 +16,7 @@
                 "voted": false
             },
             {
-                "text": "Cycle time Most Voted",
+                "text": "Cycle time",
                 "correct": true,
                 "voted": true
             },
@@ -46,7 +46,7 @@
                 "voted": false
             },
             {
-                "text": "Lead time Most Voted",
+                "text": "Lead time",
                 "correct": true,
                 "voted": true
             },
@@ -89,7 +89,7 @@
                 "voted": false
             },
             {
-                "text": "License procurement Most Voted",
+                "text": "License procurement",
                 "correct": true,
                 "voted": true
             }
@@ -112,7 +112,7 @@
                 "voted": false
             },
             {
-                "text": "Static code analysis Most Voted",
+                "text": "Static code analysis",
                 "correct": true,
                 "voted": true
             },
@@ -147,7 +147,7 @@
                 "voted": false
             },
             {
-                "text": "Using the TFS Database Import Service to perform the upgrade. Most Voted",
+                "text": "Using the TFS Database Import Service to perform the upgrade.",
                 "correct": true,
                 "voted": true
             },
@@ -206,7 +206,7 @@
                 "voted": false
             },
             {
-                "text": "CMMI Most Voted",
+                "text": "CMMI",
                 "correct": true,
                 "voted": true
             }
@@ -229,7 +229,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -254,7 +254,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -272,7 +272,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": true,
                 "voted": true
             },
@@ -300,12 +300,12 @@
                 "voted": false
             },
             {
-                "text": "Hosted Windows Container Most Voted",
+                "text": "Hosted Windows Container",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "Hosted Most Voted",
+                "text": "Hosted",
                 "correct": true,
                 "voted": true
             },
@@ -345,7 +345,7 @@
                 "voted": false
             },
             {
-                "text": "Configure conditional access in Azure Active Directory. Most Voted",
+                "text": "Configure conditional access in Azure Active Directory.",
                 "correct": true,
                 "voted": true
             }
@@ -365,7 +365,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Github Enterprise Most Voted",
+                "text": "Github Enterprise",
                 "correct": true,
                 "voted": true
             },
@@ -415,7 +415,7 @@
                 "voted": false
             },
             {
-                "text": "boards Most Voted",
+                "text": "boards",
                 "correct": false,
                 "voted": true
             }
@@ -445,7 +445,7 @@
                 "voted": false
             },
             {
-                "text": "npm install Most Voted",
+                "text": "npm install",
                 "correct": true,
                 "voted": true
             },
@@ -468,7 +468,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Red/Black deployment Most Voted",
+                "text": "Red/Black deployment",
                 "correct": true,
                 "voted": true
             },
@@ -513,7 +513,7 @@
                 "voted": false
             },
             {
-                "text": "You should make use of a gate. Most Voted",
+                "text": "You should make use of a gate.",
                 "correct": true,
                 "voted": true
             },
@@ -546,7 +546,7 @@
                 "voted": false
             },
             {
-                "text": "deployment Most Voted",
+                "text": "deployment",
                 "correct": true,
                 "voted": true
             },
@@ -592,7 +592,7 @@
                 "voted": false
             },
             {
-                "text": "You should make use of views. Most Voted",
+                "text": "You should make use of views.",
                 "correct": false,
                 "voted": true
             },
@@ -630,7 +630,7 @@
                 "voted": false
             },
             {
-                "text": "WhiteSource Most Voted",
+                "text": "WhiteSource",
                 "correct": true,
                 "voted": true
             },
@@ -653,7 +653,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "You should create a build task and use the WhiteSource Bolt service. Most Voted",
+                "text": "You should create a build task and use the WhiteSource Bolt service.",
                 "correct": true,
                 "voted": true
             },
@@ -686,7 +686,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "No adjustment required. Most Voted",
+                "text": "No adjustment required.",
                 "correct": true,
                 "voted": true
             },
@@ -719,12 +719,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Resource Manager templates Most Voted",
+                "text": "Azure Resource Manager templates",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "The PowerShell Desired State Configuration (DSC) extension for Windows Most Voted",
+                "text": "The PowerShell Desired State Configuration (DSC) extension for Windows",
                 "correct": false,
                 "voted": true
             },
@@ -772,7 +772,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Security Center Most Voted",
+                "text": "Azure Security Center",
                 "correct": true,
                 "voted": true
             }
@@ -795,7 +795,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Application Insights Most Voted",
+                "text": "Azure Application Insights",
                 "correct": true,
                 "voted": true
             },
@@ -828,7 +828,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -851,7 +851,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -869,12 +869,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -908,7 +908,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "The Microsoft Test & Feedback extension. Most Voted",
+                "text": "The Microsoft Test & Feedback extension.",
                 "correct": true,
                 "voted": true
             },
@@ -970,12 +970,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "an Azure Automation runbook Most Voted",
+                "text": "an Azure Automation runbook",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "an Azure Monitor alert that has a dynamic threshold Most Voted",
+                "text": "an Azure Monitor alert that has a dynamic threshold",
                 "correct": true,
                 "voted": true
             },
@@ -1027,7 +1027,7 @@
                 "voted": false
             },
             {
-                "text": "Create an Azure Application Insights availability test and alert. Most Voted",
+                "text": "Create an Azure Application Insights availability test and alert.",
                 "correct": true,
                 "voted": true
             },
@@ -1057,7 +1057,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Application Insights Most Voted",
+                "text": "Azure Application Insights",
                 "correct": true,
                 "voted": true
             },
@@ -1115,7 +1115,7 @@
                 "voted": false
             },
             {
-                "text": "IT Service Management Connector (ITSM) Most Voted",
+                "text": "IT Service Management Connector (ITSM)",
                 "correct": true,
                 "voted": true
             },
@@ -1152,7 +1152,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Kusto Query Language (KQL) Most Voted",
+                "text": "Kusto Query Language (KQL)",
                 "correct": true,
                 "voted": true
             },
@@ -1185,7 +1185,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Logic Apps Most Voted",
+                "text": "Azure Logic Apps",
                 "correct": true,
                 "voted": true
             },
@@ -1205,7 +1205,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Application Insights Most Voted",
+                "text": "Azure Application Insights",
                 "correct": true,
                 "voted": true
             }
@@ -1242,7 +1242,7 @@
                 "voted": false
             },
             {
-                "text": "Microsoft Visual Studio App Center integration Most Voted",
+                "text": "Microsoft Visual Studio App Center integration",
                 "correct": false,
                 "voted": true
             },
@@ -1280,17 +1280,17 @@
                 "voted": false
             },
             {
-                "text": "Upload a custom script file to sa1. Most Voted",
+                "text": "Upload a custom script file to sa1.",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Modify the Custom Script extension settings of VMSS1. Most Voted",
+                "text": "Modify the Custom Script extension settings of VMSS1.",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Update the configuration of a virtual machine in VMSS1. Most Voted",
+                "text": "Update the configuration of a virtual machine in VMSS1.",
                 "correct": false,
                 "voted": true
             }
@@ -1395,7 +1395,7 @@
                 "voted": false
             },
             {
-                "text": "Smart Detection Most Voted",
+                "text": "Smart Detection",
                 "correct": true,
                 "voted": true
             },
@@ -1442,7 +1442,7 @@
                 "voted": false
             },
             {
-                "text": "Add the Azure Boards app to the repository. Most Voted",
+                "text": "Add the Azure Boards app to the repository.",
                 "correct": true,
                 "voted": true
             },
@@ -1477,7 +1477,7 @@
                 "voted": false
             },
             {
-                "text": "From Microsoft Teams, run @azure pipelines subscriptions. Most Voted",
+                "text": "From Microsoft Teams, run @azure pipelines subscriptions.",
                 "correct": false,
                 "voted": true
             },
@@ -1505,7 +1505,7 @@
                 "voted": false
             },
             {
-                "text": "From Microsoft Teams, configure a connector Most Voted",
+                "text": "From Microsoft Teams, configure a connector",
                 "correct": false,
                 "voted": true
             },
@@ -1540,7 +1540,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "a failed attempt to delete the ASP-9bb7 resource Most Voted",
+                "text": "a failed attempt to delete the ASP-9bb7 resource",
                 "correct": true,
                 "voted": true
             },
@@ -1573,7 +1573,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Send to Log Analytics Most Voted",
+                "text": "Send to Log Analytics",
                 "correct": true,
                 "voted": true
             },
@@ -1618,7 +1618,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "the Dependency agent Most Voted",
+                "text": "the Dependency agent",
                 "correct": true,
                 "voted": true
             },
@@ -1670,7 +1670,7 @@
                 "voted": false
             },
             {
-                "text": "Add the GoogleAnalytics pod to the app. Most Voted",
+                "text": "Add the GoogleAnalytics pod to the app.",
                 "correct": false,
                 "voted": true
             },
@@ -1680,7 +1680,7 @@
                 "voted": false
             },
             {
-                "text": "Import the Firebase module to UIApplicationDelegate. Most Voted",
+                "text": "Import the Firebase module to UIApplicationDelegate.",
                 "correct": true,
                 "voted": true
             }
@@ -1708,7 +1708,7 @@
                 "voted": false
             },
             {
-                "text": "Install the Dependency Tracker extension and create dependencies for each project. Most Voted",
+                "text": "Install the Dependency Tracker extension and create dependencies for each project.",
                 "correct": true,
                 "voted": true
             },
@@ -1775,12 +1775,12 @@
                 "voted": false
             },
             {
-                "text": "OpenTelemtry Most Voted",
+                "text": "OpenTelemtry",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "OpenCensus Most Voted",
+                "text": "OpenCensus",
                 "correct": true,
                 "voted": true
             }
@@ -1798,12 +1798,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "From the code repository of webapp1, modify the ApplicationInsights.config file. Most Voted",
+                "text": "From the code repository of webapp1, modify the ApplicationInsights.config file.",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "From the code repository of webapp1, modify the Startup.cs file. Most Voted",
+                "text": "From the code repository of webapp1, modify the Startup.cs file.",
                 "correct": true,
                 "voted": true
             },
@@ -1869,7 +1869,7 @@
                 "voted": false
             },
             {
-                "text": "startup.cs Most Voted",
+                "text": "startup.cs",
                 "correct": false,
                 "voted": true
             },
@@ -1934,7 +1934,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "the secret key of WS1 Most Voted",
+                "text": "the secret key of WS1",
                 "correct": false,
                 "voted": true
             },
@@ -1949,7 +1949,7 @@
                 "voted": false
             },
             {
-                "text": "the ID of WS1 Most Voted",
+                "text": "the ID of WS1",
                 "correct": true,
                 "voted": true
             },
@@ -1972,7 +1972,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Events Most Voted",
+                "text": "Events",
                 "correct": false,
                 "voted": true
             },
@@ -2030,12 +2030,12 @@
                 "voted": false
             },
             {
-                "text": "Create an Azure Service Health alert. Most Voted",
+                "text": "Create an Azure Service Health alert.",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Create and configure an action group. Most Voted",
+                "text": "Create and configure an action group.",
                 "correct": true,
                 "voted": true
             }
@@ -2058,7 +2058,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -2081,7 +2081,7 @@
                 "voted": false
             },
             {
-                "text": "Smart Detection uses the first 24 hours to establish the normal behavior of the web app. Most Voted",
+                "text": "Smart Detection uses the first 24 hours to establish the normal behavior of the web app.",
                 "correct": true,
                 "voted": true
             },
@@ -2134,7 +2134,7 @@
                 "voted": false
             },
             {
-                "text": "a Request trigger Most Voted",
+                "text": "a Request trigger",
                 "correct": false,
                 "voted": true
             },
@@ -2157,7 +2157,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Add a liveness probe to the YAML configuration of App1. Most Voted",
+                "text": "Add a liveness probe to the YAML configuration of App1.",
                 "correct": false,
                 "voted": true
             },
@@ -2200,12 +2200,12 @@
                 "voted": false
             },
             {
-                "text": "Azure Application Insights Most Voted",
+                "text": "Azure Application Insights",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "Azure Log Analytics Most Voted",
+                "text": "Azure Log Analytics",
                 "correct": true,
                 "voted": true
             }
@@ -2223,7 +2223,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "the Smart Detection feature in Azure Application Insights Most Voted",
+                "text": "the Smart Detection feature in Azure Application Insights",
                 "correct": true,
                 "voted": true
             },
@@ -2283,7 +2283,7 @@
                 "voted": false
             },
             {
-                "text": "Azure dashboards Most Voted",
+                "text": "Azure dashboards",
                 "correct": false,
                 "voted": true
             }
@@ -2306,7 +2306,7 @@
                 "voted": false
             },
             {
-                "text": "Selenium Most Voted",
+                "text": "Selenium",
                 "correct": true,
                 "voted": true
             },
@@ -2344,7 +2344,7 @@
                 "voted": false
             },
             {
-                "text": "From the code of the application, add Azure Application Insights telemetry. Most Voted",
+                "text": "From the code of the application, add Azure Application Insights telemetry.",
                 "correct": false,
                 "voted": true
             },
@@ -2354,7 +2354,7 @@
                 "voted": false
             },
             {
-                "text": "From the code of the application, disable adaptive sampling. Most Voted",
+                "text": "From the code of the application, disable adaptive sampling.",
                 "correct": false,
                 "voted": true
             }
@@ -2387,7 +2387,7 @@
                 "voted": false
             },
             {
-                "text": "the Application Health extension Most Voted",
+                "text": "the Application Health extension",
                 "correct": true,
                 "voted": true
             }
@@ -2425,7 +2425,7 @@
                 "voted": false
             },
             {
-                "text": "Clear Flaky tests included in test pass percentage. Most Voted",
+                "text": "Clear Flaky tests included in test pass percentage.",
                 "correct": true,
                 "voted": true
             },
@@ -2435,7 +2435,7 @@
                 "voted": false
             },
             {
-                "text": "Manually mark the test as flaky. Most Voted",
+                "text": "Manually mark the test as flaky.",
                 "correct": true,
                 "voted": true
             },
@@ -2470,7 +2470,7 @@
                 "voted": false
             },
             {
-                "text": "a gate Most Voted",
+                "text": "a gate",
                 "correct": true,
                 "voted": true
             },
@@ -2515,7 +2515,7 @@
                 "voted": false
             },
             {
-                "text": "the Azure virtual machines that run the latest version of Ubuntu Most Voted",
+                "text": "the Azure virtual machines that run the latest version of Ubuntu",
                 "correct": true,
                 "voted": true
             },
@@ -2525,7 +2525,7 @@
                 "voted": false
             },
             {
-                "text": "The Windows Server 2019 container images hosted in the Azure Container Registry. Most Voted",
+                "text": "The Windows Server 2019 container images hosted in the Azure Container Registry.",
                 "correct": false,
                 "voted": true
             }
@@ -2548,7 +2548,7 @@
                 "voted": false
             },
             {
-                "text": "Approve the pull request. Most Voted",
+                "text": "Approve the pull request.",
                 "correct": true,
                 "voted": true
             },
@@ -2581,7 +2581,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -2611,7 +2611,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": true,
                 "voted": true
             },
@@ -2644,7 +2644,7 @@
                 "voted": false
             },
             {
-                "text": "Azure App Configuration Most Voted",
+                "text": "Azure App Configuration",
                 "correct": true,
                 "voted": true
             },
@@ -2679,7 +2679,7 @@
                 "voted": false
             },
             {
-                "text": "a readiness probe Most Voted",
+                "text": "a readiness probe",
                 "correct": true,
                 "voted": true
             },
@@ -2707,7 +2707,7 @@
                 "voted": false
             },
             {
-                "text": "the Azure Log Analytics agent Most Voted",
+                "text": "the Azure Log Analytics agent",
                 "correct": true,
                 "voted": true
             },
@@ -2717,7 +2717,7 @@
                 "voted": false
             },
             {
-                "text": "the Dependency agent Most Voted",
+                "text": "the Dependency agent",
                 "correct": true,
                 "voted": true
             }
@@ -2756,7 +2756,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -2781,7 +2781,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -2799,7 +2799,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": true,
                 "voted": true
             },
@@ -2866,7 +2866,7 @@
                 "voted": false
             },
             {
-                "text": "conditional access Most Voted",
+                "text": "conditional access",
                 "correct": true,
                 "voted": true
             }
@@ -2884,7 +2884,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "personal access token (PAT) Most Voted",
+                "text": "personal access token (PAT)",
                 "correct": true,
                 "voted": true
             },
@@ -2922,7 +2922,7 @@
                 "voted": false
             },
             {
-                "text": "Create an app registration in Azure AD Most Voted",
+                "text": "Create an app registration in Azure AD",
                 "correct": true,
                 "voted": true
             },
@@ -2955,7 +2955,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "personal access tokens (PATs) in Azure DevOps Most Voted",
+                "text": "personal access tokens (PATs) in Azure DevOps",
                 "correct": true,
                 "voted": true
             },
@@ -3003,7 +3003,7 @@
                 "voted": false
             },
             {
-                "text": "Compute & apps in Azure Security Center Most Voted",
+                "text": "Compute & apps in Azure Security Center",
                 "correct": true,
                 "voted": true
             }
@@ -3031,12 +3031,12 @@
                 "voted": false
             },
             {
-                "text": "Add an Azure Key Vault task to the pipeline. Most Voted",
+                "text": "Add an Azure Key Vault task to the pipeline.",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "Add Azure Key Vault references to Azure Resource Manger templates. Most Voted",
+                "text": "Add Azure Key Vault references to Azure Resource Manger templates.",
                 "correct": false,
                 "voted": true
             }
@@ -3073,7 +3073,7 @@
                 "voted": false
             },
             {
-                "text": "Get only Most Voted",
+                "text": "Get only",
                 "correct": true,
                 "voted": true
             },
@@ -3141,7 +3141,7 @@
                 "voted": false
             },
             {
-                "text": "From the Security settings of the branch, modify the access control for the user. Most Voted",
+                "text": "From the Security settings of the branch, modify the access control for the user.",
                 "correct": true,
                 "voted": true
             }
@@ -3159,7 +3159,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Key Vault Most Voted",
+                "text": "Azure Key Vault",
                 "correct": true,
                 "voted": true
             },
@@ -3260,12 +3260,12 @@
                 "voted": false
             },
             {
-                "text": "Modify the application to access the key vault. Most Voted",
+                "text": "Modify the application to access the key vault.",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Configure a Key Vault access policy. Most Voted",
+                "text": "Configure a Key Vault access policy.",
                 "correct": true,
                 "voted": true
             },
@@ -3275,7 +3275,7 @@
                 "voted": false
             },
             {
-                "text": "Deploy a virtual machine that uses a system-assigned managed identity. Most Voted",
+                "text": "Deploy a virtual machine that uses a system-assigned managed identity.",
                 "correct": true,
                 "voted": true
             }
@@ -3317,7 +3317,7 @@
                 "voted": false
             },
             {
-                "text": "Create a variable group in Project1. Most Voted",
+                "text": "Create a variable group in Project1.",
                 "correct": false,
                 "voted": true
             },
@@ -3361,7 +3361,7 @@
                 "voted": false
             },
             {
-                "text": "ensures that all traffic to new Azure Storage accounts is encrypted Most Voted",
+                "text": "ensures that all traffic to new Azure Storage accounts is encrypted",
                 "correct": true,
                 "voted": true
             },
@@ -3389,7 +3389,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Create a variable group in Project1. Most Voted",
+                "text": "Create a variable group in Project1.",
                 "correct": true,
                 "voted": true
             },
@@ -3467,7 +3467,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Run npm install and specify the --production flag. Most Voted",
+                "text": "Run npm install and specify the --production flag.",
                 "correct": true,
                 "voted": true
             },
@@ -3482,7 +3482,7 @@
                 "voted": false
             },
             {
-                "text": "Configure WhiteSource Bolt to scan the node_modules directory only. Most Voted",
+                "text": "Configure WhiteSource Bolt to scan the node_modules directory only.",
                 "correct": false,
                 "voted": true
             }
@@ -3505,7 +3505,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": false,
                 "voted": true
             }
@@ -3528,7 +3528,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -3546,7 +3546,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": false,
                 "voted": true
             },
@@ -3614,7 +3614,7 @@
                 "voted": false
             },
             {
-                "text": "Register GitHub in Azure AD. Most Voted",
+                "text": "Register GitHub in Azure AD.",
                 "correct": true,
                 "voted": true
             },
@@ -3642,7 +3642,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Add a deployment gate. Most Voted",
+                "text": "Add a deployment gate.",
                 "correct": true,
                 "voted": true
             },
@@ -3699,7 +3699,7 @@
                 "voted": false
             },
             {
-                "text": "WhiteSource Bolt Most Voted",
+                "text": "WhiteSource Bolt",
                 "correct": true,
                 "voted": true
             },
@@ -3737,7 +3737,7 @@
                 "voted": false
             },
             {
-                "text": "SonarQube Most Voted",
+                "text": "SonarQube",
                 "correct": false,
                 "voted": true
             }
@@ -3760,7 +3760,7 @@
                 "voted": false
             },
             {
-                "text": "Contributor Most Voted",
+                "text": "Contributor",
                 "correct": true,
                 "voted": true
             },
@@ -3811,7 +3811,7 @@
                 "voted": false
             },
             {
-                "text": "Black Duck Most Voted",
+                "text": "Black Duck",
                 "correct": true,
                 "voted": true
             },
@@ -3874,7 +3874,7 @@
                 "voted": false
             },
             {
-                "text": "Black Duck Most Voted",
+                "text": "Black Duck",
                 "correct": true,
                 "voted": true
             },
@@ -3921,7 +3921,7 @@
                 "voted": false
             },
             {
-                "text": ".p12 Most Voted",
+                "text": ".p12",
                 "correct": true,
                 "voted": true
             },
@@ -4001,7 +4001,7 @@
                 "voted": false
             },
             {
-                "text": "WhiteSource Bolt Most Voted",
+                "text": "WhiteSource Bolt",
                 "correct": true,
                 "voted": true
             }
@@ -4024,7 +4024,7 @@
                 "voted": false
             },
             {
-                "text": "an Azure Artifacts Credential Provider Most Voted",
+                "text": "an Azure Artifacts Credential Provider",
                 "correct": true,
                 "voted": true
             },
@@ -4052,7 +4052,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Third-party application access via OAuth Most Voted",
+                "text": "Third-party application access via OAuth",
                 "correct": true,
                 "voted": true
             },
@@ -4090,7 +4090,7 @@
                 "voted": false
             },
             {
-                "text": "GitHub App Most Voted",
+                "text": "GitHub App",
                 "correct": true,
                 "voted": true
             },
@@ -4150,7 +4150,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Store the secrets in the environment variables instead of the pipeline variables. Most Voted",
+                "text": "Store the secrets in the environment variables instead of the pipeline variables.",
                 "correct": true,
                 "voted": true
             },
@@ -4234,7 +4234,7 @@
                 "voted": false
             },
             {
-                "text": "Encrypt the secret value and store the value in the repository. Store the decryption key in the repository-level GitHub secrets. Most Voted",
+                "text": "Encrypt the secret value and store the value in the repository. Store the decryption key in the repository-level GitHub secrets.",
                 "correct": true,
                 "voted": true
             },
@@ -4257,7 +4257,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Purchase a GitHub Advanced Security license. Most Voted",
+                "text": "Purchase a GitHub Advanced Security license.",
                 "correct": true,
                 "voted": true
             },
@@ -4321,7 +4321,7 @@
                 "voted": false
             },
             {
-                "text": "a user-assigned managed identity Most Voted",
+                "text": "a user-assigned managed identity",
                 "correct": false,
                 "voted": true
             },
@@ -4368,7 +4368,7 @@
                 "voted": false
             },
             {
-                "text": "Recreate the secret at the repository level. Most Voted",
+                "text": "Recreate the secret at the repository level.",
                 "correct": true,
                 "voted": true
             },
@@ -4415,7 +4415,7 @@
                 "voted": false
             },
             {
-                "text": "a user-assigned managed identity Most Voted",
+                "text": "a user-assigned managed identity",
                 "correct": false,
                 "voted": true
             },
@@ -4464,7 +4464,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Mend Bolt Most Voted",
+                "text": "Mend Bolt",
                 "correct": true,
                 "voted": true
             },
@@ -4519,7 +4519,7 @@
                 "voted": false
             },
             {
-                "text": "SonarCloud analysis Most Voted",
+                "text": "SonarCloud analysis",
                 "correct": true,
                 "voted": true
             },
@@ -4542,7 +4542,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": false,
                 "voted": true
             },
@@ -4570,12 +4570,12 @@
                 "voted": false
             },
             {
-                "text": "Configure pre-deployment approvals in the deployment pipeline. Most Voted",
+                "text": "Configure pre-deployment approvals in the deployment pipeline.",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Integrate Azure DevOps and SonarQube. Most Voted",
+                "text": "Integrate Azure DevOps and SonarQube.",
                 "correct": true,
                 "voted": true
             },
@@ -4598,7 +4598,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Gradle Most Voted",
+                "text": "Gradle",
                 "correct": true,
                 "voted": true
             },
@@ -4656,7 +4656,7 @@
                 "voted": false
             },
             {
-                "text": "Maven Most Voted",
+                "text": "Maven",
                 "correct": true,
                 "voted": true
             },
@@ -4700,7 +4700,7 @@
                 "voted": false
             },
             {
-                "text": "Integrate Azure DevOps and SonarQube. Most Voted",
+                "text": "Integrate Azure DevOps and SonarQube.",
                 "correct": true,
                 "voted": true
             },
@@ -4756,7 +4756,7 @@
                 "voted": false
             },
             {
-                "text": "In a Maven build task, select Run PMD. Most Voted",
+                "text": "In a Maven build task, select Run PMD.",
                 "correct": true,
                 "voted": true
             },
@@ -4784,12 +4784,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Publish the package to a feed. Most Voted",
+                "text": "Publish the package to a feed.",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Create a new feed in Azure Artifacts. Most Voted",
+                "text": "Create a new feed in Azure Artifacts.",
                 "correct": true,
                 "voted": true
             },
@@ -4804,7 +4804,7 @@
                 "voted": false
             },
             {
-                "text": "Add the package URL to the NuGet Package Manager settings in Visual Studio. Most Voted",
+                "text": "Add the package URL to the NuGet Package Manager settings in Visual Studio.",
                 "correct": true,
                 "voted": true
             },
@@ -4827,12 +4827,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "the git filter-branch command Most Voted",
+                "text": "the git filter-branch command",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "BFG Repo-Cleaner Most Voted",
+                "text": "BFG Repo-Cleaner",
                 "correct": true,
                 "voted": true
             },
@@ -4870,7 +4870,7 @@
                 "voted": false
             },
             {
-                "text": "Select Never assign certain team members. Most Voted",
+                "text": "Select Never assign certain team members.",
                 "correct": false,
                 "voted": true
             },
@@ -4880,7 +4880,7 @@
                 "voted": false
             },
             {
-                "text": "Set Routing algorithm to Load balance. Most Voted",
+                "text": "Set Routing algorithm to Load balance.",
                 "correct": true,
                 "voted": true
             }
@@ -4913,7 +4913,7 @@
                 "voted": false
             },
             {
-                "text": "From Import a Git repository, click Import. Most Voted",
+                "text": "From Import a Git repository, click Import.",
                 "correct": true,
                 "voted": true
             },
@@ -4941,7 +4941,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -4959,12 +4959,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -4982,7 +4982,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": true,
                 "voted": true
             },
@@ -5005,7 +5005,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "In a Maven build task, select Run PMD. Most Voted",
+                "text": "In a Maven build task, select Run PMD.",
                 "correct": true,
                 "voted": true
             },
@@ -5043,7 +5043,7 @@
                 "voted": false
             },
             {
-                "text": "Create a new feed for the package Most Voted",
+                "text": "Create a new feed for the package",
                 "correct": true,
                 "voted": true
             },
@@ -5053,7 +5053,7 @@
                 "voted": false
             },
             {
-                "text": "Publish the package to a public NuGet repository. Most Voted",
+                "text": "Publish the package to a public NuGet repository.",
                 "correct": false,
                 "voted": true
             }
@@ -5071,7 +5071,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Automatically watch teams Most Voted",
+                "text": "Automatically watch teams",
                 "correct": false,
                 "voted": true
             },
@@ -5081,7 +5081,7 @@
                 "voted": false
             },
             {
-                "text": "Automatically watch repositories Most Voted",
+                "text": "Automatically watch repositories",
                 "correct": true,
                 "voted": true
             },
@@ -5116,7 +5116,7 @@
                 "voted": false
             },
             {
-                "text": "the Source control settings for the Automation account Most Voted",
+                "text": "the Source control settings for the Automation account",
                 "correct": true,
                 "voted": true
             },
@@ -5144,7 +5144,7 @@
                 "voted": false
             },
             {
-                "text": "Add the name of the non-default branch to the on:push specification in the code scanning workflow. Most Voted",
+                "text": "Add the name of the non-default branch to the on:push specification in the code scanning workflow.",
                 "correct": false,
                 "voted": true
             },
@@ -5154,7 +5154,7 @@
                 "voted": false
             },
             {
-                "text": "Update the code in the pull request. Most Voted",
+                "text": "Update the code in the pull request.",
                 "correct": true,
                 "voted": true
             },
@@ -5206,7 +5206,7 @@
                 "voted": false
             },
             {
-                "text": "the branch Most Voted",
+                "text": "the branch",
                 "correct": true,
                 "voted": true
             }
@@ -5342,7 +5342,7 @@
                 "voted": false
             },
             {
-                "text": "Use the Microsoft Teams for GitHub app and configure a subscription to receive notifications in the Teams channel. Most Voted",
+                "text": "Use the Microsoft Teams for GitHub app and configure a subscription to receive notifications in the Teams channel.",
                 "correct": false,
                 "voted": true
             },
@@ -5380,7 +5380,7 @@
                 "voted": false
             },
             {
-                "text": "a webhook Most Voted",
+                "text": "a webhook",
                 "correct": true,
                 "voted": true
             },
@@ -5436,7 +5436,7 @@
                 "voted": false
             },
             {
-                "text": "11.2.1 Most Voted",
+                "text": "11.2.1",
                 "correct": true,
                 "voted": true
             },
@@ -5483,7 +5483,7 @@
                 "voted": false
             },
             {
-                "text": "Configure Dependabot alerts. Most Voted",
+                "text": "Configure Dependabot alerts.",
                 "correct": true,
                 "voted": true
             },
@@ -5526,7 +5526,7 @@
                 "voted": false
             },
             {
-                "text": "the secret scanning partner Most Voted",
+                "text": "the secret scanning partner",
                 "correct": false,
                 "voted": true
             }
@@ -5554,7 +5554,7 @@
                 "voted": false
             },
             {
-                "text": "CodeQL actions Most Voted",
+                "text": "CodeQL actions",
                 "correct": false,
                 "voted": true
             },
@@ -5596,7 +5596,7 @@
                 "voted": false
             },
             {
-                "text": "git clone \u2013-filter=blob:none git@ssh.dev.azure.com:v3/org/Project1/repo1 Most Voted",
+                "text": "git clone \u2013-filter=blob:none git@ssh.dev.azure.com:v3/org/Project1/repo1",
                 "correct": true,
                 "voted": true
             },
@@ -5624,7 +5624,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "minimizes the impact of upstream source availability issues Most Voted",
+                "text": "minimizes the impact of upstream source availability issues",
                 "correct": false,
                 "voted": true
             },
@@ -5634,12 +5634,12 @@
                 "voted": false
             },
             {
-                "text": "provides automatic authentication Most Voted Most Voted",
+                "text": "provides automatic authentication",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "minimizes the impact on your storage quota Most Voted",
+                "text": "minimizes the impact on your storage quota",
                 "correct": true,
                 "voted": true
             }
@@ -5657,7 +5657,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "bfg Most Voted",
+                "text": "bfg",
                 "correct": true,
                 "voted": true
             },
@@ -5757,7 +5757,7 @@
                 "voted": false
             },
             {
-                "text": "Stories and Tasks Most Voted",
+                "text": "Stories and Tasks",
                 "correct": false,
                 "voted": true
             }
@@ -5777,7 +5777,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Kanban boards Most Voted",
+                "text": "Kanban boards",
                 "correct": true,
                 "voted": true
             },
@@ -5820,17 +5820,17 @@
                 "voted": false
             },
             {
-                "text": "What could have gone better? Most Voted",
+                "text": "What could have gone better?",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "What went well? Most Voted",
+                "text": "What went well?",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "What should we try next? Most Voted",
+                "text": "What should we try next?",
                 "correct": true,
                 "voted": true
             }
@@ -5863,7 +5863,7 @@
                 "voted": false
             },
             {
-                "text": "a single long-running branch with multiple short-lived feature branches Most Voted",
+                "text": "a single long-running branch with multiple short-lived feature branches",
                 "correct": true,
                 "voted": true
             }
@@ -5886,7 +5886,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -5919,7 +5919,7 @@
                 "voted": false
             },
             {
-                "text": "Jira Most Voted",
+                "text": "Jira",
                 "correct": true,
                 "voted": true
             }
@@ -5952,7 +5952,7 @@
                 "voted": false
             },
             {
-                "text": "Github Codespaces Most Voted",
+                "text": "Github Codespaces",
                 "correct": true,
                 "voted": true
             }
@@ -5975,7 +5975,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -5993,7 +5993,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": true,
                 "voted": true
             },
@@ -6021,7 +6021,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -6066,7 +6066,7 @@
                 "voted": false
             },
             {
-                "text": "Visual Studio Codespaces Most Voted",
+                "text": "Visual Studio Codespaces",
                 "correct": true,
                 "voted": true
             }
@@ -6099,7 +6099,7 @@
                 "voted": false
             },
             {
-                "text": "Creates a service hook subscription. Most Voted",
+                "text": "Creates a service hook subscription.",
                 "correct": true,
                 "voted": true
             }
@@ -6122,7 +6122,7 @@
                 "voted": false
             },
             {
-                "text": "Create an Azure logic app that has an HTTP request trigger. Most Voted",
+                "text": "Create an Azure logic app that has an HTTP request trigger.",
                 "correct": true,
                 "voted": true
             },
@@ -6132,7 +6132,7 @@
                 "voted": false
             },
             {
-                "text": "Modify an action group in Azure Monitor. Most Voted",
+                "text": "Modify an action group in Azure Monitor.",
                 "correct": true,
                 "voted": true
             },
@@ -6179,7 +6179,7 @@
                 "voted": false
             },
             {
-                "text": "In Project1, create an Azure DevOps repository. Most Voted",
+                "text": "In Project1, create an Azure DevOps repository.",
                 "correct": true,
                 "voted": true
             },
@@ -6217,7 +6217,7 @@
                 "voted": false
             },
             {
-                "text": "Microsoft Teams Most Voted",
+                "text": "Microsoft Teams",
                 "correct": true,
                 "voted": true
             }
@@ -6240,7 +6240,7 @@
                 "voted": false
             },
             {
-                "text": "availability tests in Azure Application Insights Most Voted",
+                "text": "availability tests in Azure Application Insights",
                 "correct": false,
                 "voted": true
             },
@@ -6268,7 +6268,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "At the root of the wiki, create a file named .order that defines the page hierarchy. Most Voted",
+                "text": "At the root of the wiki, create a file named .order that defines the page hierarchy.",
                 "correct": false,
                 "voted": true
             },
@@ -6283,7 +6283,7 @@
                 "voted": false
             },
             {
-                "text": "Drag and drop the pages in the navigation pane. Most Voted",
+                "text": "Drag and drop the pages in the navigation pane.",
                 "correct": true,
                 "voted": true
             }
@@ -6330,7 +6330,7 @@
                 "voted": false
             },
             {
-                "text": "Slack Most Voted",
+                "text": "Slack",
                 "correct": true,
                 "voted": true
             }
@@ -6348,7 +6348,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "${{parameters.outputfile}} Most Voted",
+                "text": "${{parameters.outputfile}}",
                 "correct": true,
                 "voted": true
             },
@@ -6368,7 +6368,7 @@
                 "voted": false
             },
             {
-                "text": "${{parameters['outputfile']}} Most Voted",
+                "text": "${{parameters['outputfile']}}",
                 "correct": true,
                 "voted": true
             }
@@ -6413,7 +6413,7 @@
                 "voted": false
             },
             {
-                "text": "@azure boards link Most Voted",
+                "text": "@azure boards link",
                 "correct": true,
                 "voted": true
             }
@@ -6446,7 +6446,7 @@
                 "voted": false
             },
             {
-                "text": "Fixes #123 Most Voted",
+                "text": "Fixes #123",
                 "correct": true,
                 "voted": true
             }
@@ -6464,7 +6464,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "JSON Most Voted",
+                "text": "JSON",
                 "correct": true,
                 "voted": true
             },
@@ -6521,7 +6521,7 @@
                 "voted": false
             },
             {
-                "text": "title Most Voted",
+                "text": "title",
                 "correct": true,
                 "voted": true
             },
@@ -6531,7 +6531,7 @@
                 "voted": false
             },
             {
-                "text": "description Most Voted",
+                "text": "description",
                 "correct": true,
                 "voted": true
             }
@@ -6578,12 +6578,12 @@
                 "voted": false
             },
             {
-                "text": "GitHub user credentials Most Voted",
+                "text": "GitHub user credentials",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "a personal access token (PAT) Most Voted",
+                "text": "a personal access token (PAT)",
                 "correct": true,
                 "voted": true
             }
@@ -6606,7 +6606,7 @@
                 "voted": false
             },
             {
-                "text": "AB#715 Most Voted",
+                "text": "AB#715",
                 "correct": true,
                 "voted": true
             },
@@ -6634,7 +6634,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "cycle time Most Voted",
+                "text": "cycle time",
                 "correct": true,
                 "voted": true
             },
@@ -6667,12 +6667,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Fixes #456, #457, #458 Most Voted",
+                "text": "Fixes #456, #457, #458",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "Fixes #AB456, #AB457, #AB458 Most Voted",
+                "text": "Fixes #AB456, #AB457, #AB458",
                 "correct": true,
                 "voted": true
             },
@@ -6705,7 +6705,7 @@
                 "voted": false
             },
             {
-                "text": ".github/ Most Voted",
+                "text": ".github/",
                 "correct": false,
                 "voted": true
             },
@@ -6762,7 +6762,7 @@
                 "voted": false
             },
             {
-                "text": "#AB456, #AB457, #AB458\nCompleted #AB456 Most Voted",
+                "text": "#AB456, #AB457, #AB458\nCompleted #AB456",
                 "correct": false,
                 "voted": true
             }
@@ -6780,7 +6780,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "az acr task run Most Voted",
+                "text": "az acr task run",
                 "correct": true,
                 "voted": true
             },
@@ -6828,7 +6828,7 @@
                 "voted": false
             },
             {
-                "text": "#AB456, #AB457, #AB458\nVerifies #AB456 Most Voted",
+                "text": "#AB456, #AB457, #AB458\nVerifies #AB456",
                 "correct": false,
                 "voted": true
             }
@@ -6911,12 +6911,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "In the Development section for work item 123, select Add link, and then enter the URL of the pull request. Most Voted",
+                "text": "In the Development section for work item 123, select Add link, and then enter the URL of the pull request.",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "To the description of the pull request, add #AB123. Most Voted",
+                "text": "To the description of the pull request, add #AB123.",
                 "correct": false,
                 "voted": true
             },
@@ -6973,7 +6973,7 @@
                 "voted": false
             },
             {
-                "text": "From itemA, open the Links tab, and then select Add link. Set Link type to Successor and add the ID of itemB. Most Voted",
+                "text": "From itemA, open the Links tab, and then select Add link. Set Link type to Successor and add the ID of itemB.",
                 "correct": true,
                 "voted": true
             }
@@ -7006,7 +7006,7 @@
                 "voted": false
             },
             {
-                "text": "cycle time Most Voted",
+                "text": "cycle time",
                 "correct": false,
                 "voted": true
             }
@@ -7041,7 +7041,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": false,
                 "voted": true
             }
@@ -7069,7 +7069,7 @@
                 "voted": false
             },
             {
-                "text": "extends: template: templatel.yml parameters: usersteps: - task: MyTask@1 - script: echo Done Most Voted",
+                "text": "extends: template: templatel.yml parameters: usersteps: - task: MyTask@1 - script: echo Done",
                 "correct": true,
                 "voted": true
             },
@@ -7092,7 +7092,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Enable self-hosted build agents. Most Voted",
+                "text": "Enable self-hosted build agents.",
                 "correct": false,
                 "voted": true
             },
@@ -7132,7 +7132,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": false,
                 "voted": true
             }
@@ -7155,7 +7155,7 @@
                 "voted": false
             },
             {
-                "text": "a personal access token (PAT) Most Voted",
+                "text": "a personal access token (PAT)",
                 "correct": true,
                 "voted": true
             },
@@ -7203,7 +7203,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": false,
                 "voted": true
             }
@@ -7223,7 +7223,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": false,
                 "voted": true
             },
@@ -7251,7 +7251,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -7274,7 +7274,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -7292,7 +7292,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "squash merge Most Voted",
+                "text": "squash merge",
                 "correct": true,
                 "voted": true
             },
@@ -7330,22 +7330,22 @@
                 "voted": false
             },
             {
-                "text": "Add the Team Foundation Server (TFS) plug-in to Jenkins. Most Voted",
+                "text": "Add the Team Foundation Server (TFS) plug-in to Jenkins.",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Add a personal access token to your Jenkins account. Most Voted Most Voted",
+                "text": "Add a personal access token to your Jenkins account.",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Create a personal access token (PAT) in your Azure DevOps account. Most Voted Most Voted",
+                "text": "Create a personal access token (PAT) in your Azure DevOps account.",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Create a service hook in Azure DevOps. Most Voted",
+                "text": "Create a service hook in Azure DevOps.",
                 "correct": false,
                 "voted": true
             }
@@ -7419,7 +7419,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Cobertura Most Voted",
+                "text": "Cobertura",
                 "correct": true,
                 "voted": true
             },
@@ -7452,7 +7452,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "a self-hosted agent Most Voted",
+                "text": "a self-hosted agent",
                 "correct": true,
                 "voted": true
             },
@@ -7495,7 +7495,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Reader Most Voted",
+                "text": "Reader",
                 "correct": false,
                 "voted": true
             },
@@ -7510,7 +7510,7 @@
                 "voted": false
             },
             {
-                "text": "Contributor Most Voted",
+                "text": "Contributor",
                 "correct": true,
                 "voted": true
             }
@@ -7528,7 +7528,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Resource Manager templates and the PowerShell Desired State Configuration (DSC) extension for Windows Most Voted",
+                "text": "Azure Resource Manager templates and the PowerShell Desired State Configuration (DSC) extension for Windows",
                 "correct": false,
                 "voted": true
             },
@@ -7566,7 +7566,7 @@
                 "voted": false
             },
             {
-                "text": "upstream sources Most Voted",
+                "text": "upstream sources",
                 "correct": true,
                 "voted": true
             },
@@ -7654,7 +7654,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "branch policies of the default branch Most Voted",
+                "text": "branch policies of the default branch",
                 "correct": true,
                 "voted": true
             },
@@ -7692,7 +7692,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": false,
                 "voted": true
             }
@@ -7710,7 +7710,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": false,
                 "voted": true
             },
@@ -7750,7 +7750,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -7768,7 +7768,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "multi-stage builds Most Voted",
+                "text": "multi-stage builds",
                 "correct": true,
                 "voted": true
             },
@@ -7813,7 +7813,7 @@
                 "voted": false
             },
             {
-                "text": "4 Most Voted",
+                "text": "4",
                 "correct": false,
                 "voted": true
             },
@@ -7867,7 +7867,7 @@
                 "voted": false
             },
             {
-                "text": "Add a devDependencies section to Package-lock.json. Most Voted",
+                "text": "Add a devDependencies section to Package-lock.json.",
                 "correct": true,
                 "voted": true
             },
@@ -7922,7 +7922,7 @@
                 "voted": false
             },
             {
-                "text": "Azure DevOps self-hosted agents on virtual machines that run on Azure Stack Most Voted",
+                "text": "Azure DevOps self-hosted agents on virtual machines that run on Azure Stack",
                 "correct": true,
                 "voted": true
             }
@@ -7955,12 +7955,12 @@
                 "voted": false
             },
             {
-                "text": "From DevOps, create a personal access token (PAT). Most Voted",
+                "text": "From DevOps, create a personal access token (PAT).",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "From the build server, run config.cmd. Most Voted",
+                "text": "From the build server, run config.cmd.",
                 "correct": true,
                 "voted": true
             }
@@ -7978,7 +7978,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "the tenant ID Most Voted",
+                "text": "the tenant ID",
                 "correct": true,
                 "voted": true
             },
@@ -7988,12 +7988,12 @@
                 "voted": false
             },
             {
-                "text": "the client secret Most Voted",
+                "text": "the client secret",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "the app ID Most Voted",
+                "text": "the app ID",
                 "correct": true,
                 "voted": true
             },
@@ -8040,7 +8040,7 @@
                 "voted": false
             },
             {
-                "text": "a multi-stage Dockerfile Most Voted",
+                "text": "a multi-stage Dockerfile",
                 "correct": false,
                 "voted": true
             },
@@ -8078,7 +8078,7 @@
                 "voted": false
             },
             {
-                "text": "the percentage of overall time spent on rework Most Voted",
+                "text": "the percentage of overall time spent on rework",
                 "correct": true,
                 "voted": true
             }
@@ -8101,7 +8101,7 @@
                 "voted": false
             },
             {
-                "text": "GitHub App Most Voted",
+                "text": "GitHub App",
                 "correct": true,
                 "voted": true
             },
@@ -8206,7 +8206,7 @@
                 "voted": false
             },
             {
-                "text": "Increase the number of parallel jobs Most Voted",
+                "text": "Increase the number of parallel jobs",
                 "correct": false,
                 "voted": true
             },
@@ -8216,7 +8216,7 @@
                 "voted": false
             },
             {
-                "text": "Create an agent pool Most Voted",
+                "text": "Create an agent pool",
                 "correct": false,
                 "voted": true
             }
@@ -8239,7 +8239,7 @@
                 "voted": false
             },
             {
-                "text": "Configure flaky tests Most Voted",
+                "text": "Configure flaky tests",
                 "correct": false,
                 "voted": true
             },
@@ -8281,7 +8281,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": true,
                 "voted": true
             },
@@ -8304,12 +8304,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "vs2017-win2016 Most Voted",
+                "text": "vs2017-win2016",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "ubuntu-16.04 Most Voted",
+                "text": "ubuntu-16.04",
                 "correct": true,
                 "voted": true
             },
@@ -8361,7 +8361,7 @@
                 "voted": false
             },
             {
-                "text": "deployment queue settings Most Voted",
+                "text": "deployment queue settings",
                 "correct": true,
                 "voted": true
             },
@@ -8404,7 +8404,7 @@
                 "voted": false
             },
             {
-                "text": "build Most Voted",
+                "text": "build",
                 "correct": false,
                 "voted": true
             }
@@ -8477,7 +8477,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Rebase Most Voted",
+                "text": "Rebase",
                 "correct": false,
                 "voted": true
             },
@@ -8515,7 +8515,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -8533,7 +8533,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": true,
                 "voted": true
             },
@@ -8561,7 +8561,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -8579,12 +8579,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -8607,7 +8607,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -8630,7 +8630,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -8653,7 +8653,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -8693,7 +8693,7 @@
                 "voted": false
             },
             {
-                "text": "Create and run an Azure Container Registry task. Most Voted",
+                "text": "Create and run an Azure Container Registry task.",
                 "correct": true,
                 "voted": true
             },
@@ -8721,7 +8721,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -8744,7 +8744,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -8762,7 +8762,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": true,
                 "voted": true
             },
@@ -8804,7 +8804,7 @@
                 "voted": false
             },
             {
-                "text": "views Most Voted",
+                "text": "views",
                 "correct": false,
                 "voted": true
             },
@@ -8847,7 +8847,7 @@
                 "voted": false
             },
             {
-                "text": "Create two container jobs. Most Voted",
+                "text": "Create two container jobs.",
                 "correct": true,
                 "voted": true
             }
@@ -8879,7 +8879,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "modifying group memberships Most Voted",
+                "text": "modifying group memberships",
                 "correct": false,
                 "voted": true
             },
@@ -8894,7 +8894,7 @@
                 "voted": false
             },
             {
-                "text": "procuring licenses Most Voted",
+                "text": "procuring licenses",
                 "correct": true,
                 "voted": true
             }
@@ -8953,12 +8953,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "a pre-deployment task that runs a security and compliance assessment Most Voted",
+                "text": "a pre-deployment task that runs a security and compliance assessment",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "a post-deployment task that runs a security and compliance assessment Most Voted",
+                "text": "a post-deployment task that runs a security and compliance assessment",
                 "correct": false,
                 "voted": true
             },
@@ -9012,7 +9012,7 @@
                 "voted": false
             },
             {
-                "text": "Install the Azure Repos app for Teams and configure a subscription to receive notifications in the channel. Most Voted",
+                "text": "Install the Azure Repos app for Teams and configure a subscription to receive notifications in the channel.",
                 "correct": true,
                 "voted": true
             },
@@ -9064,7 +9064,7 @@
                 "voted": false
             },
             {
-                "text": "Create two feed views named @prerelease and @release. Set @release as the default view. Configure a release pipeline that promotes a package to the @release view after successful testing. Most Voted",
+                "text": "Create two feed views named @prerelease and @release. Set @release as the default view. Configure a release pipeline that promotes a package to the @release view after successful testing.",
                 "correct": true,
                 "voted": true
             }
@@ -9180,7 +9180,7 @@
                 "voted": false
             },
             {
-                "text": "In Azure DevOps, configure new tasks in the release pipeline to create and delete the virtual machines in Azure DevTest Labs. Most Voted",
+                "text": "In Azure DevOps, configure new tasks in the release pipeline to create and delete the virtual machines in Azure DevTest Labs.",
                 "correct": true,
                 "voted": true
             }
@@ -9252,7 +9252,7 @@
                 "voted": false
             },
             {
-                "text": "Cherry-pick Most Voted",
+                "text": "Cherry-pick",
                 "correct": true,
                 "voted": true
             },
@@ -9299,7 +9299,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Container Instances Most Voted",
+                "text": "Azure Container Instances",
                 "correct": true,
                 "voted": true
             },
@@ -9351,7 +9351,7 @@
                 "voted": false
             },
             {
-                "text": "Azure PowerShell Most Voted",
+                "text": "Azure PowerShell",
                 "correct": true,
                 "voted": true
             },
@@ -9404,7 +9404,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Modify the Integrations options for the pipeline. Most Voted",
+                "text": "Modify the Integrations options for the pipeline.",
                 "correct": false,
                 "voted": true
             },
@@ -9469,7 +9469,7 @@
                 "voted": false
             },
             {
-                "text": "Tiller Most Voted",
+                "text": "Tiller",
                 "correct": true,
                 "voted": true
             }
@@ -9535,7 +9535,7 @@
                 "voted": false
             },
             {
-                "text": "Terratest Most Voted",
+                "text": "Terratest",
                 "correct": true,
                 "voted": true
             },
@@ -9545,7 +9545,7 @@
                 "voted": false
             },
             {
-                "text": "Yeoman Most Voted",
+                "text": "Yeoman",
                 "correct": true,
                 "voted": true
             },
@@ -9651,7 +9651,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -9674,7 +9674,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": false,
                 "voted": true
             }
@@ -9692,7 +9692,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": false,
                 "voted": true
             },
@@ -9761,12 +9761,12 @@
                 "voted": false
             },
             {
-                "text": "Register additional self-hosted agents. Most Voted",
+                "text": "Register additional self-hosted agents.",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Purchase self-hosted parallel jobs. Most Voted",
+                "text": "Purchase self-hosted parallel jobs.",
                 "correct": false,
                 "voted": true
             },
@@ -9836,7 +9836,7 @@
                 "voted": false
             },
             {
-                "text": "Define a pre-deployment gate before the deployment to the Prod stage. Most Voted",
+                "text": "Define a pre-deployment gate before the deployment to the Prod stage.",
                 "correct": true,
                 "voted": true
             },
@@ -9846,7 +9846,7 @@
                 "voted": false
             },
             {
-                "text": "Define a post-deployment gate after the deployment to the QA stage. Most Voted",
+                "text": "Define a post-deployment gate after the deployment to the QA stage.",
                 "correct": true,
                 "voted": true
             }
@@ -9866,7 +9866,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Implement a feature flag. Most Voted",
+                "text": "Implement a feature flag.",
                 "correct": true,
                 "voted": true
             },
@@ -9904,7 +9904,7 @@
                 "voted": false
             },
             {
-                "text": "Register the devices on the Apple Developer portal. Most Voted",
+                "text": "Register the devices on the Apple Developer portal.",
                 "correct": true,
                 "voted": true
             },
@@ -9952,12 +9952,12 @@
                 "voted": false
             },
             {
-                "text": "Distribute a new release of the application. Most Voted",
+                "text": "Distribute a new release of the application.",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "Register the IDs of the devices in the Apple Developer portal. Most Voted",
+                "text": "Register the IDs of the devices in the Apple Developer portal.",
                 "correct": true,
                 "voted": true
             }
@@ -9975,7 +9975,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Select Register devices and sign my app. Most Voted",
+                "text": "Select Register devices and sign my app.",
                 "correct": true,
                 "voted": true
             },
@@ -10040,12 +10040,12 @@
                 "voted": false
             },
             {
-                "text": "a self-hosted agent Most Voted",
+                "text": "a self-hosted agent",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "an External Git service connection Most Voted",
+                "text": "an External Git service connection",
                 "correct": true,
                 "voted": true
             }
@@ -10077,7 +10077,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "authorization credentials Most Voted",
+                "text": "authorization credentials",
                 "correct": true,
                 "voted": true
             },
@@ -10092,7 +10092,7 @@
                 "voted": false
             },
             {
-                "text": "the organization URL Most Voted",
+                "text": "the organization URL",
                 "correct": true,
                 "voted": true
             },
@@ -10148,7 +10148,7 @@
                 "voted": false
             },
             {
-                "text": "batch changes Most Voted",
+                "text": "batch changes",
                 "correct": true,
                 "voted": true
             },
@@ -10181,7 +10181,7 @@
                 "voted": false
             },
             {
-                "text": "--no-verify Most Voted",
+                "text": "--no-verify",
                 "correct": true,
                 "voted": true
             },
@@ -10209,7 +10209,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Select Register devices and sign my app. Most Voted",
+                "text": "Select Register devices and sign my app.",
                 "correct": true,
                 "voted": true
             },
@@ -10270,7 +10270,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Register the devices on the Apple Developer portal. Most Voted",
+                "text": "Register the devices on the Apple Developer portal.",
                 "correct": true,
                 "voted": true
             },
@@ -10308,7 +10308,7 @@
                 "voted": false
             },
             {
-                "text": "PyPI Most Voted",
+                "text": "PyPI",
                 "correct": true,
                 "voted": true
             },
@@ -10336,12 +10336,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "the SHA-based hashes Most Voted",
+                "text": "the SHA-based hashes",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "the tag Most Voted",
+                "text": "the tag",
                 "correct": true,
                 "voted": true
             },
@@ -10351,7 +10351,7 @@
                 "voted": false
             },
             {
-                "text": "the branch Most Voted",
+                "text": "the branch",
                 "correct": true,
                 "voted": true
             },
@@ -10374,7 +10374,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "analytics Most Voted",
+                "text": "analytics",
                 "correct": true,
                 "voted": true
             },
@@ -10412,7 +10412,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": false,
                 "voted": true
             }
@@ -10435,12 +10435,12 @@
                 "voted": false
             },
             {
-                "text": "Jekyll Most Voted",
+                "text": "Jekyll",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "DocFX Most Voted",
+                "text": "DocFX",
                 "correct": false,
                 "voted": true
             },
@@ -10478,7 +10478,7 @@
                 "voted": false
             },
             {
-                "text": "the application ID, a client secret, and the tenant ID Most Voted",
+                "text": "the application ID, a client secret, and the tenant ID",
                 "correct": true,
                 "voted": true
             },
@@ -10546,7 +10546,7 @@
                 "voted": false
             },
             {
-                "text": "Configuration > Node > Resource Most Voted",
+                "text": "Configuration > Node > Resource",
                 "correct": false,
                 "voted": true
             }
@@ -10579,7 +10579,7 @@
                 "voted": false
             },
             {
-                "text": "Install the Azure Pipelines app for Teams and configure a subscription to receive notifications in a channel. Most Voted",
+                "text": "Install the Azure Pipelines app for Teams and configure a subscription to receive notifications in a channel.",
                 "correct": true,
                 "voted": true
             }
@@ -10645,7 +10645,7 @@
                 "voted": false
             },
             {
-                "text": "web app deployment slots Most Voted",
+                "text": "web app deployment slots",
                 "correct": true,
                 "voted": true
             },
@@ -10655,7 +10655,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Traffic Manager Most Voted",
+                "text": "Azure Traffic Manager",
                 "correct": false,
                 "voted": true
             }
@@ -10702,7 +10702,7 @@
                 "voted": false
             },
             {
-                "text": "modifier Most Voted",
+                "text": "modifier",
                 "correct": true,
                 "voted": true
             }
@@ -10734,7 +10734,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "a task group Most Voted",
+                "text": "a task group",
                 "correct": true,
                 "voted": true
             },
@@ -10781,7 +10781,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "defect escape rate Most Voted",
+                "text": "defect escape rate",
                 "correct": true,
                 "voted": true
             },
@@ -10819,7 +10819,7 @@
                 "voted": false
             },
             {
-                "text": "the Pester test framework Most Voted",
+                "text": "the Pester test framework",
                 "correct": true,
                 "voted": true
             },
@@ -10857,7 +10857,7 @@
                 "voted": false
             },
             {
-                "text": "a branch policy Most Voted",
+                "text": "a branch policy",
                 "correct": false,
                 "voted": true
             },
@@ -10906,7 +10906,7 @@
                 "voted": false
             },
             {
-                "text": "4 Most Voted",
+                "text": "4",
                 "correct": false,
                 "voted": true
             },
@@ -10944,7 +10944,7 @@
                 "voted": false
             },
             {
-                "text": "Create two container jobs. Most Voted",
+                "text": "Create two container jobs.",
                 "correct": true,
                 "voted": true
             }
@@ -10979,7 +10979,7 @@
                 "voted": false
             },
             {
-                "text": "Web Most Voted",
+                "text": "Web",
                 "correct": true,
                 "voted": true
             }
@@ -11011,7 +11011,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "a single web app and two deployment slots Most Voted",
+                "text": "a single web app and two deployment slots",
                 "correct": true,
                 "voted": true
             },
@@ -11061,7 +11061,7 @@
                 "voted": false
             },
             {
-                "text": "4.0.1 Most Voted",
+                "text": "4.0.1",
                 "correct": true,
                 "voted": true
             }
@@ -11108,7 +11108,7 @@
                 "voted": false
             },
             {
-                "text": "2.3.1 Most Voted",
+                "text": "2.3.1",
                 "correct": false,
                 "voted": true
             }
@@ -11159,7 +11159,7 @@
                 "voted": false
             },
             {
-                "text": "Query the TaskAgentPoolSizeSnapshots endpoint. Most Voted",
+                "text": "Query the TaskAgentPoolSizeSnapshots endpoint.",
                 "correct": true,
                 "voted": true
             },
@@ -11169,7 +11169,7 @@
                 "voted": false
             },
             {
-                "text": "View the pool consumption report at the organization level. Most Voted",
+                "text": "View the pool consumption report at the organization level.",
                 "correct": true,
                 "voted": true
             }
@@ -11202,7 +11202,7 @@
                 "voted": false
             },
             {
-                "text": "Configure a deployment gate for Pipeline1 and include the Azure DevOps Security and compliance assessment task. Most Voted",
+                "text": "Configure a deployment gate for Pipeline1 and include the Azure DevOps Security and compliance assessment task.",
                 "correct": true,
                 "voted": true
             }
@@ -11324,7 +11324,7 @@
                 "voted": false
             },
             {
-                "text": "Purchase more parallel jobs. Most Voted",
+                "text": "Purchase more parallel jobs.",
                 "correct": false,
                 "voted": true
             }
@@ -11447,12 +11447,12 @@
                 "voted": false
             },
             {
-                "text": "Run the Register-AzureRmAutomationDscNode Azure Powershell cmdlet. Most Voted",
+                "text": "Run the Register-AzureRmAutomationDscNode Azure Powershell cmdlet.",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Modify the ConfigurationMode property of the Local Configuration Manager (LCM). Most Voted",
+                "text": "Modify the ConfigurationMode property of the Local Configuration Manager (LCM).",
                 "correct": false,
                 "voted": true
             },
@@ -11571,7 +11571,7 @@
                 "voted": false
             },
             {
-                "text": "conditional access policies in Azure AD Most Voted",
+                "text": "conditional access policies in Azure AD",
                 "correct": true,
                 "voted": true
             },
@@ -11612,7 +11612,7 @@
                 "voted": false
             },
             {
-                "text": "personal access token (PAT) Most Voted",
+                "text": "personal access token (PAT)",
                 "correct": true,
                 "voted": true
             }
@@ -11665,7 +11665,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "git rebase Most Voted",
+                "text": "git rebase",
                 "correct": true,
                 "voted": true
             },
@@ -11709,7 +11709,7 @@
                 "voted": false
             },
             {
-                "text": "GitHub Importer Most Voted",
+                "text": "GitHub Importer",
                 "correct": false,
                 "voted": true
             },
@@ -11761,17 +11761,17 @@
                 "voted": false
             },
             {
-                "text": "From SonarQube, obtain an authentication token. Most Voted",
+                "text": "From SonarQube, obtain an authentication token.",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "From Azure DevOps, create a service endpoint. Most Voted",
+                "text": "From Azure DevOps, create a service endpoint.",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "From SonarQube, create a project. Most Voted",
+                "text": "From SonarQube, create a project.",
                 "correct": false,
                 "voted": true
             }
@@ -11801,7 +11801,7 @@
                 "voted": false
             },
             {
-                "text": "Add a Docker task to the build pipeline. Most Voted",
+                "text": "Add a Docker task to the build pipeline.",
                 "correct": true,
                 "voted": true
             },
@@ -11863,7 +11863,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Change the value of the ConfigurationMode parameter. Most Voted",
+                "text": "Change the value of the ConfigurationMode parameter.",
                 "correct": true,
                 "voted": true
             },
@@ -11915,7 +11915,7 @@
                 "voted": false
             },
             {
-                "text": "feature isolation Most Voted",
+                "text": "feature isolation",
                 "correct": true,
                 "voted": true
             }
@@ -11942,7 +11942,7 @@
                 "voted": false
             },
             {
-                "text": "a deployment gate Most Voted",
+                "text": "a deployment gate",
                 "correct": false,
                 "voted": true
             },
@@ -12029,7 +12029,7 @@
                 "voted": false
             },
             {
-                "text": "BACPAC Most Voted",
+                "text": "BACPAC",
                 "correct": true,
                 "voted": true
             },
@@ -12066,7 +12066,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Application Insights Most Voted",
+                "text": "Azure Application Insights",
                 "correct": true,
                 "voted": true
             },

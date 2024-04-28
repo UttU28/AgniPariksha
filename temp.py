@@ -1,5 +1,15 @@
 from flask import Flask, render_template, request, jsonify
 import json
+import pyautogui as pi
+from time import sleep
+
+pi.hotkey('win','1')
+sleep(1)
+pi.hotkey('ctrl','shift','n')
+sleep(0.5)
+pi.typewrite('127.0.0.1:5000')
+sleep(0.5)
+pi.press('enter')
 
 app = Flask(__name__)
 
@@ -15,6 +25,9 @@ def index():
 @app.route('/filter', methods=['POST'])
 def dataFiltering():
     selectedTopics = request.form.getlist('topic')
+    for i in range(len(selectedTopics)):
+        if len(selectedTopics[i]) == 1:
+            selectedTopics[i]= '0' + selectedTopics[i]
     print("selectedTopics", selectedTopics)
     filteredData = [d for d in iAmData if str(d['topicNumber']) in selectedTopics]
     print(len(filteredData))

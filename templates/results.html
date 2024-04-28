@@ -2,22 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filtered Results</title>
 </head>
 <body>
     <h1>Filtered Results</h1>
     <div>
-        <ul>
-            <li>{{ filteredData[currentIndex] }}</li>
-        </ul>
+        <div class="changingData">
+            <div class="questionNumber"></div>
+            <div class="topicNumber"></div>
+
+            <div class="questionIs"></div>
+            <div class="questionImages"></div>
+
+            <div class="optionsAre"></div>
+            <div class="checkAnswers">SUBMIT</div>
+
+            <div class="descriptionIs"></div>
+            <div class="descriptionImages"></div>
+        </div>
         <form action="/navigate" method="post">
             <input type="hidden" name="selectedTopics" value="{{ selectedTopics }}">
             <input type="hidden" name="currentIndex" value="{{ currentIndex }}">
             <input type="hidden" name="filteredData" value="{{ filteredData | tojson }}">
-            <button type="submit" name="direction" value="previous">Previous</button>
-            <button type="submit" name="direction" value="next">Next</button>
+            <div name="direction" value="previous">Previous</div>
+            <div name="direction" value="next">Next</div>
         </form>
     </div>
+
+    <script>
+        $(document).ready(function() {
+            var currentIndex = 0;
+            var filteredData = {{ filteredData | tojson }};
+
+            // Function to display data
+            function displayData() {
+
+                $('.questionNumber').text(''); $('.topicNumber').text(''); $('.questionIs').text(''); $('.questionImages').text(''); $('.optionsAre').text(''); $('.descriptionIs').text(''); $('.descriptionImages').text(''); var keys = Object.keys(filteredData[currentIndex]);
+                $('.questionNumber').text(filteredData[currentIndex]['questionNumber']);
+                $('.topicNumber').text(filteredData[currentIndex]['topicNumber']);
+                $('.questionIs').text(filteredData[currentIndex]['questionIs']);
+                $.each(filteredData[currentIndex]['questionImages'], function(index, imageUrl) {
+                    var imgTag = '<img class="questionImage" src="'+imageUrl+'">';
+                    $('.questionImages').append(imgTag); 
+                });
+
+                if (filteredData[currentIndex]['isMCQ']){
+                    if (filteredData[currentIndex]['multipleAnswers']) {var inputType = 'checkbox';}
+                    else {var inputType = 'radio';}
+
+                    filteredData[currentIndex]['myOptionsAre'].forEach(function(option, index) {
+                        var inputElement = '<input type="'+ inputType +'" name="quizOption" id="option' + index + '" value="' + option.text + '">';
+                        var labelElement = '<label for="option' + index + '">' + option.text + '</label><br>';
+                        $('.optionsAre').append(inputElement + labelElement);
+                    });
+                    
+                }
+
+                $('.descriptionIs').text(filteredData[currentIndex]['descriptionIs']);
+                $.each(filteredData[currentIndex]['descriptionImages'], function(index, imageUrl) {
+                    var imgTag = '<img class="descriptionImage" src="'+imageUrl+'">';
+                    $('.descriptionImages').append(imgTag); 
+                });
+            }
+
+            displayData();
+
+            $("div[name='direction']").click(function() {
+                var direction = $(this).attr("value");
+
+                if (direction === "next") {
+                    currentIndex = (currentIndex + 1) % Object.keys(filteredData).length;
+                } else if (direction === "previous") {
+                    currentIndex = (currentIndex - 1 + Object.keys(filteredData).length) % Object.keys(filteredData).length;
+                }
+
+                // Update data when direction is clicked
+                displayData();
+            });
+        });
+
+    </script>
 </body>
 </html>
