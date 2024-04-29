@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 import json
 from time import sleep
+import os
 
 # import pyautogui as pi
 # pi.hotkey('win','1')
@@ -14,13 +15,35 @@ from time import sleep
 app = Flask(__name__)
 
 
-certificationName = "az-305"
+# certificationName = "az-305"
 iAmData = None
-with open(f"{certificationName}-questionData.json", "r") as oldFile: iAmData = json.load(oldFile)
+# with open(f"{certificationName}-questionData.json", "r") as oldFile: iAmData = json.load(oldFile)
+
+# @app.route('/')
+# def index():
+#     return render_template('index.html', topics=get_unique_values('topicNumber'))
+
+def get_certification_files():
+    files = [f for f in os.listdir() if f.endswith('-questionData.json')]
+    return [f for f in files]
 
 @app.route('/')
 def index():
-    return render_template('index.html', topics=get_unique_values('topicNumber'))
+    certification_files = get_certification_files()
+    print(certification_files)
+    return render_template('index.html', certification_files=certification_files)
+
+@app.route('/selectCertification', methods=['POST'])
+def selectCertification():
+    certificationName = request.form['certification']
+    file_name = f"{certificationName}"
+    if file_name in os.listdir():
+        with open(file_name, "r") as oldFile:
+            iAmData = json.load(oldFile)
+            # print(iAmData)
+        return render_template('topics.html', topics=get_unique_values('topicNumber', iAmData), certificationName=certificationName)
+    else:
+        return "Error: File not found."
 
 @app.route('/filter', methods=['POST'])
 def dataFiltering():
@@ -29,9 +52,12 @@ def dataFiltering():
         if len(selectedTopics[i]) == 1:
             selectedTopics[i]= '0' + selectedTopics[i]
     print("selectedTopics", selectedTopics)
+    certificationName = request.form['certificationName']
+    print("certificationName", certificationName)
+    with open(f"{certificationName}", "r") as oldFile: iAmData = json.load(oldFile)
     filteredData = [d for d in iAmData if str(d['topicNumber']) in selectedTopics]
     print(len(filteredData))
-    return render_template('results.html', filteredData=filteredData, currentIndex=0, selectedTopics=selectedTopics)
+    return render_template('results.html', filteredData=filteredData, currentIndex=0, selectedTopics=selectedTopics, certificationName=certificationName)
 
 @app.route('/navigate', methods=['POST'])
 def navigate():
@@ -51,8 +77,8 @@ def navigate():
     return render_template('results.html', filteredData=filteredData, currentIndex=currentIndex, selectedTopics=selectedTopics)
 
 
-def get_unique_values(key):
-    return sorted(list({int(d[key]) for d in iAmData}))
+def get_unique_values(key, thisData):
+    return sorted(list({int(d[key]) for d in thisData}))
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')

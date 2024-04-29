@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='topics.css') }}">
+    <title>Filter Data</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="innerContainer">
+            <form class="thisForm" action="/filter" method="post">
+                <div class="displayText">Select Topics</div>
+                <h5 class="certificationName">Aap ke Screen par ye raha..</h5>
+                <div class="selectionBox">
+                    <div class="mainBoxContainer">
+                        {% for topic in topics %}
+                        <div class="mainBox {{ topic }}">
+                            <input class="checkboxx" style="display: block" type="checkbox" id="{{ topic }}" name="topic" value="{{ topic }}">
+                            <label for="{{ topic }}">{{ topic }}</label><br>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <input type="hidden" id="certificationName" name="certificationName" value="{{ certificationName }}">
+                <button class="directionButton" type="submit">Filter</button>
+            </form>
+        </div>
+    </div>
+    <div class="signature">Yatra Tatra Sarvatra Shiva </div>
+
+    <script>
+        $(document).ready(function() {
+            $('.checkboxx').click(function(e) {
+                var checkbox = $(this).prev('input[type="checkbox"]');
+                checkbox.prop('checked', !checkbox.prop('checked'));
+                $(this).parent().toggleClass('selectedBox');
+            });
+
+            var certificationName = "{{ certificationName }}";
+            certificationName = certificationName.toUpperCase();
+            certificationName = certificationName.replace("-QUESTIONDATA.JSON", "");
+            $('.certificationName').text(certificationName);
+        });
+
+    </script>
+</body>
+</html>

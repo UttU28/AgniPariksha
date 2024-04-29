@@ -212,6 +212,12 @@ body {
     color: #7ef190;
 }
 
+.certificationName{
+    text-align: center;
+    font-size: 20px;
+    color: #50d57a;
+}
+
 .signature {
     font-weight: bold;
     text-align: right;
@@ -220,6 +226,8 @@ body {
     right: 10px;
     color: #7a7a7a;
 }
+
+
 
 
 /* Desktop styles */

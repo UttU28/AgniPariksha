@@ -10,6 +10,7 @@
 <body>
     <h1>7 Crore ka Sawal</h1>
     <h5>Aap ke Screen par ye raha..</h5>
+    <h5 class="certificationName">Aap ke Screen par ye raha..</h5>
     <div class="container">
         <div class="changingData">
             <div class="numberBlock">
@@ -47,6 +48,11 @@
         $(document).ready(function() {
             var currentIndex = 0;
             var filteredData = {{ filteredData | tojson }};
+
+            var certificationName = "{{ certificationName }}";
+            certificationName = certificationName.toUpperCase();
+            certificationName = certificationName.replace("-QUESTIONDATA.JSON", "");
+            $('.certificationName').text(certificationName);
 
             // Function to display data
             function displayData() {

@@ -6,7 +6,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "In Azure Active Directory (Azure AD), create an access review of Application1. Most Voted",
+                "text": "In Azure Active Directory (Azure AD), create an access review of Application1.",
                 "correct": true,
                 "voted": true
             },
@@ -39,7 +39,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "shared access signatures (SAS) Most Voted",
+                "text": "shared access signatures (SAS)",
                 "correct": true,
                 "voted": true
             },
@@ -72,7 +72,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure AD Application Proxy Most Voted",
+                "text": "Azure AD Application Proxy",
                 "correct": true,
                 "voted": true
             },
@@ -92,7 +92,7 @@
                 "voted": false
             },
             {
-                "text": "Azure AD enterprise applications Most Voted",
+                "text": "Azure AD enterprise applications",
                 "correct": true,
                 "voted": true
             },
@@ -125,7 +125,7 @@
                 "voted": false
             },
             {
-                "text": "Create an access review. Most Voted",
+                "text": "Create an access review.",
                 "correct": true,
                 "voted": true
             },
@@ -181,7 +181,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -204,7 +204,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -222,7 +222,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": true,
                 "voted": true
             },
@@ -269,7 +269,7 @@
                 "voted": false
             },
             {
-                "text": "subscriptions Most Voted",
+                "text": "subscriptions",
                 "correct": true,
                 "voted": true
             },
@@ -279,12 +279,12 @@
                 "voted": false
             },
             {
-                "text": "resource groups Most Voted",
+                "text": "resource groups",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "management groups Most Voted",
+                "text": "management groups",
                 "correct": true,
                 "voted": true
             }
@@ -316,7 +316,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Activity Log Most Voted",
+                "text": "Azure Activity Log",
                 "correct": true,
                 "voted": true
             },
@@ -354,7 +354,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -401,7 +401,7 @@
                 "voted": false
             },
             {
-                "text": "Azure API Management Most Voted",
+                "text": "Azure API Management",
                 "correct": true,
                 "voted": true
             }
@@ -492,7 +492,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "dynamic data masking Most Voted",
+                "text": "dynamic data masking",
                 "correct": true,
                 "voted": true
             },
@@ -530,7 +530,7 @@
                 "voted": false
             },
             {
-                "text": "blobs in a general purpose v2 storage account Most Voted",
+                "text": "blobs in a general purpose v2 storage account",
                 "correct": true,
                 "voted": true
             },
@@ -587,7 +587,7 @@
                 "voted": false
             },
             {
-                "text": "a user-assigned managed identity Most Voted",
+                "text": "a user-assigned managed identity",
                 "correct": true,
                 "voted": true
             }
@@ -617,7 +617,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Synapse Link for Azure Cosmos DB Most Voted",
+                "text": "Azure Synapse Link for Azure Cosmos DB",
                 "correct": true,
                 "voted": true
             },
@@ -665,7 +665,7 @@
                 "voted": false
             },
             {
-                "text": "password-based Most Voted",
+                "text": "password-based",
                 "correct": true,
                 "voted": true
             },
@@ -712,7 +712,7 @@
                 "voted": false
             },
             {
-                "text": "an Azure policy that enforces tagging rules Most Voted",
+                "text": "an Azure policy that enforces tagging rules",
                 "correct": true,
                 "voted": true
             },
@@ -750,7 +750,7 @@
                 "voted": false
             },
             {
-                "text": "In the Azure AD tenant of Contoso, create guest accounts for the Fabnkam developers. Most Voted",
+                "text": "In the Azure AD tenant of Contoso, create guest accounts for the Fabnkam developers.",
                 "correct": true,
                 "voted": true
             }
@@ -780,7 +780,7 @@
                 "voted": false
             },
             {
-                "text": "Use Azure AD entitlement management to govern external users. Most Voted",
+                "text": "Use Azure AD entitlement management to govern external users.",
                 "correct": false,
                 "voted": true
             },
@@ -818,7 +818,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Log Analytics Most Voted",
+                "text": "Azure Log Analytics",
                 "correct": true,
                 "voted": true
             },
@@ -863,7 +863,7 @@
                 "voted": false
             },
             {
-                "text": "Use Azure AD entitlement management to govern external users. Most Voted",
+                "text": "Use Azure AD entitlement management to govern external users.",
                 "correct": true,
                 "voted": true
             },
@@ -891,7 +891,7 @@
                 "voted": false
             },
             {
-                "text": "system-assigned managed identities Most Voted",
+                "text": "system-assigned managed identities",
                 "correct": true,
                 "voted": true
             },
@@ -926,7 +926,7 @@
                 "voted": false
             },
             {
-                "text": "Use Azure AD entitlement management to govern external users. Most Voted",
+                "text": "Use Azure AD entitlement management to govern external users.",
                 "correct": true,
                 "voted": true
             },
@@ -966,7 +966,7 @@
                 "voted": false
             },
             {
-                "text": "Use Azure AD entitlement management to govern external users. Most Voted",
+                "text": "Use Azure AD entitlement management to govern external users.",
                 "correct": true,
                 "voted": true
             },
@@ -989,7 +989,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Activity Log Most Voted",
+                "text": "Azure Activity Log",
                 "correct": true,
                 "voted": true
             },
@@ -1053,7 +1053,7 @@
                 "voted": false
             },
             {
-                "text": "Configure Supported account types in the application registration and update the sign-in endpoint. Most Voted",
+                "text": "Configure Supported account types in the application registration and update the sign-in endpoint.",
                 "correct": true,
                 "voted": true
             }
@@ -1081,7 +1081,7 @@
                 "voted": false
             },
             {
-                "text": "Create an access review. Most Voted",
+                "text": "Create an access review.",
                 "correct": false,
                 "voted": true
             },
@@ -1125,7 +1125,7 @@
                 "voted": false
             },
             {
-                "text": "Use Azure AD entitlement management to govern external users. Most Voted",
+                "text": "Use Azure AD entitlement management to govern external users.",
                 "correct": true,
                 "voted": true
             },
@@ -1165,7 +1165,7 @@
                 "voted": false
             },
             {
-                "text": "Configure Supported account types in the application registration and update the sign-in endpoint. Most Voted",
+                "text": "Configure Supported account types in the application registration and update the sign-in endpoint.",
                 "correct": true,
                 "voted": true
             },
@@ -1218,7 +1218,7 @@
                 "voted": false
             },
             {
-                "text": "Configure Supported account types in the application registration and update the sign-in endpoint. Most Voted",
+                "text": "Configure Supported account types in the application registration and update the sign-in endpoint.",
                 "correct": true,
                 "voted": true
             },
@@ -1243,7 +1243,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Use Azure AD entitlement management to govern external users. Most Voted",
+                "text": "Use Azure AD entitlement management to govern external users.",
                 "correct": true,
                 "voted": true
             },
@@ -1281,7 +1281,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Policy and tags Most Voted",
+                "text": "Azure Policy and tags",
                 "correct": true,
                 "voted": true
             },
@@ -1324,7 +1324,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Log Analytics Most Voted",
+                "text": "Azure Log Analytics",
                 "correct": true,
                 "voted": true
             }
@@ -1357,7 +1357,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Activity Log Most Voted",
+                "text": "Azure Activity Log",
                 "correct": true,
                 "voted": true
             }
@@ -1439,7 +1439,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Log Analytics Most Voted",
+                "text": "Azure Log Analytics",
                 "correct": true,
                 "voted": true
             },
@@ -1462,7 +1462,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "1 Most Voted",
+                "text": "1",
                 "correct": false,
                 "voted": true
             },
@@ -1505,12 +1505,12 @@
                 "voted": false
             },
             {
-                "text": "Azure Advisor Most Voted",
+                "text": "Azure Advisor",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "Azure Activity Log Most Voted",
+                "text": "Azure Activity Log",
                 "correct": true,
                 "voted": true
             }
@@ -1557,7 +1557,7 @@
                 "voted": false
             },
             {
-                "text": "Azure AD Identity Governance Most Voted",
+                "text": "Azure AD Identity Governance",
                 "correct": true,
                 "voted": true
             }
@@ -1594,7 +1594,7 @@
                 "voted": false
             },
             {
-                "text": "Application Insights Most Voted",
+                "text": "Application Insights",
                 "correct": true,
                 "voted": true
             },
@@ -1637,12 +1637,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "budgets Most Voted",
+                "text": "budgets",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "resource tags Most Voted",
+                "text": "resource tags",
                 "correct": true,
                 "voted": true
             },
@@ -1736,7 +1736,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Managed Instance Most Voted",
+                "text": "Azure SQL Managed Instance",
                 "correct": true,
                 "voted": true
             },
@@ -1769,12 +1769,12 @@
                 "voted": false
             },
             {
-                "text": "an Azure Import/Export job Most Voted",
+                "text": "an Azure Import/Export job",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Azure Data Factory Most Voted",
+                "text": "Azure Data Factory",
                 "correct": true,
                 "voted": true
             },
@@ -1817,7 +1817,7 @@
                 "voted": false
             },
             {
-                "text": "one Azure Service Bus topic Most Voted",
+                "text": "one Azure Service Bus topic",
                 "correct": true,
                 "voted": true
             }
@@ -1875,7 +1875,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Blob Storage Most Voted",
+                "text": "Azure Blob Storage",
                 "correct": true,
                 "voted": true
             },
@@ -1900,7 +1900,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "an elastic pool that contains 20 Azure SQL databases Most Voted",
+                "text": "an elastic pool that contains 20 Azure SQL databases",
                 "correct": true,
                 "voted": true
             },
@@ -1957,12 +1957,12 @@
                 "voted": false
             },
             {
-                "text": "Azure Cosmos DB SQL API Most Voted",
+                "text": "Azure Cosmos DB SQL API",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Azure Time Series Insights Most Voted",
+                "text": "Azure Time Series Insights",
                 "correct": true,
                 "voted": true
             }
@@ -1980,7 +1980,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Cosmos DB SQL API Most Voted",
+                "text": "Azure Cosmos DB SQL API",
                 "correct": true,
                 "voted": true
             },
@@ -2060,7 +2060,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Data Factory Most Voted",
+                "text": "Azure Data Factory",
                 "correct": true,
                 "voted": true
             }
@@ -2078,7 +2078,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Create an Azure Blob Storage account that is configured for the Cool default access tier. Create a blob container, copy the files to the blob container, and set each file to the Archive access tier. Most Voted",
+                "text": "Create an Azure Blob Storage account that is configured for the Cool default access tier. Create a blob container, copy the files to the blob container, and set each file to the Archive access tier.",
                 "correct": true,
                 "voted": true
             },
@@ -2093,7 +2093,7 @@
                 "voted": false
             },
             {
-                "text": "Create a general-purpose v2 storage account that is configured for the Hot default access tier. Create a blob container, copy the files to the blob container, and set each file to the Archive access tier. Most Voted",
+                "text": "Create a general-purpose v2 storage account that is configured for the Hot default access tier. Create a blob container, copy the files to the blob container, and set each file to the Archive access tier.",
                 "correct": true,
                 "voted": true
             },
@@ -2121,7 +2121,7 @@
                 "voted": false
             },
             {
-                "text": "two databases on the same Azure SQL managed instance Most Voted",
+                "text": "two databases on the same Azure SQL managed instance",
                 "correct": true,
                 "voted": true
             },
@@ -2154,7 +2154,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Database Premium Most Voted",
+                "text": "Azure SQL Database Premium",
                 "correct": true,
                 "voted": true
             },
@@ -2210,7 +2210,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "RSA 3072 Most Voted",
+                "text": "RSA 3072",
                 "correct": true,
                 "voted": true
             },
@@ -2253,12 +2253,12 @@
                 "voted": false
             },
             {
-                "text": "Azure Cosmos DB for NoSQL Most Voted",
+                "text": "Azure Cosmos DB for NoSQL",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Azure Time Series Insights Most Voted",
+                "text": "Azure Time Series Insights",
                 "correct": true,
                 "voted": true
             }
@@ -2304,7 +2304,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Data Lake Storage Gen2 Most Voted",
+                "text": "Azure Data Lake Storage Gen2",
                 "correct": true,
                 "voted": true
             },
@@ -2351,7 +2351,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Cosmos DB for NoSQL Most Voted",
+                "text": "Azure Cosmos DB for NoSQL",
                 "correct": true,
                 "voted": true
             },
@@ -2389,7 +2389,7 @@
                 "voted": false
             },
             {
-                "text": "General Purpose Most Voted",
+                "text": "General Purpose",
                 "correct": false,
                 "voted": true
             },
@@ -2417,7 +2417,7 @@
                 "voted": false
             },
             {
-                "text": "PostgreSQL Most Voted",
+                "text": "PostgreSQL",
                 "correct": true,
                 "voted": true
             },
@@ -2471,7 +2471,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Synapse Link for Azure Cosmos DB Most Voted",
+                "text": "Azure Synapse Link for Azure Cosmos DB",
                 "correct": true,
                 "voted": true
             },
@@ -2513,7 +2513,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Data Lake Storage Most Voted",
+                "text": "Azure Data Lake Storage",
                 "correct": false,
                 "voted": true
             },
@@ -2523,7 +2523,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Blob Storage Most Voted",
+                "text": "Azure Blob Storage",
                 "correct": false,
                 "voted": true
             }
@@ -2640,7 +2640,7 @@
                 "voted": false
             },
             {
-                "text": "blob versioning Most Voted",
+                "text": "blob versioning",
                 "correct": true,
                 "voted": true
             }
@@ -2658,7 +2658,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Data Factory Most Voted",
+                "text": "Azure Data Factory",
                 "correct": true,
                 "voted": true
             },
@@ -2706,7 +2706,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Site Recovery Most Voted",
+                "text": "Azure Site Recovery",
                 "correct": true,
                 "voted": true
             }
@@ -2741,7 +2741,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": true,
                 "voted": true
             },
@@ -2769,7 +2769,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -2806,7 +2806,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -2852,7 +2852,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Front Door Most Voted",
+                "text": "Azure Front Door",
                 "correct": true,
                 "voted": true
             },
@@ -2933,7 +2933,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Database Premium Most Voted",
+                "text": "Azure SQL Database Premium",
                 "correct": false,
                 "voted": true
             },
@@ -2966,7 +2966,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Database Premium Most Voted",
+                "text": "Azure SQL Database Premium",
                 "correct": true,
                 "voted": true
             },
@@ -2999,7 +2999,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -3017,12 +3017,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure SQL Database Serverless Most Voted",
+                "text": "Azure SQL Database Serverless",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Azure SQL Database Business Critical Most Voted",
+                "text": "Azure SQL Database Business Critical",
                 "correct": false,
                 "voted": true
             },
@@ -3102,7 +3102,7 @@
                 "voted": false
             },
             {
-                "text": "Implement Geo-redundant backup. Most Voted",
+                "text": "Implement Geo-redundant backup.",
                 "correct": true,
                 "voted": true
             },
@@ -3127,7 +3127,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Gateway Load Balancer Most Voted",
+                "text": "Gateway Load Balancer",
                 "correct": true,
                 "voted": true
             },
@@ -3247,7 +3247,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Upgrade VirtualWAN1 to Standard. Most Voted",
+                "text": "Upgrade VirtualWAN1 to Standard.",
                 "correct": true,
                 "voted": true
             },
@@ -3285,7 +3285,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Logic Apps and Azure Functions Most Voted",
+                "text": "Azure Logic Apps and Azure Functions",
                 "correct": true,
                 "voted": true
             },
@@ -3330,7 +3330,7 @@
                 "voted": false
             },
             {
-                "text": "Azure AD Domain Services (Azure AD DS) Most Voted",
+                "text": "Azure AD Domain Services (Azure AD DS)",
                 "correct": true,
                 "voted": true
             }
@@ -3353,7 +3353,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Functions in the Premium plan Most Voted",
+                "text": "Azure Functions in the Premium plan",
                 "correct": true,
                 "voted": true
             },
@@ -3396,7 +3396,7 @@
                 "voted": false
             },
             {
-                "text": "an Azure file share and Azure File Sync Most Voted",
+                "text": "an Azure file share and Azure File Sync",
                 "correct": true,
                 "voted": true
             }
@@ -3473,7 +3473,7 @@
                 "voted": false
             },
             {
-                "text": "Azure API Management Premium tier with virtual network connection Most Voted",
+                "text": "Azure API Management Premium tier with virtual network connection",
                 "correct": true,
                 "voted": true
             }
@@ -3491,7 +3491,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "an Azure App Service web app Most Voted",
+                "text": "an Azure App Service web app",
                 "correct": true,
                 "voted": true
             },
@@ -3541,7 +3541,7 @@
                 "voted": false
             },
             {
-                "text": "3 Most Voted",
+                "text": "3",
                 "correct": true,
                 "voted": true
             }
@@ -3561,7 +3561,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "vCore-based General Purpose Most Voted",
+                "text": "vCore-based General Purpose",
                 "correct": true,
                 "voted": true
             },
@@ -3604,7 +3604,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Service Bus Most Voted",
+                "text": "Azure Service Bus",
                 "correct": true,
                 "voted": true
             },
@@ -3637,7 +3637,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Migrate Most Voted",
+                "text": "Azure Migrate",
                 "correct": true,
                 "voted": true
             },
@@ -3665,7 +3665,7 @@
                 "voted": false
             },
             {
-                "text": "Azure CycleCloud Most Voted",
+                "text": "Azure CycleCloud",
                 "correct": true,
                 "voted": true
             },
@@ -3712,7 +3712,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -3735,7 +3735,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -3758,7 +3758,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -3823,7 +3823,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Policy Most Voted",
+                "text": "Azure Policy",
                 "correct": true,
                 "voted": true
             },
@@ -3875,7 +3875,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Data Factory Most Voted",
+                "text": "Azure Data Factory",
                 "correct": true,
                 "voted": true
             },
@@ -3903,12 +3903,12 @@
                 "voted": false
             },
             {
-                "text": "Virtual nodes with Virtual Kubelet ACI Most Voted",
+                "text": "Virtual nodes with Virtual Kubelet ACI",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "cluster autoscaler Most Voted",
+                "text": "cluster autoscaler",
                 "correct": true,
                 "voted": true
             },
@@ -3955,7 +3955,7 @@
                 "voted": false
             },
             {
-                "text": "virtual nodes Most Voted",
+                "text": "virtual nodes",
                 "correct": true,
                 "voted": true
             },
@@ -3980,12 +3980,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "an Azure Service Bus queue Most Voted",
+                "text": "an Azure Service Bus queue",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "an Azure Data Factory pipeline Most Voted",
+                "text": "an Azure Data Factory pipeline",
                 "correct": true,
                 "voted": true
             },
@@ -4018,7 +4018,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Data Factory Most Voted",
+                "text": "Azure Data Factory",
                 "correct": true,
                 "voted": true
             },
@@ -4056,7 +4056,7 @@
                 "voted": false
             },
             {
-                "text": "the self-hosted integration runtime Most Voted",
+                "text": "the self-hosted integration runtime",
                 "correct": true,
                 "voted": true
             },
@@ -4089,7 +4089,7 @@
                 "voted": false
             },
             {
-                "text": "Azure AD enterprise applications Most Voted",
+                "text": "Azure AD enterprise applications",
                 "correct": false,
                 "voted": true
             },
@@ -4099,7 +4099,7 @@
                 "voted": false
             },
             {
-                "text": "Conditional Access policies Most Voted",
+                "text": "Conditional Access policies",
                 "correct": true,
                 "voted": true
             }
@@ -4132,7 +4132,7 @@
                 "voted": false
             },
             {
-                "text": "Blueprints remain connected to the deployed resources. Most Voted",
+                "text": "Blueprints remain connected to the deployed resources.",
                 "correct": true,
                 "voted": true
             }
@@ -4165,7 +4165,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Front Door Most Voted",
+                "text": "Azure Front Door",
                 "correct": true,
                 "voted": true
             },
@@ -4229,7 +4229,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Service Fabric Most Voted",
+                "text": "Azure Service Fabric",
                 "correct": true,
                 "voted": true
             },
@@ -4252,7 +4252,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": true,
                 "voted": true
             },
@@ -4275,7 +4275,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Activity Log Most Voted",
+                "text": "Azure Activity Log",
                 "correct": true,
                 "voted": true
             },
@@ -4315,7 +4315,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Policy Most Voted",
+                "text": "Azure Policy",
                 "correct": true,
                 "voted": true
             },
@@ -4353,7 +4353,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Service Bus Most Voted",
+                "text": "Azure Service Bus",
                 "correct": true,
                 "voted": true
             },
@@ -4376,7 +4376,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Data Factory Most Voted",
+                "text": "Azure Data Factory",
                 "correct": true,
                 "voted": true
             },
@@ -4424,7 +4424,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Cosmos DB Most Voted",
+                "text": "Azure Cosmos DB",
                 "correct": true,
                 "voted": true
             }
@@ -4442,12 +4442,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "standard general-purpose v2 Most Voted",
+                "text": "standard general-purpose v2",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "premium block blobs Most Voted",
+                "text": "premium block blobs",
                 "correct": true,
                 "voted": true
             },
@@ -4480,7 +4480,7 @@
                 "voted": false
             },
             {
-                "text": "tables in an Azure Storage account that use geo-redundant storage (GRS) Most Voted",
+                "text": "tables in an Azure Storage account that use geo-redundant storage (GRS)",
                 "correct": true,
                 "voted": true
             },
@@ -4569,12 +4569,12 @@
                 "voted": false
             },
             {
-                "text": "Create a render farm that uses Azure Batch. Most Voted",
+                "text": "Create a render farm that uses Azure Batch.",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "Enable parallel task execution on compute nodes. Most Voted",
+                "text": "Enable parallel task execution on compute nodes.",
                 "correct": true,
                 "voted": true
             }
@@ -4597,7 +4597,7 @@
                 "voted": false
             },
             {
-                "text": "SQL Server on an Azure virtual machine Most Voted",
+                "text": "SQL Server on an Azure virtual machine",
                 "correct": true,
                 "voted": true
             },
@@ -4607,7 +4607,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Managed Instance Most Voted",
+                "text": "Azure SQL Managed Instance",
                 "correct": true,
                 "voted": true
             }
@@ -4654,7 +4654,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Database Serverless Most Voted",
+                "text": "Azure SQL Database Serverless",
                 "correct": true,
                 "voted": true
             }
@@ -4687,7 +4687,7 @@
                 "voted": false
             },
             {
-                "text": "the same geography only Most Voted",
+                "text": "the same geography only",
                 "correct": true,
                 "voted": true
             }
@@ -4717,7 +4717,7 @@
                 "voted": false
             },
             {
-                "text": "an Always On availability group that has premium storage disks and a distributed network name (DNN) Most Voted",
+                "text": "an Always On availability group that has premium storage disks and a distributed network name (DNN)",
                 "correct": true,
                 "voted": true
             },
@@ -4745,7 +4745,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -4768,7 +4768,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": true,
                 "voted": true
             }
@@ -4786,7 +4786,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Yes Most Voted",
+                "text": "Yes",
                 "correct": true,
                 "voted": true
             },
@@ -4819,7 +4819,7 @@
                 "voted": false
             },
             {
-                "text": "Deploy a load balancer and a virtual machine scale set across two availability zones. Most Voted",
+                "text": "Deploy a load balancer and a virtual machine scale set across two availability zones.",
                 "correct": true,
                 "voted": true
             },
@@ -4847,7 +4847,7 @@
                 "voted": false
             },
             {
-                "text": "Premium SKU Azure Container Registry Most Voted",
+                "text": "Premium SKU Azure Container Registry",
                 "correct": true,
                 "voted": true
             },
@@ -4890,7 +4890,7 @@
                 "voted": false
             },
             {
-                "text": "a resource token and an Access control (IAM) role assignment Most Voted",
+                "text": "a resource token and an Access control (IAM) role assignment",
                 "correct": true,
                 "voted": true
             }
@@ -4915,7 +4915,7 @@
                 "voted": false
             },
             {
-                "text": "a general purpose v2 storage account that has hierarchical namespace enabled Most Voted",
+                "text": "a general purpose v2 storage account that has hierarchical namespace enabled",
                 "correct": true,
                 "voted": true
             },
@@ -4967,7 +4967,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Data Lake Storage Most Voted",
+                "text": "Azure Data Lake Storage",
                 "correct": false,
                 "voted": true
             },
@@ -4977,7 +4977,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Data Factory Most Voted",
+                "text": "Azure Data Factory",
                 "correct": true,
                 "voted": true
             }
@@ -5019,7 +5019,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Queue Storage Most Voted",
+                "text": "Azure Queue Storage",
                 "correct": true,
                 "voted": true
             },
@@ -5052,7 +5052,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Queue Storage Most Voted",
+                "text": "Azure Queue Storage",
                 "correct": true,
                 "voted": true
             },
@@ -5080,7 +5080,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Database Premium Most Voted",
+                "text": "Azure SQL Database Premium",
                 "correct": true,
                 "voted": true
             },
@@ -5108,7 +5108,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Service Bus Most Voted",
+                "text": "Azure Service Bus",
                 "correct": true,
                 "voted": true
             },
@@ -5146,12 +5146,12 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Managed Instance General Purpose Most Voted",
+                "text": "Azure SQL Managed Instance General Purpose",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "Azure SQL Database Business Critical Most Voted",
+                "text": "Azure SQL Database Business Critical",
                 "correct": true,
                 "voted": true
             },
@@ -5189,7 +5189,7 @@
                 "voted": false
             },
             {
-                "text": "cluster autoscaler Most Voted",
+                "text": "cluster autoscaler",
                 "correct": true,
                 "voted": true
             }
@@ -5217,7 +5217,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Service Bus Most Voted",
+                "text": "Azure Service Bus",
                 "correct": true,
                 "voted": true
             },
@@ -5240,7 +5240,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Virtual WAN with a secured virtual hub Most Voted",
+                "text": "Azure Virtual WAN with a secured virtual hub",
                 "correct": false,
                 "voted": true
             },
@@ -5273,7 +5273,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure SQL Database Business Critical Most Voted",
+                "text": "Azure SQL Database Business Critical",
                 "correct": true,
                 "voted": true
             },
@@ -5306,12 +5306,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "a managed identity Most Voted",
+                "text": "a managed identity",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "a service principal Most Voted",
+                "text": "a service principal",
                 "correct": true,
                 "voted": true
             },
@@ -5355,7 +5355,7 @@
                 "voted": false
             },
             {
-                "text": "Use Azure AD entitlement management to govern external users. Most Voted",
+                "text": "Use Azure AD entitlement management to govern external users.",
                 "correct": false,
                 "voted": true
             },
@@ -5383,7 +5383,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Cache for Redis Most Voted",
+                "text": "Azure Cache for Redis",
                 "correct": true,
                 "voted": true
             },
@@ -5433,7 +5433,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Front Door Premium Most Voted",
+                "text": "Azure Front Door Premium",
                 "correct": true,
                 "voted": true
             }
@@ -5461,7 +5461,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Service Bus queues with sessions enabled Most Voted",
+                "text": "Azure Service Bus queues with sessions enabled",
                 "correct": true,
                 "voted": true
             },
@@ -5513,7 +5513,7 @@
                 "voted": false
             },
             {
-                "text": "Premium Most Voted",
+                "text": "Premium",
                 "correct": true,
                 "voted": true
             }
@@ -5541,7 +5541,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Service Bus Most Voted",
+                "text": "Azure Service Bus",
                 "correct": true,
                 "voted": true
             },
@@ -5574,7 +5574,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Queue Storage Most Voted",
+                "text": "Azure Queue Storage",
                 "correct": true,
                 "voted": true
             },
@@ -5602,7 +5602,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Database Business Critical Most Voted",
+                "text": "Azure SQL Database Business Critical",
                 "correct": true,
                 "voted": true
             },
@@ -5635,7 +5635,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Database Premium Most Voted",
+                "text": "Azure SQL Database Premium",
                 "correct": true,
                 "voted": true
             },
@@ -5677,7 +5677,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Configure the horizontal pod autoscaler. Most Voted",
+                "text": "Configure the horizontal pod autoscaler.",
                 "correct": true,
                 "voted": true
             },
@@ -5697,7 +5697,7 @@
                 "voted": false
             },
             {
-                "text": "Install Kubernetes-based Event Driven Autoscaling (KEDA). Most Voted",
+                "text": "Install Kubernetes-based Event Driven Autoscaling (KEDA).",
                 "correct": true,
                 "voted": true
             }
@@ -5720,7 +5720,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Queue Storage Most Voted",
+                "text": "Azure Queue Storage",
                 "correct": true,
                 "voted": true
             },
@@ -5758,7 +5758,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Database Premium Most Voted",
+                "text": "Azure SQL Database Premium",
                 "correct": true,
                 "voted": true
             },
@@ -5786,7 +5786,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Database Premium Most Voted",
+                "text": "Azure SQL Database Premium",
                 "correct": true,
                 "voted": true
             },
@@ -5838,12 +5838,12 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Migrate Most Voted",
+                "text": "Azure Migrate",
                 "correct": false,
                 "voted": true
             },
             {
-                "text": "Azure Data Studio Most Voted",
+                "text": "Azure Data Studio",
                 "correct": true,
                 "voted": true
             },
@@ -5886,7 +5886,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Database Premium Most Voted",
+                "text": "Azure SQL Database Premium",
                 "correct": true,
                 "voted": true
             }
@@ -5904,7 +5904,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure SQL Database Business Critical Most Voted",
+                "text": "Azure SQL Database Business Critical",
                 "correct": true,
                 "voted": true
             },
@@ -5959,7 +5959,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Queue Storage Most Voted",
+                "text": "Azure Queue Storage",
                 "correct": true,
                 "voted": true
             },
@@ -5994,7 +5994,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure SQL Database Serverless Most Voted",
+                "text": "Azure SQL Database Serverless",
                 "correct": true,
                 "voted": true
             },
@@ -6009,7 +6009,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Database Business Critical Most Voted",
+                "text": "Azure SQL Database Business Critical",
                 "correct": false,
                 "voted": true
             }
@@ -6042,7 +6042,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Database Premium Most Voted",
+                "text": "Azure SQL Database Premium",
                 "correct": true,
                 "voted": true
             }
@@ -6065,7 +6065,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Queue Storage Most Voted",
+                "text": "Azure Queue Storage",
                 "correct": true,
                 "voted": true
             },
@@ -6107,7 +6107,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Azure Service Bus Most Voted",
+                "text": "Azure Service Bus",
                 "correct": true,
                 "voted": true
             },
@@ -6145,7 +6145,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Database Migration Service Most Voted",
+                "text": "Azure Database Migration Service",
                 "correct": true,
                 "voted": true
             },
@@ -6228,7 +6228,7 @@
                 "voted": false
             },
             {
-                "text": "No Most Voted",
+                "text": "No",
                 "correct": false,
                 "voted": true
             }
@@ -6251,7 +6251,7 @@
                 "voted": false
             },
             {
-                "text": "Azure App Service Most Voted",
+                "text": "Azure App Service",
                 "correct": false,
                 "voted": true
             },
@@ -6322,7 +6322,7 @@
                 "voted": false
             },
             {
-                "text": "Deploy an ingress controller to AKS1. Most Voted",
+                "text": "Deploy an ingress controller to AKS1.",
                 "correct": true,
                 "voted": true
             }
@@ -6447,7 +6447,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Database Premium Most Voted",
+                "text": "Azure SQL Database Premium",
                 "correct": false,
                 "voted": true
             },
@@ -6517,7 +6517,7 @@
                 "voted": false
             },
             {
-                "text": "Azure SQL Database Premium Most Voted",
+                "text": "Azure SQL Database Premium",
                 "correct": false,
                 "voted": true
             }
@@ -6582,7 +6582,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Create an access policy for the blob service. Most Voted",
+                "text": "Create an access policy for the blob service.",
                 "correct": true,
                 "voted": true
             },
@@ -6622,7 +6622,7 @@
                 "voted": false
             },
             {
-                "text": "an Azure function Most Voted",
+                "text": "an Azure function",
                 "correct": false,
                 "voted": true
             },
@@ -6662,7 +6662,7 @@
                 "voted": false
             },
             {
-                "text": "deployment slots Most Voted",
+                "text": "deployment slots",
                 "correct": true,
                 "voted": true
             },
@@ -6692,12 +6692,12 @@
                 "voted": false
             },
             {
-                "text": "one App Service Environment (ASE) per region Most Voted",
+                "text": "one App Service Environment (ASE) per region",
                 "correct": true,
                 "voted": true
             },
             {
-                "text": "one App Service plan per region Most Voted",
+                "text": "one App Service plan per region",
                 "correct": false,
                 "voted": true
             },
@@ -6749,7 +6749,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Deploy domain controllers for corp.fabrikam.com to virtual networks in Azure. Most Voted",
+                "text": "Deploy domain controllers for corp.fabrikam.com to virtual networks in Azure.",
                 "correct": true,
                 "voted": true
             },
@@ -6837,7 +6837,7 @@
                 "voted": false
             },
             {
-                "text": "a private endpoint Most Voted",
+                "text": "a private endpoint",
                 "correct": true,
                 "voted": true
             }
@@ -6864,7 +6864,7 @@
                 "voted": false
             },
             {
-                "text": "2 Most Voted",
+                "text": "2",
                 "correct": true,
                 "voted": true
             },
@@ -6943,7 +6943,7 @@
                 "voted": false
             },
             {
-                "text": "Azure AD Connect Health Most Voted",
+                "text": "Azure AD Connect Health",
                 "correct": true,
                 "voted": true
             }
@@ -6963,7 +6963,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "Configure a long-term retention policy for the database. Most Voted",
+                "text": "Configure a long-term retention policy for the database.",
                 "correct": true,
                 "voted": true
             },
@@ -7015,7 +7015,7 @@
                 "voted": false
             },
             {
-                "text": "Azure Application Insights Most Voted",
+                "text": "Azure Application Insights",
                 "correct": true,
                 "voted": true
             },
@@ -7058,7 +7058,7 @@
                 "voted": false
             },
             {
-                "text": "a vCore-based Azure SQL database Most Voted",
+                "text": "a vCore-based Azure SQL database",
                 "correct": true,
                 "voted": true
             }
@@ -7107,7 +7107,7 @@
         "isMCQ": true,
         "myOptionsAre": [
             {
-                "text": "an Azure Cosmos DB that uses multi-region writes Most Voted",
+                "text": "an Azure Cosmos DB that uses multi-region writes",
                 "correct": true,
                 "voted": true
             },

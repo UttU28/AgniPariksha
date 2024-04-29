@@ -30,17 +30,17 @@ for index, questionBlock in enumerate(iAmData):
             if votedAnswers == None or votedAnswers == []:
                 # print("sdv")
                 if option[0] in correctAnswer and votedAnswers == None:
-                    reformattedOptions.append({'text': option[3:], 'correct': True, 'voted': True})
+                    reformattedOptions.append({'text': option[3:].replace(' Most Voted',''), 'correct': True, 'voted': True})
                 elif option[0] not in correctAnswer and votedAnswers == None:
-                    reformattedOptions.append({'text': option[3:], 'correct': False, 'voted': False})
+                    reformattedOptions.append({'text': option[3:].replace(' Most Voted',''), 'correct': False, 'voted': False})
             elif option[0] in correctAnswer and option[0] in votedAnswers:
-                reformattedOptions.append({'text': option[3:], 'correct': True, 'voted': True})
+                reformattedOptions.append({'text': option[3:].replace(' Most Voted',''), 'correct': True, 'voted': True})
             elif option[0] in correctAnswer and option[0] not in votedAnswers:
-                reformattedOptions.append({'text': option[3:], 'correct': True, 'voted': False})
+                reformattedOptions.append({'text': option[3:].replace(' Most Voted',''), 'correct': True, 'voted': False})
             elif option[0] not in correctAnswer and option[0] in votedAnswers:
-                reformattedOptions.append({'text': option[3:], 'correct': False, 'voted': True})
+                reformattedOptions.append({'text': option[3:].replace(' Most Voted',''), 'correct': False, 'voted': True})
             elif option[0] not in correctAnswer and option[0] not in votedAnswers:
-                reformattedOptions.append({'text': option[3:], 'correct': False, 'voted': False})
+                reformattedOptions.append({'text': option[3:].replace(' Most Voted',''), 'correct': False, 'voted': False})
         questionBlock['myOptionsAre'] = reformattedOptions
 
     questionBlock.pop('answersAre')
