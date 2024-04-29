@@ -14,7 +14,7 @@ from time import sleep
 app = Flask(__name__)
 
 
-certificationName = "az-400"
+certificationName = "az-305"
 iAmData = None
 with open(f"{certificationName}-questionData.json", "r") as oldFile: iAmData = json.load(oldFile)
 

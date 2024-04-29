@@ -7,7 +7,7 @@ import json
 import subprocess
 import sys
 
-certificationName = "az-400"
+certificationName = "az-305"
 
 def writeData(questionsInJSON):
     try: 
@@ -21,9 +21,9 @@ def writeData(questionsInJSON):
 
 
 siteUrl = f"https://www.examtopics.com/exams/microsoft/{certificationName}/view/"
-chrome_driver_path = "C:/chromeDriver/chromedriver.exe"
+chrome_driver_path = "C:/chromeDriver/chromeDriver/chromedriver.exe"
 
-subprocess.Popen(['C:/Program Files/Google/Chrome/Application/chrome.exe', '--remote-debugging-port=8989', '--user-data-dir=C:/Users/midhdesk1/Desktop/AgniPariksha/chromeData/'])
+subprocess.Popen(['C:/Program Files (x86)/Google/Chrome/Application/chrome.exe', '--remote-debugging-port=8989', '--user-data-dir=C:/Users/iandm/Desktop/AgniPariksha/chromeData'])
 sleep(2)
 options = Options()
 options.add_experimental_option("debuggerAddress", "localhost:8989")

@@ -1,6 +1,6 @@
 import json
 
-certificationName = "az-400"
+certificationName = "az-305"
 
 iAmData = None
 with open(f"{certificationName}-rawData.json", "r") as oldFile: iAmData = json.load(oldFile)
@@ -10,7 +10,11 @@ dataCollector = []
 for index, questionBlock in enumerate(iAmData):
     sampleData = questionBlock['questionNumber'].split('--')
     questionBlock['questionNumber'] = sampleData[0].replace('Question #','').strip()
-    questionBlock['topicNumber'] = sampleData[-1].replace('Topic ','').strip()
+    topicNumber = sampleData[-1].replace('Topic ', '').strip()
+
+    if int(topicNumber) < 10:
+        topicNumber = f"0{topicNumber}"
+    questionBlock['topicNumber'] = topicNumber
 
     reformattedOptions = []
     correctAnswer = questionBlock['answersAre']
