@@ -17,7 +17,7 @@
                     <div class="mainBoxContainer">
                         {% for topic in topics %}
                         <div class="mainBox {{ topic }}">
-                            <input style="display: none" type="checkbox" id="{{ topic }}" name="topic" value="{{ topic }}">
+                            <input class="checkboxx" style="display: block" type="checkbox" id="{{ topic }}" name="topic" value="{{ topic }}">
                             <label for="{{ topic }}">{{ topic }}</label><br>
                         </div>
                         {% endfor %}
@@ -28,15 +28,16 @@
             </form>
         </div>
     </div>
+    <div class="signature">Yatra Tatra Sarvatra Shiva </div>
 
     <script>
         $(document).ready(function() {
-            $('.mainBox').click(function() {
-                var checkbox = $(this).find('input[type="checkbox"]');
-                checkbox.prop('checked', !checkbox.prop('checked'));
-                $(this).toggleClass('selectedBox');
-            });
-            $('.mainBox label').click(function(e) {
+            // $('.mainBox').click(function() {
+            //     var checkbox = $(this).find('input[type="checkbox"]');
+            //     checkbox.prop('checked', !checkbox.prop('checked'));
+            //     $(this).toggleClass('selectedBox');
+            // });
+            $('.checkboxx').click(function(e) {
                 var checkbox = $(this).prev('input[type="checkbox"]');
                 checkbox.prop('checked', !checkbox.prop('checked'));
                 $(this).parent().toggleClass('selectedBox');
