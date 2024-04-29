@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, jsonify
 import json
-import pyautogui as pi
 from time import sleep
 
+# import pyautogui as pi
 # pi.hotkey('win','1')
 # sleep(1)
 # pi.hotkey('ctrl','shift','n')
