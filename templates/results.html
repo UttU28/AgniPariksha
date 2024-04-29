@@ -4,33 +4,46 @@
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='results.css') }}">
     <title>Filtered Results</title>
 </head>
 <body>
     <h1>Filtered Results</h1>
-    <div>
+    <div class="container">
         <div class="changingData">
-            <div class="questionNumber"></div>
-            <div class="topicNumber"></div>
+            <div class="numberBlock">
+                <div class="questionNumber"></div>
+                <div class="topicNumber"></div>
+            </div>
 
-            <div class="questionIs"></div>
-            <div class="questionImages"></div>
-
-            <div class="optionsAre"></div>
-            <div class="checkAnswers">SUBMIT</div>
-
-            <div class="descriptionIs"></div>
-            <div class="descriptionImages"></div>
+            <div class="innerContainer">
+                <div class="questionBlock">
+                    <div class="questionIs"></div>
+                    <div class="questionImages"></div>
+                </div>
+                <div class="isMultiple">Multiple Correct Answers</div>
+                <div class="answeringBlock">
+                    <div class="optionsAre"></div>
+                    <div class="checkAnswers"><span class="descriptionText" mode="notHidden"></span> DESCRIPTION</div>
+                </div>
+                
+                <div class="answerBlock" style="display: none;">
+                    <div class="descriptionIs"></div>
+                    <div class="descriptionImages"></div>
+                </div>
+            </div>
+            <div class="directorBlock">
+                <div class="nextButton directionButton" name="direction" value="previous">PREV</div>
+                <div class="currentIndex">INDEX_HERE</div>
+                <div class="previousButton directionButton" name="direction" value="next">NEXT</div>
+            </div>
         </div>
-        <form action="/navigate" method="post">
-            <input type="hidden" name="selectedTopics" value="{{ selectedTopics }}">
-            <input type="hidden" name="currentIndex" value="{{ currentIndex }}">
-            <input type="hidden" name="filteredData" value="{{ filteredData | tojson }}">
-            <div name="direction" value="previous">Previous</div>
-            <div name="direction" value="next">Next</div>
-        </form>
     </div>
 
+
+    <script>
+
+    </script>
     <script>
         $(document).ready(function() {
             var currentIndex = 0;
@@ -38,10 +51,11 @@
 
             // Function to display data
             function displayData() {
-
+                $('.currentIndex').text((currentIndex+1)+'/'+Object.keys(filteredData).length)
+                $('.answerBlock').css('display', 'none');
                 $('.questionNumber').text(''); $('.topicNumber').text(''); $('.questionIs').text(''); $('.questionImages').text(''); $('.optionsAre').text(''); $('.descriptionIs').text(''); $('.descriptionImages').text(''); var keys = Object.keys(filteredData[currentIndex]);
-                $('.questionNumber').text(filteredData[currentIndex]['questionNumber']);
-                $('.topicNumber').text(filteredData[currentIndex]['topicNumber']);
+                $('.questionNumber').text('Question #'+filteredData[currentIndex]['questionNumber']);
+                $('.topicNumber').text('Topic '+filteredData[currentIndex]['topicNumber']);
                 $('.questionIs').text(filteredData[currentIndex]['questionIs']);
                 $.each(filteredData[currentIndex]['questionImages'], function(index, imageUrl) {
                     var imgTag = '<img class="questionImage" src="'+imageUrl+'">';
@@ -49,15 +63,22 @@
                 });
 
                 if (filteredData[currentIndex]['isMCQ']){
-                    if (filteredData[currentIndex]['multipleAnswers']) {var inputType = 'checkbox';}
-                    else {var inputType = 'radio';}
+                    if (filteredData[currentIndex]['multipleAnswers']) {
+                        var inputType = 'checkbox';
+                        $('.isMultiple').css('display', 'block')
+                    }
+                    else {
+                        var inputType = 'radio';
+                        $('.isMultiple').css('display', 'none')
+                }
 
                     filteredData[currentIndex]['myOptionsAre'].forEach(function(option, index) {
-                        var inputElement = '<input type="'+ inputType +'" name="quizOption" id="option' + index + '" value="' + option.text + '">';
-                        var labelElement = '<label for="option' + index + '">' + option.text + '</label><br>';
-                        $('.optionsAre').append(inputElement + labelElement);
+                        var votedStatus = option.voted ? '&#x2713;⠀Voted' : '';
+                        var voteStatusElement = option.voted ? '<span class="voteStatus" style="display: none">' + votedStatus + '</span>' : '';
+                        var makeDiv = '<div class="thisOption divOf' + index + '" voted="' + option.voted + '" correct="' + option.correct + '">' + option.text + voteStatusElement + '</div>';
+                        $('.optionsAre').append(makeDiv);
                     });
-                    
+
                 }
 
                 $('.descriptionIs').text(filteredData[currentIndex]['descriptionIs']);
@@ -71,16 +92,40 @@
 
             $("div[name='direction']").click(function() {
                 var direction = $(this).attr("value");
-
+                $('.checkAnswers').find('.descriptionText').css('display', 'none');
                 if (direction === "next") {
                     currentIndex = (currentIndex + 1) % Object.keys(filteredData).length;
                 } else if (direction === "previous") {
                     currentIndex = (currentIndex - 1 + Object.keys(filteredData).length) % Object.keys(filteredData).length;
                 }
-
-                // Update data when direction is clicked
                 displayData();
             });
+
+            $('.optionsAre').on('click', '.thisOption', function() {
+                var voted = $(this).attr('voted');
+                var correct = $(this).attr('correct');
+
+                $(this).removeClass('votedAnswer notVotedAnswer');
+                if (voted === 'true') {
+                    $(this).find('.voteStatus').css('display', 'block');
+                }
+
+                $(this).removeClass('correctAnswer notCorrectAnswer');
+                if (correct === 'true') {$(this).addClass('correctAnswer');}
+                else {$(this).addClass('notCorrectAnswer');}
+            });
+            $('.checkAnswers').on('click', function() {
+                var mode = $(this).data('mode'); // Get the current mode
+                if (mode === 'notHidden') {
+                    $('.answerBlock').css('display', 'none');
+                    $(this).data('mode', 'hidden'); // Update mode to hidden
+                } else {
+                    $('.answerBlock').css('display', 'flex');
+                    $(this).data('mode', 'notHidden'); // Update mode to notHidden
+                }
+            });
+
+
         });
 
     </script>

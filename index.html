@@ -4,28 +4,59 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="static/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Quiz App</title>
 </head>
 
 <body>
-    <div class="welcome-screen">
-        <h1>Welcome to the Quiz!</h1>
-        <button class="start-btn">Start Quiz</button>
+    <h1>Filtered Results</h1>
+    <div class="container">
+        <div class="changingData">
+            <div class="numberBlock">
+                <div class="questionNumber">Question #1</div>
+                <div class="topicNumber">Topic 01</div>
+            </div>
+
+            <div class="innerContainer">
+                <div class="questionBlock">
+                    <div class="questionIs">You are configuring project metrics for dashboards in Azure DevOps.
+                        You need to configure a chart widget that measures the elapsed time to complete work items once
+                        they become active.
+                        Which of the following is the widget you should use?</div>
+                    <div class="questionImages"></div>
+                </div>
+
+                <div class="answeringBlock">
+                    <div class="optionsAre">
+                        <div class="thisOption divOf0" voted="false" correct="false">Cumulative Flow Diagram</div>
+                        <div class="thisOption divOf1" voted="false" correct="false">Burnup</div>
+                        <div class="thisOption divOf2" voted="true" correct="true">Cycle time<span class="voteStatus"
+                                style="display: none">✓ Voted</span></div>
+                        <div class="thisOption divOf3" voted="false" correct="false">Burndown</div>
+                    </div>
+                    <div class="checkAnswers"><span class="descriptionText" mode="notHidden">SHOW</span> DESCRIPTION
+                    </div>
+                </div>
+
+                <div class="answerBlock" style="display: block;">
+                    <div class="descriptionIs">Cycle time measures the time it takes for your team to complete work
+                        items once they begin actively working on them.
+                        Reference:
+                        https://docs.microsoft.com/en-us/azure/devops/report/dashboards/cycle-time-and-lead-time?view=vsts
+                    </div>
+                    <div class="descriptionImages"><img class="descriptionImage"
+                            src="https://www.examtopics.com/assets/media/exam-media/04257/0000300001.png"></div>
+                </div>
+            </div>
+            <div class="directorBlock">
+                <div class="nextButton directionButton" name="direction" value="previous"><</div>
+                <div class="currentIndex">5/30</div>
+                <div class="previousButton directionButton" name="direction" value="next">></div>
+            </div>
+        </div>
     </div>
 
-    <div class="quiz-screen" style="display: none">
-        <h2 class="question"></h2>
-        <div class="answers-container">
-            <!-- <button class="ans-btn correct-ans">Answer 1</button>
-                <button class="ans-btn wrong-ans">Answer 2</button>
-                <button class="ans-btn">Answer 3</button>
-                <button class="ans-btn">Answer 4</button> -->
-        </div>
-        <!-- <button class="chk-ans">Submit</button> -->
-        <button class="next-btn">Next</button>
-    </div>
-    <script src="script.js"></script>
 </body>
 
 </html>

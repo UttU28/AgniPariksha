@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0e111b;
+    font-family: "Poppins", sans-serif;
+    color: #d6d6d6;
+}
+
+.container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.changingData{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numberBlock{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.questionNumber, .topicNumber{
+    padding: 0 10px;
+}
+
+.questionBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.questionImages {
+    text-align: center;
+}
+
+.questionImages img {
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.isMultiple{
+    width: 65%;
+    text-align: right;
+    color: #50d57a;
+    font-weight: bold;
+}
+
+.answeringBlock{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.optionsAre{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thisOption {
+    background-color: #20232e;
+    font-size: 18px;
+    width: 60%;
+    margin-bottom: 5px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #384052;
+    border-bottom: 4px solid #384052;
+    text-align: left;
+    padding: 4px 12px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.thisOption:hover {
+    transform: scale(1.01) translateY(-2px);
+    border-bottom: 8px solid #384052;
+}
+
+.thisOption label{
+    width: 100%;
+}
+
+.checkAnswers{
+    background-color: #20232e;
+    margin-top: 10px;
+    font-size: 18px;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+.selectedOption {
+    background-color: #ccc; /* Change this to your desired background color */
+}
+
+.correctAnswer{
+    background-color: #7ef190;
+    color: #000;
+    border-color: #50d57a;
+}
+.correctAnswer:hover{
+    border-color: #50d57a;
+}
+
+.notCorrectAnswer{
+    background-color: #e66f9e;
+    color: #000;
+    border-color: #de4670;
+}
+.notCorrectAnswer:hover {
+    border-color: #de4670;
+}
+
+.thisOption{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.voteStatus{
+    position: relative;
+    left: 80px;
+    color: #2dff3b;
+    font-size: 13px;
+    font-weight: bold;
+
+    /* border-right: ; */
+}
+
+.answerBlock{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.descriptionImages {
+    text-align: center;
+}
+
+.descriptionImages img {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.directorBlock{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.directionButton{
+    padding: 7px 10px;
+    font-size: 20px;
+    background: #2dff3b;
+    border-radius: 12px;
+    color: #373737;
+    font-weight: bolder;
+}
+
+.currentIndex{
+    font-weight: bold;
+    color: #7ef190;
+}
+
+
+/* Desktop styles */
+/* Your existing CSS here */
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust the font size for smaller screens */
+    }
+
+    .changingData {
+        width: 100%; /* Make the changing data section take full width on smaller screens */
+    }
+
+    .questionBlock {
+        width: 100%; /* Make the question block take full width on smaller screens */
+        text-align: center; /* Center-align the text */
+    }
+
+    
+    .isMultiple{
+        width: 95%;
+    }
+
+    .answeringBlock {
+        width: 100%; /* Make the answering block take full width on smaller screens */
+    }
+
+    .optionsAre {
+        width: 100%; /* Make the options take full width on smaller screens */
+    }
+
+    .thisOption {
+        width: 90%; /* Adjust the width of the options for smaller screens */
+    }
+
+    .directorBlock {
+        width: 70%; /* Make the director block take full width on smaller screens */
+        margin-top: 20px; /* Increase the margin for spacing */
+    }
+
+    .directionButton {
+        font-size: 16px; /* Adjust the font size of the buttons for smaller screens */
+    }
+
+    .voteStatus{
+        position: relative;
+        left: 0;
+        top: 10px;
+        color: #2d5aff;
+        font-size: 13px;
+        font-weight: bold;
+        /* border-right: ; */
+    }
+    
+}

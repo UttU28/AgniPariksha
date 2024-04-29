@@ -3,13 +3,13 @@ import json
 import pyautogui as pi
 from time import sleep
 
-pi.hotkey('win','1')
-sleep(1)
-pi.hotkey('ctrl','shift','n')
-sleep(0.5)
-pi.typewrite('127.0.0.1:5000')
-sleep(0.5)
-pi.press('enter')
+# pi.hotkey('win','1')
+# sleep(1)
+# pi.hotkey('ctrl','shift','n')
+# sleep(0.5)
+# pi.typewrite('127.0.0.1:5000')
+# sleep(0.5)
+# pi.press('enter')
 
 app = Flask(__name__)
 
@@ -55,4 +55,4 @@ def get_unique_values(key):
     return sorted(list({int(d[key]) for d in iAmData}))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')

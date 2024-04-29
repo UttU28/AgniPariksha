@@ -2,17 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='index.css') }}">
     <title>Filter Data</title>
+
 </head>
 <body>
-    <form action="/filter" method="post">
-        <label for="topics">Select topics:</label><br>
-        {% for topic in topics %}
-            <input type="checkbox" id="{{ topic }}" name="topic" value="{{ topic }}">
-            <label for="{{ topic }}">{{ topic }}</label><br>
-        {% endfor %}
-        <button type="submit">Filter</button>
-    </form>
+    <div class="container">
+        <div class="innerContainer">
+            <form class="thisForm" action="/filter" method="post">
+                <div class="displayText">Select Topics</div>
+                <div class="selectionBox">
+                    <div class="mainBoxContainer">
+                        {% for topic in topics %}
+                        <div class="mainBox {{ topic }}">
+                            <input style="display: none" type="checkbox" id="{{ topic }}" name="topic" value="{{ topic }}">
+                            <label for="{{ topic }}">{{ topic }}</label><br>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                
+                <button class="directionButton" type="submit">Filter</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('.mainBox').click(function() {
+                var checkbox = $(this).find('input[type="checkbox"]');
+                checkbox.prop('checked', !checkbox.prop('checked'));
+                $(this).toggleClass('selectedBox');
+            });
+            $('.mainBox label').click(function(e) {
+                var checkbox = $(this).prev('input[type="checkbox"]');
+                checkbox.prop('checked', !checkbox.prop('checked'));
+                $(this).parent().toggleClass('selectedBox');
+            });
+        });
+
+    </script>
 </body>
 </html>
