@@ -593,7 +593,7 @@
             },
             {
                 "text": "You should make use of views.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -603,7 +603,7 @@
             },
             {
                 "text": "You should make use of upstream sources.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -725,7 +725,7 @@
             },
             {
                 "text": "The PowerShell Desired State Configuration (DSC) extension for Windows",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -735,7 +735,7 @@
             },
             {
                 "text": "The Custom Script Extension for Windows",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -871,7 +871,7 @@
             {
                 "text": "Yes",
                 "correct": false,
-                "voted": true
+                "voted": false
             },
             {
                 "text": "No",
@@ -893,7 +893,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "Exceptions in your live web app are reported by Application Insights.\nNote: Periodical reports help keep a team informed on how their business critical services are doing. Developers, DevOps/SRE teams, and their managers can be productive with automated reports reliably delivering insights without requiring everyone to sign in the portal. Such reports can also help identify gradual increases in latencies, load or failure rates that may not trigger any alert rules.\nYou can programmatically query Application Insights data to generate custom reports on a schedule. The following options can help you get started quickly:\nAutomate reports with Microsoft Flow\n\n\u2711 Automate reports with Logic Apps\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-exceptions https://docs.microsoft.com/en-us/azure/azure-monitor/app/automate-custom-reports",
+        "descriptionIs": "Logic Apps, Application Insight \n Exceptions in your live web app are reported by Application Insights.\nNote: Periodical reports help keep a team informed on how their business critical services are doing. Developers, DevOps/SRE teams, and their managers can be productive with automated reports reliably delivering insights without requiring everyone to sign in the portal. Such reports can also help identify gradual increases in latencies, load or failure rates that may not trigger any alert rules.\nYou can programmatically query Application Insights data to generate custom reports on a schedule. The following options can help you get started quickly:\nAutomate reports with Microsoft Flow\n\n\u2711 Automate reports with Logic Apps\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-exceptions https://docs.microsoft.com/en-us/azure/azure-monitor/app/automate-custom-reports",
         "descriptionImages": [
             "https://www.examtopics.com/assets/media/exam-media/04257/0003200002.png"
         ],
@@ -1276,7 +1276,7 @@
             },
             {
                 "text": "Redeploy VMSS1.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -1291,7 +1291,7 @@
             },
             {
                 "text": "Update the configuration of a virtual machine in VMSS1.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -1468,7 +1468,7 @@
         "myOptionsAre": [
             {
                 "text": "From Microsoft Teams, run @azure pipelines subscribe https://dev.azure.com/Contoso/Project1.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -1478,7 +1478,7 @@
             },
             {
                 "text": "From Microsoft Teams, run @azure pipelines subscriptions.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -1501,12 +1501,12 @@
         "myOptionsAre": [
             {
                 "text": "From Azure DevOps, configure a service hook subscription",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "From Microsoft Teams, configure a connector",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -1733,7 +1733,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "",
+        "descriptionIs": "stateDiagram, Processing",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "02",
@@ -1747,7 +1747,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "",
+        "descriptionIs": "Disable Adaptive Sampling, Modify the Usage and Estimation cost Settings.",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "02",
@@ -1832,7 +1832,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "",
+        "descriptionIs": "Logs \n| where continent == 'Asia' \n| join ( Events | where timestamp > ago(2d)\n) an RequestId",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "02",
@@ -1846,7 +1846,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "",
+        "descriptionIs": "bin(TimeGenerated, 1h), extend",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "02",
@@ -1860,7 +1860,7 @@
         "myOptionsAre": [
             {
                 "text": "appsettings.json",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -1870,7 +1870,7 @@
             },
             {
                 "text": "startup.cs",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -1893,7 +1893,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "",
+        "descriptionIs": "1. TimeGenerated > ago (7d) \n 2. bin(TimeGenerated, 1h)",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "02",
@@ -1907,7 +1907,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "",
+        "descriptionIs": "Answer are timestamp >= 1h and project. We need to project (show )",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "02",
@@ -1915,13 +1915,13 @@
     },
     {
         "questionNumber": "41",
-        "questionIs": "DRAG DROP\n-\n\nYou have a project in Azure DevOps.\n\nYou need to configure a dashboard. The solution must include the following metrics:\n\n\u2022 Bottlenecks in the software development process\n\u2022 A burndown chart for the work in a single iteration\n\u2022 How long it takes to close a work item after the item was started\n\nWhich type of widget should you use for each metric? To answer, drag the appropriate widget types to the correct metrics. Each widget type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\n\nNOTE: Each correct selection is worth one point.",
+        "questionIs": "DRAG DROP\n-\n\nYou have a project in Azure DevOps.\n\nYou need to configure a dashboard. The solution must include the following metrics:\n\n\u2022 Bottlenecks in the software development process\n\u2022 How long it takes to close a work item after the item was started\n\u2022 A burndown chart for the work in a single iteration\n\nWhich type of widget should you use for each metric? To answer, drag the appropriate widget types to the correct metrics. Each widget type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\n\nNOTE: Each correct selection is worth one point.",
         "questionImages": [
             "https://img.examtopics.com/az-400/image82.png"
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "",
+        "descriptionIs": "1. Burndown Chart \n 2. Cycle Time \n 3. Sprint Burndown",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "02",
@@ -1935,7 +1935,7 @@
         "myOptionsAre": [
             {
                 "text": "the secret key of WS1",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -1955,7 +1955,7 @@
             },
             {
                 "text": "the resource ID of VM1",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -1973,7 +1973,7 @@
         "myOptionsAre": [
             {
                 "text": "Events",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -1988,7 +1988,7 @@
             },
             {
                 "text": "Users",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
