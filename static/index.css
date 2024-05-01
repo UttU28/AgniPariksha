@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0e111b;
+    font-family: "Poppins", sans-serif;
+    color: #d6d6d6;
+}
+
+.container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.mainBox {
+    text-align: center;
+    z-index: 2;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #20232e;
+    margin: 5px;
+    /* width: calc(100% / 4 - 20px); */
+}
+
+.mainBox:hover {
+    background-color: #7ef190;
+    color: #20232e;
+    cursor: pointer;
+    /* width: calc(100% / 4 - 20px); */
+}
+.mainBox label {
+    position: relative;
+    z-index: 1; /* Set z-index lower than the mainBox div */
+}
+
+.selectedBox {
+    background-color: #7ef190;
+    color: #0e111b;
+}
+
+.displayText{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.certificationName{
+    text-align: center;
+    font-size: 20px;
+    color: #50d57a;
+}
+
+.signature {
+    font-weight: bold;
+    text-align: right;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #7a7a7a;
+}

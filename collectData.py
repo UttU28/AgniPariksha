@@ -7,7 +7,7 @@ import json
 import subprocess
 import sys
 
-certificationName = "az-400"
+certificationName = "az-305"
 
 def writeData(questionsInJSON):
     try: 
@@ -21,9 +21,10 @@ def writeData(questionsInJSON):
 
 
 siteUrl = f"https://www.examtopics.com/exams/microsoft/{certificationName}/view/"
-chrome_driver_path = "C:/chromeDriver/chromedriver.exe"
+chrome_driver_path = "C:/chromeDriver/chromeDriver/chromedriver.exe"
 
-subprocess.Popen(['C:/Program Files/Google/Chrome/Application/chrome.exe', '--remote-debugging-port=8989', '--user-data-dir=C:/Users/midhdesk1/Desktop/AgniPariksha/chromeData/'])
+# subprocess.Popen(['C:/Program Files (x86)/Google/Chrome/Application/chrome.exe', '--remote-debugging-port=8989', '--user-data-dir=C:/Users/iandm/Desktop/AgniPariksha/chromeData'])
+subprocess.Popen(["C:/Program Files/Google/Chrome/Application/chrome.exe", '--remote-debugging-port=8989', '--user-data-dir=C:/Users/midhdesk1/Desktop/AgniPariksha/chromeData'])
 sleep(2)
 options = Options()
 options.add_experimental_option("debuggerAddress", "localhost:8989")
@@ -47,7 +48,7 @@ while driver.title != "404 - Page not found":
 
     for questionNumber, cardData in enumerate(questionCard):
         linkIs = siteUrl
-        myOptionsAre, mostVotedIs, isMCQ = [], None, False
+        myOptionsAre, mostVotedAre, isMCQ = [], [], False
         questionImages, descriptionImages = [], []
         
         questionNumber = cardData.find_element(By.CSS_SELECTOR, ".card-header.text-white.bg-primary").text.replace("\n"," -- ")
@@ -62,7 +63,12 @@ while driver.title != "404 - Page not found":
         
         revealSolution = cardData.find_element(By.CLASS_NAME, "reveal-solution").click()
         # sleep(1)
-        answerIs = cardData.find_element(By.CLASS_NAME, "correct-answer").text.strip()
+        answersAre = cardData.find_elements(By.CSS_SELECTOR, ".multi-choice-item.correct-hidden.correct-choice")
+        correctOptions = []
+        for answer in answersAre:
+            thisOption = answer.find_element(By.CLASS_NAME, 'multi-choice-letter').get_attribute('data-choice-letter')
+            print(thisOption)
+            correctOptions.append(thisOption)
         descriptionCard = cardData.find_element(By.CLASS_NAME, "answer-description")
         descriptionIs = descriptionCard.text
         imageBlocks = descriptionCard.find_elements(By.TAG_NAME, "img")
@@ -80,7 +86,7 @@ while driver.title != "404 - Page not found":
                 try:
                     mostVoted = option.find_element(By.CSS_SELECTOR, "span.most-voted-answer-badge")
                     if mostVoted:
-                        mostVotedIs = option.text
+                        mostVotedAre.append(option.text[0])
                 except: pass
             isMCQ = True
 
@@ -92,10 +98,10 @@ while driver.title != "404 - Page not found":
         # print("QuestionImages: ", questionImages)
         # if isMCQ: print("My Options Are: ", myOptionsAre)
         # else:
-        #     answerIs = descriptionIs + ", ".join(descriptionImages) 
+        #     answersAre = descriptionIs + ", ".join(descriptionImages) 
         #     print("-----------IMAGE QUESTION-----------")
-        # print("AnswerIs: ", answerIs)
-        # print(f"Most Voted Answer is {mostVotedIs}")
+        # print("answersAre: ", answersAre)
+        # print(f"Most Voted Answer is {mostVotedAre}")
         # print("DescriptionIs: ", descriptionIs)
         # print("DescriptionImages: ", descriptionImages)
         # print("LinkIs: ", linkIs)
@@ -107,8 +113,8 @@ while driver.title != "404 - Page not found":
             "questionImages": questionImages,
             "isMCQ": isMCQ,
             "myOptionsAre": myOptionsAre if isMCQ else None,
-            "answerIs": descriptionIs + ", ".join(descriptionImages) if not isMCQ else answerIs,
-            "mostVotedIs": mostVotedIs,
+            "answersAre": descriptionIs + ", ".join(descriptionImages) if not isMCQ else correctOptions,
+            "mostVotedAre": mostVotedAre,
             "descriptionIs": descriptionIs,
             "descriptionImages": descriptionImages,
             "linkIs": linkIs

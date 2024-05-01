@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Certification</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='index.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="innerContainer">
+            <h1>Select Certification</h1>
+            <h5 class="certificationName">Aap ke Screen par ye raha..</h5>
+            <div id="certification_options">
+                {% for certification in certification_files %}
+                    <div class="mainBox" onclick="selectCertification('{{ certification }}')">{{ certification[:6].upper() }}</div>
+                {% endfor %}
+            </div>
+            <form id="certificationForm" action="/selectCertification" method="post">
+                <input type="hidden" id="selectedCertification" name="certification" >
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function selectCertification(certification) {
+            document.getElementById('selectedCertification').value = certification;
+            document.getElementById('certificationForm').submit();
+        }
+    </script>
+    <div class="signature">Yatra Tatra Sarvatra Shiva </div>
+</body>
+</html>
