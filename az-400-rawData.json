@@ -547,7 +547,7 @@
         "mostVotedAre": [
             "B"
         ],
-        "descriptionIs": "Application Insights will tell you about any performance issues and exceptions, and help you find and diagnose the root causes.\nApplication Insights can monitor both Java and ASP.NET web applications and services, WCF services. They can be hosted on-premises, on virtual machines, or as Microsoft Azure websites.\nOn the client side, Application Insights can take telemetry from web pages and a wide variety of devices including iOS, Android, and Windows Store apps.\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/app/web-monitor-performance",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -566,7 +566,7 @@
         "mostVotedAre": [
             "B"
         ],
-        "descriptionIs": "Reference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/insights/azure-sql",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -617,9 +617,9 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "answersAre": "Exceptions in your live web app are reported by Application Insights.\nNote: Periodical reports help keep a team informed on how their business critical services are doing. Developers, DevOps/SRE teams, and their managers can be productive with automated reports reliably delivering insights without requiring everyone to sign in the portal. Such reports can also help identify gradual increases in latencies, load or failure rates that may not trigger any alert rules.\nYou can programmatically query Application Insights data to generate custom reports on a schedule. The following options can help you get started quickly:\nAutomate reports with Microsoft Flow\n\n\u2711 Automate reports with Logic Apps\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-exceptions https://docs.microsoft.com/en-us/azure/azure-monitor/app/automate-custom-reportshttps://www.examtopics.com/assets/media/exam-media/04257/0003200002.png",
+        "answersAre": "https://www.examtopics.com/assets/media/exam-media/04257/0003200002.png",
         "mostVotedAre": [],
-        "descriptionIs": "Exceptions in your live web app are reported by Application Insights.\nNote: Periodical reports help keep a team informed on how their business critical services are doing. Developers, DevOps/SRE teams, and their managers can be productive with automated reports reliably delivering insights without requiring everyone to sign in the portal. Such reports can also help identify gradual increases in latencies, load or failure rates that may not trigger any alert rules.\nYou can programmatically query Application Insights data to generate custom reports on a schedule. The following options can help you get started quickly:\nAutomate reports with Microsoft Flow\n\n\u2711 Automate reports with Logic Apps\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-exceptions https://docs.microsoft.com/en-us/azure/azure-monitor/app/automate-custom-reports",
+        "descriptionIs": "",
         "descriptionImages": [
             "https://www.examtopics.com/assets/media/exam-media/04257/0003200002.png"
         ],
@@ -669,9 +669,9 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "answersAre": "Box 1: percentile_duration_95 -\n\nBox 2: success -\nFor example \u05d2\u20ac\"\nrequests\n| project name, url, success\n| where success == \"False\"\nThis will return all the failed requests in my App Insights within the specified time range.\nReference:\nhttps://devblogs.microsoft.com/premier-developer/alerts-based-on-analytics-query-using-custom-log-search/",
+        "answersAre": "",
         "mostVotedAre": [],
-        "descriptionIs": "Box 1: percentile_duration_95 -\n\nBox 2: success -\nFor example \u05d2\u20ac\"\nrequests\n| project name, url, success\n| where success == \"False\"\nThis will return all the failed requests in my App Insights within the specified time range.\nReference:\nhttps://devblogs.microsoft.com/premier-developer/alerts-based-on-analytics-query-using-custom-log-search/",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -695,7 +695,7 @@
             "A",
             "B"
         ],
-        "descriptionIs": "B: Metric Alert with Dynamic Thresholds detection leverages advanced machine learning (ML) to learn metrics' historical behavior, identify patterns and anomalies that indicate possible service issues. It provides support of both a simple UI and operations at scale by allowing users to configure alert rules through the Azure\nResource Manager API, in a fully automated manner.\nA: You can use Azure Monitor to monitor base-level metrics and logs for most services in Azure. You can call Azure Automation runbooks by using action groups or by using classic alerts to automate tasks based on alerts.\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-dynamic-thresholds https://docs.microsoft.com/en-us/azure/automation/automation-create-alert-triggered-runbook",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -824,7 +824,7 @@
         "mostVotedAre": [
             "A"
         ],
-        "descriptionIs": "Azure Monitor Logs is based on Azure Data Explorer, and log queries are written using the same Kusto query language (KQL). This is a rich language designed to be easy to read and author, and you should be able to start using it with minimal guidance.\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/log-query/log-query-overview",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -848,7 +848,7 @@
             "A",
             "E"
         ],
-        "descriptionIs": "E: Exceptions in your live web app are reported by Application Insights.\nNote: Periodical reports help keep a team informed on how their business critical services are doing. Developers, DevOps/SRE teams, and their managers can be productive with automated reports reliably delivering insights without requiring everyone to sign in the portal. Such reports can also help identify gradual increases in latencies, load or failure rates that may not trigger any alert rules.\nA: You can programmatically query Application Insights data to generate custom reports on a schedule. The following options can help you get started quickly:\n\u2711 Automate reports with Microsoft Flow\n\u2711 Automate reports with Logic Apps\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-exceptions https://docs.microsoft.com/en-us/azure/azure-monitor/app/automate-custom-reports",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -860,9 +860,9 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "answersAre": "Box 1: User Flows -\nThe User Flows tool visualizes how users navigate between the pages and features of your site. It's great for answering questions like:\nHow do users navigate away from a page on your site?\nWhat do users click on a page on your site?\nWhere are the places that users churn most from your site?\nAre there places where users repeat the same action over and over?\n\nBox 2: Users -\nCounting Users: The user behavior analytics tools don't currently support counting users or sessions based on properties other than anonymous user ID, authenticated user ID, or session ID.\n\nBox 3: Impact -\nImpact analyzes how load times and other properties influence conversion rates for various parts of your app. To put it more precisely, it discovers how any dimension of a page view, custom event, or request affects the usage of a different page view or custom event.\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/app/usage-flows https://docs.microsoft.com/en-us/azure/azure-monitor/app/usage-impact https://docs.microsoft.com/en-us/azure/azure-monitor/app/usage-troubleshoot",
+        "answersAre": "",
         "mostVotedAre": [],
-        "descriptionIs": "Box 1: User Flows -\nThe User Flows tool visualizes how users navigate between the pages and features of your site. It's great for answering questions like:\nHow do users navigate away from a page on your site?\nWhat do users click on a page on your site?\nWhere are the places that users churn most from your site?\nAre there places where users repeat the same action over and over?\n\nBox 2: Users -\nCounting Users: The user behavior analytics tools don't currently support counting users or sessions based on properties other than anonymous user ID, authenticated user ID, or session ID.\n\nBox 3: Impact -\nImpact analyzes how load times and other properties influence conversion rates for various parts of your app. To put it more precisely, it discovers how any dimension of a page view, custom event, or request affects the usage of a different page view or custom event.\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/app/usage-flows https://docs.microsoft.com/en-us/azure/azure-monitor/app/usage-impact https://docs.microsoft.com/en-us/azure/azure-monitor/app/usage-troubleshoot",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -919,9 +919,9 @@
         "questionImages": [],
         "isMCQ": false,
         "myOptionsAre": null,
-        "answersAre": "1. Open Microsoft Azure Portal\n2. Log into your Azure account and go to App Service and look under Monitoring then you will see Alert.\n3. Select Add an alert rule\n4. Configure the alert rule as per below and click Ok.\n\nSource: Alert on Metrics -\nResource Group: az400-123456789-main\n\nResource: az400-123456789-main -\n\nThreshold: 5 -\n\nPeriod: Over the last 5 minutes -\nWebhook: https://contoso.com/notify\n\nReference:\nhttps://azure.microsoft.com/es-es/blog/webhooks-for-azure-alerts/https://www.examtopics.com/assets/media/exam-media/04257/0005600001.jpg",
+        "answersAre": "https://www.examtopics.com/assets/media/exam-media/04257/0005600001.jpg",
         "mostVotedAre": [],
-        "descriptionIs": "1. Open Microsoft Azure Portal\n2. Log into your Azure account and go to App Service and look under Monitoring then you will see Alert.\n3. Select Add an alert rule\n4. Configure the alert rule as per below and click Ok.\n\nSource: Alert on Metrics -\nResource Group: az400-123456789-main\n\nResource: az400-123456789-main -\n\nThreshold: 5 -\n\nPeriod: Over the last 5 minutes -\nWebhook: https://contoso.com/notify\n\nReference:\nhttps://azure.microsoft.com/es-es/blog/webhooks-for-azure-alerts/",
+        "descriptionIs": "",
         "descriptionImages": [
             "https://www.examtopics.com/assets/media/exam-media/04257/0005600001.jpg"
         ],
@@ -965,9 +965,9 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "answersAre": "You can use makelist to pivot data by the order of values in a particular column. For example, you may want to explore the most common order events take place on your machines. You can essentially pivot the data by the order of EventIDs on each machine.\nExample:\n\nEvent -\n| where TimeGenerated > ago(12h)\n| order by TimeGenerated desc\n| summarize makelist(EventID) by Computer\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/log-query/advanced-aggregations",
+        "answersAre": "",
         "mostVotedAre": [],
-        "descriptionIs": "You can use makelist to pivot data by the order of values in a particular column. For example, you may want to explore the most common order events take place on your machines. You can essentially pivot the data by the order of EventIDs on each machine.\nExample:\n\nEvent -\n| where TimeGenerated > ago(12h)\n| order by TimeGenerated desc\n| summarize makelist(EventID) by Computer\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/log-query/advanced-aggregations",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -994,16 +994,14 @@
             "A. custom events",
             "B. Application Insights Profiler",
             "C. usage analysis",
-            "D. Smart Detection Most Voted",
+            "D. Smart Detection",
             "E. Continuous export"
         ],
-        "answersAre": [
-            "D"
-        ],
+        "answersAre": [],
         "mostVotedAre": [
             "D"
         ],
-        "descriptionIs": "Smart Detection automatically warns you of potential performance problems and failure anomalies in your web application. It performs proactive analysis of the telemetry that your app sends to Application Insights. If there is a sudden rise in failure rates, or abnormal patterns in client or server performance, you get an alert.\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/app/proactive-diagnostics",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -1015,9 +1013,9 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "answersAre": "Box 1: subscribe -\nTo start monitoring all pipelines in a project, use the following command inside a channel:\n@azure pipelines subscribe [project url]\nBox 2: https://dev.azure.com/contoso/contoso-app/\nSubscribe to a pipeline or all pipelines in a project to receive notifications:\n@azure pipelines subscribe [pipeline url/ project url]",
+        "answersAre": "",
         "mostVotedAre": [],
-        "descriptionIs": "Box 1: subscribe -\nTo start monitoring all pipelines in a project, use the following command inside a channel:\n@azure pipelines subscribe [project url]\nBox 2: https://dev.azure.com/contoso/contoso-app/\nSubscribe to a pipeline or all pipelines in a project to receive notifications:\n@azure pipelines subscribe [pipeline url/ project url]",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -1029,16 +1027,14 @@
         "myOptionsAre": [
             "A. Configure multi-factor authentication (MFA) for your GitHub account.",
             "B. Add the Azure Pipelines app to the GitHub repository.",
-            "C. Add the Azure Boards app to the repository. Most Voted",
+            "C. Add the Azure Boards app to the repository.",
             "D. Create a GitHub action in GitHub."
         ],
-        "answersAre": [
-            "C"
-        ],
+        "answersAre": [],
         "mostVotedAre": [
             "C"
         ],
-        "descriptionIs": "To connect Azure Boards to GitHub.com, connect and configure from Azure Boards. Or, alternatively, install and configure the Azure Boards app from GitHub.\nBoth methods have been streamlined and support authenticating and operating via the app rather than an individual.\nNote (see step 4 below):\nAdd a GitHub connection:\n1. Sign into Azure Boards.\n2. Choose (1) Project Settings, choose (2) GitHub connections and then (3) Connect your GitHub account.\n3. If this is your first time connecting to GitHub from Azure Boards, you will be asked to sign in using your GitHub credentials. Choose an account for which you are an administrator for the repositories you want to connect to.\n4. The Add GitHub Repositories dialog automatically displays and selects all GitHub.com repositories for which you are an administrator. Unselect any repositories that you don't want to participate in the integration.\n\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/boards/github/connect-to-github",
+        "descriptionIs": "",
         "descriptionImages": [
             "https://www.examtopics.com/assets/media/exam-media/04257/0006900001.png"
         ],
@@ -1052,16 +1048,14 @@
         "myOptionsAre": [
             "A. From Microsoft Teams, run @azure pipelines subscribe https://dev.azure.com/Contoso/Project1.",
             "B. From Azure Pipelines, add a Publish Build Artifacts task to Project1.",
-            "C. From Microsoft Teams, run @azure pipelines subscriptions. Most Voted",
+            "C. From Microsoft Teams, run @azure pipelines subscriptions.",
             "D. From Azure Pipelines, enable continuous integration for Project1."
         ],
-        "answersAre": [
-            "A"
-        ],
+        "answersAre": [],
         "mostVotedAre": [
             "C"
         ],
-        "descriptionIs": "To start monitoring all pipelines in a project, use the following command inside a channel:\n@azure pipelines subscribe [project url]\nThe project URL can be to any page within your project (except URLs to pipelines).\nFor example:\n@azure pipelines subscribe https://dev.azure.com/myorg/myproject/\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/pipelines/integrations/microsoft-teams",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -1072,18 +1066,16 @@
         "isMCQ": true,
         "myOptionsAre": [
             "A. From Azure DevOps, configure a service hook subscription",
-            "B. From Microsoft Teams, configure a connector Most Voted",
+            "B. From Microsoft Teams, configure a connector",
             "C. From the Microsoft Teams admin center, configure external access",
             "D. From Microsoft Teams, add a channel",
             "E. From Azure DevOps, install an extension"
         ],
-        "answersAre": [
-            "A"
-        ],
+        "answersAre": [],
         "mostVotedAre": [
             "B"
         ],
-        "descriptionIs": "Service hooks let you run tasks on other services when events happen in your Azure DevOps projects. For example, create a card in Trello when a work item is created or send a push notification to your team's mobile devices when a build fails. You can also use service hooks in custom apps and services as a more efficient way to drive activities when events happen in your projects.\nNote: Service hook publishers define a set of events. Subscriptions listen for the events and define actions to take based on the event. Subscriptions also target consumers, which are external services that can run their own actions, when an event occurs.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/service-hooks/overview",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -1095,14 +1087,12 @@
         ],
         "isMCQ": true,
         "myOptionsAre": [
-            "A. a failed attempt to delete the ASP-9bb7 resource Most Voted",
+            "A. a failed attempt to delete the ASP-9bb7 resource",
             "B. a change to a role assignment for the ASP-9bb7 resource",
             "C. a successful attempt to delete the ASP-9bb7 resource",
             "D. a failed attempt to scale up the ASP-9bb7 resource"
         ],
-        "answersAre": [
-            "A"
-        ],
+        "answersAre": [],
         "mostVotedAre": [
             "A"
         ],
@@ -1116,17 +1106,15 @@
         "questionImages": [],
         "isMCQ": true,
         "myOptionsAre": [
-            "A. Send to Log Analytics Most Voted",
+            "A. Send to Log Analytics",
             "B. Stream to an event hub",
             "C. Archive to a storage account"
         ],
-        "answersAre": [
-            "A"
-        ],
+        "answersAre": [],
         "mostVotedAre": [
             "A"
         ],
-        "descriptionIs": "ENABLE DIAGNOSTICS TO LOG ANALYTICS\nThis configuration is done PER DATABASE\n1. Click on Diagnostics Settings and then Turn On Diagnostics\n\n2. Select to Send to Log Analytics and select the Log Analytics workspace. For this sample I will selected only Errors\n\nReference:\nhttps://techcommunity.microsoft.com/t5/azure-database-support-blog/azure-sql-db-and-log-analytics-better-together-part-1/ba-p/794833",
+        "descriptionIs": "",
         "descriptionImages": [
             "https://www.examtopics.com/assets/media/exam-media/04257/0007400001.jpg",
             "https://www.examtopics.com/assets/media/exam-media/04257/0007500001.jpg"
@@ -1141,9 +1129,9 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "answersAre": "Box 1: 5 minutes -\nThe alert must calculate the average once every minute.\nNote: We [Microsoft] recommend choosing an Aggregation granularity (Period) that is larger than the Frequency of evaluation, to reduce the likelihood of missing the first evaluation of added time series\n\nBox 2: Static -\n\nBox 3: Greater than -\nExample, say you have an App Service plan for your website. You want to monitor CPU usage on multiple instances running your web site/app. You can do that using a metric alert rule as follows:\n\u2711 Target resource: myAppServicePlan\n\u2711 Metric: Percentage CPU\n\u2711 Condition Type: Static\n\u2711 Dimensions\n\u2711 Instance = InstanceName1, InstanceName2\n\u2711 Time Aggregation: Average\n\u2711 Period: Over the last 5 mins\n\u2711 Frequency: 1 min\n\u2711 Operator: GreaterThan\n\u2711 Threshold: 70\n\u2711 Like before, this rule monitors if the average CPU usage for the last 5 minutes exceeds 70%.\n\u2711 Aggregation granularity\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-metric-overview",
+        "answersAre": "",
         "mostVotedAre": [],
-        "descriptionIs": "Box 1: 5 minutes -\nThe alert must calculate the average once every minute.\nNote: We [Microsoft] recommend choosing an Aggregation granularity (Period) that is larger than the Frequency of evaluation, to reduce the likelihood of missing the first evaluation of added time series\n\nBox 2: Static -\n\nBox 3: Greater than -\nExample, say you have an App Service plan for your website. You want to monitor CPU usage on multiple instances running your web site/app. You can do that using a metric alert rule as follows:\n\u2711 Target resource: myAppServicePlan\n\u2711 Metric: Percentage CPU\n\u2711 Condition Type: Static\n\u2711 Dimensions\n\u2711 Instance = InstanceName1, InstanceName2\n\u2711 Time Aggregation: Average\n\u2711 Period: Over the last 5 mins\n\u2711 Frequency: 1 min\n\u2711 Operator: GreaterThan\n\u2711 Threshold: 70\n\u2711 Like before, this rule monitors if the average CPU usage for the last 5 minutes exceeds 70%.\n\u2711 Aggregation granularity\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-metric-overview",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -1153,18 +1141,16 @@
         "questionImages": [],
         "isMCQ": true,
         "myOptionsAre": [
-            "A. the Dependency agent Most Voted",
+            "A. the Dependency agent",
             "B. the Telegraf agent",
             "C. the Windows Azure diagnostics extension (WAD)",
             "D. the Azure monitor agent"
         ],
-        "answersAre": [
-            "A"
-        ],
+        "answersAre": [],
         "mostVotedAre": [
             "A"
         ],
-        "descriptionIs": "Use the Dependency agent if you need to use the Map feature VM insights or the Service Map solution.\nNote: Consider the following when using the Dependency agent:\nThe Dependency agent requires the Log Analytics agent to be installed on the same machine.\nOn Linux computers, the Log Analytics agent must be installed before the Azure Diagnostic Extension.\nOn both the Windows and Linux versions of the Dependency Agent, data collection is done using a user-space service and a kernel driver.\nReference:\nhttps://docs.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -1176,9 +1162,9 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "answersAre": "Box 1: system.debug -\nTo configure verbose logs for all runs, you can add a variable named system.debug and set its value to true.\nNote: Verbose logging is the practice of recording to a persistent medium as much information as you possibly can about events that occur while the software runs.\n\nBox 2: true -\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/pipelines/troubleshooting/review-logs",
+        "answersAre": "",
         "mostVotedAre": [],
-        "descriptionIs": "Box 1: system.debug -\nTo configure verbose logs for all runs, you can add a variable named system.debug and set its value to true.\nNote: Verbose logging is the practice of recording to a persistent medium as much information as you possibly can about events that occur while the software runs.\n\nBox 2: true -\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/pipelines/troubleshooting/review-logs",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -1189,18 +1175,16 @@
         "isMCQ": true,
         "myOptionsAre": [
             "A. Configure the xcworkspace file in the project",
-            "B. Add the GoogleAnalytics pod to the app. Most Voted",
+            "B. Add the GoogleAnalytics pod to the app.",
             "C. Configure the Crashlytics pod in the app.",
-            "D. Import the Firebase module to UIApplicationDelegate. Most Voted"
+            "D. Import the Firebase module to UIApplicationDelegate."
         ],
-        "answersAre": [
-            "D"
-        ],
+        "answersAre": [],
         "mostVotedAre": [
             "B",
             "D"
         ],
-        "descriptionIs": "Step 1: Add the Firebase Crashlytics SDK to your app.\nConfigure the Firebase module:\nImport the Firebase module in your App struct or UIApplicationDelegate\nReference:\nhttps://firebase.google.com/docs/crashlytics/get-started?platform=ios",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/"
     },
@@ -1212,12 +1196,10 @@
         "myOptionsAre": [
             "A. Add a Predecessor or Successor link to the feature or user story for the items of each project.",
             "B. Add a Parent or Child link to the feature or user story for the items of each project.",
-            "C. Install the Dependency Tracker extension and create dependencies for each project. Most Voted",
+            "C. Install the Dependency Tracker extension and create dependencies for each project.",
             "D. Create a custom query to show the consumers and producers and add a widget to a dashboard."
         ],
-        "answersAre": [
-            "C"
-        ],
+        "answersAre": [],
         "mostVotedAre": [
             "C"
         ],
@@ -1263,13 +1245,10 @@
             "A. Honeycomb",
             "B. OpenTracing",
             "C. Jaeger",
-            "D. OpenTelemtry Most Voted",
-            "E. OpenCensus Most Voted"
+            "D. OpenTelemtry",
+            "E. OpenCensus"
         ],
-        "answersAre": [
-            "D",
-            "E"
-        ],
+        "answersAre": [],
         "mostVotedAre": [
             "D",
             "E"
@@ -1284,14 +1263,12 @@
         "questionImages": [],
         "isMCQ": true,
         "myOptionsAre": [
-            "A. From the code repository of webapp1, modify the ApplicationInsights.config file. Most Voted",
-            "B. From the code repository of webapp1, modify the Startup.cs file. Most Voted",
+            "A. From the code repository of webapp1, modify the ApplicationInsights.config file.",
+            "B. From the code repository of webapp1, modify the Startup.cs file.",
             "C. From AppInsights1, modify the Usage and estimated costs settings.",
             "D. From AppInsights1, configure the Continuous export settings."
         ],
-        "answersAre": [
-            "B"
-        ],
+        "answersAre": [],
         "mostVotedAre": [
             "A",
             "B"

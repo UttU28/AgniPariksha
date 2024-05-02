@@ -7,7 +7,7 @@ import json
 import subprocess
 import sys
 
-certificationName = "az-305"
+certificationName = "az-400"
 
 def writeData(questionsInJSON):
     try: 
@@ -42,6 +42,7 @@ questionsJSON = []
 
 while driver.title != "404 - Page not found":
 # for i in range(2):
+    sleep(1)
     questionsContainer = driver.find_element(By.CLASS_NAME, "questions-container")
     questionCard = questionsContainer.find_elements(By.CLASS_NAME, "exam-question-card")
     print(len(questionCard))
@@ -62,7 +63,7 @@ while driver.title != "404 - Page not found":
 
         
         revealSolution = cardData.find_element(By.CLASS_NAME, "reveal-solution").click()
-        # sleep(1)
+        sleep(0.5)
         answersAre = cardData.find_elements(By.CSS_SELECTOR, ".multi-choice-item.correct-hidden.correct-choice")
         correctOptions = []
         for answer in answersAre:

@@ -2491,7 +2491,18 @@
         "questionIs": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou manage a project in Azure DevOps.\nYou need to prevent the configuration of the project from changing over time.\nSolution: Perform a Subscription Health scan when packages are created.\nDoes this meet the goal?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Yes",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "No",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "Instead implement Continuous Assurance for the project.\nNote: The Subscription Security health check features in AzSK contains a set of scripts that examines a subscription and flags off security issues, misconfigurations or obsolete artifacts/settings which can put your subscription at higher risk.\nReference:\nhttps://azsk.azurewebsites.net/04-Continous-Assurance/Readme.html",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -2597,7 +2608,18 @@
         "questionIs": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou manage a project in Azure DevOps.\nYou need to prevent the configuration of the project from changing over time.\nSolution: Implement Continuous Integration for the project.\nDoes this meet the goal?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Yes",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "No",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "Instead implement Continuous Assurance for the project.\nReference:\nhttps://azsk.azurewebsites.net/04-Continous-Assurance/Readme.html",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -3567,7 +3589,18 @@
         "questionIs": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou plan to update the Azure DevOps strategy of your company.\nYou need to identify the following issues as they occur during the company's development process:\n\u2711 Licensing violations\n\u2711 Prohibited libraries\nSolution: You implement continuous deployment.\nDoes this meet the goal?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Yes",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "No",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "Instead implement continuous integration.\nNote: WhiteSource is the leader in continuous open source software security and compliance management. WhiteSource integrates into your build process, irrespective of your programming languages, build tools, or development environments. It works automatically, continuously, and silently in the background, checking the security, licensing, and quality of your open source components against WhiteSource constantly-updated definitive database of open source repositories.\nReference:\nhttps://azuredevopslabs.com/labs/vstsextend/whitesource/",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -4210,7 +4243,28 @@
         "questionIs": "You have an Azure subscription linked to an Azure Active Directory Premium Plan 1 tenant.\n\nA security review indicates that too many users have privileged access to resources.\n\nYou need to deploy a privileged access management solution that meets the following requirements:\n\n\u2022 Enforces time limits on the use of privileged access\n\u2022 Requires approval to activate privileged access\n\u2022 Minimizes costs\n\nWhat should you do first?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Configure notifications when privileged roles are activated.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Configure alerts for the activation of privileged roles.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Enforce Azure Multi-Factor Authentication (MFA) for role activation.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Upgrade the license of the Azure Active Directory (Azure AD) tenant.",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -4302,7 +4356,28 @@
         "questionIs": "Your company uses Azure DevOps and Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra.\n\nOnly users who have accounts in Azure AD can access the Azure DevOps environment.\n\nYou need to ensure that only devices that are connected to the on-premises network can access the Azure DevOps environment.\n\nWhat should you do?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Assign the Stakeholder access level to all users.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "In Azure DevOps, configure Security in Project Settings.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "In Azure AD, configure conditional access.",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "In Azure AD, configure risky sign-ins.",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -4436,7 +4511,28 @@
         "questionIs": "You plan to use Azure DevOps to build and deploy an app that will be hosted in a Kubernetes cluster.\n\nYou need to scan the app image for vulnerabilities before the image is deployed to the cluster.\n\nWhat should you include in the solution?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Microsoft Defender for Containers",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "Microsoft Defender for App Service",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Microsoft Defender for DevOps",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Microsoft Defender for Storage",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -4495,7 +4591,33 @@
         "questionIs": "You manage code by using GitHub.\n\nYou plan to use Dependabot to scan for code dependencies.\n\nYou need to identify when scanning will be triggered automatically.\n\nWhich two actions will trigger a scan? Each correct answer presents a complete solution.\n\nNOTE: Each correct solution is worth one point.",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "The dependency graph of a repository changes.",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "A pull request is created.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "A branch is forked.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Any commit is pushed.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "A new advisory is added.",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -5716,7 +5838,28 @@
         "questionIs": "You have a project in Azure DevOps.\n\nYou need to implement a new branching solution. The solution must ensure that all pull requests meet the following requirements:\n\n\u2022 Include linked work items.\n\u2022 Pass build validation policies.\n\u2022 Require at least three reviewers.\n\nWhat should you include in the solution?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "branch policies",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "pull request templates",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "branch security",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "pull request permissions",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -5728,7 +5871,33 @@
         "questionIs": "You use Git for source control.\n\nYou need to commit a 3-GB ZIP file that contains virtual machines used for testing. The solution must meet the following requirements:\n\n\u2022 The file must be versioned.\n\u2022 The file must be associated with the corresponding code commits.\n\nWhich two actions should you include in the solution? Each correct answer presents part of the solution.\n\nNOTE: Each correct selection is worth one point.",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Install the git-fat extension and associate the extension to ZIP files.",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "Install the Git LFS extension and associate the extension to ZIP files.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Install the git-stash extension and associate the extension to ZIP files.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Use GZip to compress the file before committing the file.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Store files in Azure Storage and enable blob versions.",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -6037,7 +6206,28 @@
         "questionIs": "You plan to create in Azure DevOps. Multiple developers will work on the project. The developers will work offline frequently and will require access to the full project history while they are offline.\nWhich version control solution should you use?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Team Foundation Version Control",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Git",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "TortoiseSVN",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Subversion",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "Git history: File history is replicated on the client dev machine and can be viewed even when not connected to the server. You can view history in Visual Studio and on the web portal.\nNote: Azure Repos supports two types of version control: Git and Team Foundation Version Control (TFVC).\nIncorrect Answers:\nA: Team Foundation Version Control: File history is not replicated on the client dev machine and so can be viewed only when you're connected to the server.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/repos/tfvc/comparison-git-tfvc",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -6384,7 +6574,28 @@
         "questionIs": "You have a pipeline named Pipeline1 in Azure Pipelines.\n\nYou need to create a service connection to enable Pipeline1 to download a public container image.\n\nWhich type of service connection should you create?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "a Docker host",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "a Docker registry",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "Azure Service Fabric",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Azure Kubernetes Service (AKS)",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -6844,7 +7055,28 @@
         "questionIs": "You manage projects by using Azure Boards.\n\nYou have a current work item name itemA that is dependant on a work item named itemB.\n\nYou need to define the dependency for itemA.\n\nWhat should you do in the web portal for Azure DevOps?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Add a Parent link to the user story of itemA.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "From Backlogs, open the context menu, select Add link, and then select itemA. Set Link type to Successor and add the ID of itemB.",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "From itemA, open the Links tab, and then select Add link. Set Link type to References and add the ID of itemB.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "From Backlogs, open he context menu, select Add link, and then select itemA. Set Link type to References and add the ID of itemB.",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -6856,7 +7088,28 @@
         "questionIs": "You manage projects by using Azure Boards.\n\nYou have a current work item name itemA that is dependant on a work item named itemB.\n\nYou need to define the dependency for itemA.\n\nWhat should you do in the web portal for Azure DevOps?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "From itemA, open the Links tab, and then select Add link. Set Link type to Related and add the ID of itemB.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "From Backlogs, open the context menu, select Add link, and then select itemA. Set Link type to Successor and add the ID of itemB.",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "From itemA, open the Links tab, and then select Add link. Set Link type to References and add the ID of itemB.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "From Queries, open the context menu, select Add link, and then select Existing Item. Set Link type to Affected By and add the ID of itemB.",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -6870,7 +7123,23 @@
             "https://img.examtopics.com/az-400/image96.png"
         ],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Service1 only",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Service2 only",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Service1 and Service2",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -6897,7 +7166,28 @@
         "questionIs": "You have an Azure subscription that contains an Azure Pipelines pipeline named Pipeline1 and an app named App1. Pipeline1 is used to automate the building of App1.\n\nYou have a Slack channel named App1chat that includes an incoming webhook.\n\nYou need to ensure that when a successful build of App1 is created, a notification is sent to App1chat by using the webhook.\n\nWhat should you use?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "a notification",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "an alert rule",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "a subscription",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "an action group",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -7022,7 +7312,28 @@
         "questionIs": "You manage a project by using Azure Board, and you manage the project code by using Azure Repos.\n\nYou have a bug work item that has an ID of 123.\n\nYou need to set the work item state to Resolved.\n\nWhat should you add to the commit message?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "#123 completes",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Resolves #AB-123",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Verifies #123",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Fixes #123",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -7376,7 +7687,28 @@
         "questionIs": "You are automating the build process for a Java-based application by using Azure DevOps.\nYou need to add code coverage testing and publish the outcomes to the pipeline.\nWhat should you use?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Bullseye Coverage",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "JUnit",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "JaCoCo",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "MSTest",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "Use Publish Code Coverage Results task in a build pipeline to publish code coverage results to Azure Pipelines or TFS, which were produced by a build in\nCobertura or JaCoCo format.\nIncorrect Answers:\nA: Bullseye Coverage is used for C++ code, and not for Java.\nNote:\nThere are several versions of this question in the exam. The question has two possible correct answers:\n\u2711 Cobertura\n\u2711 JaCoCo\nOther incorrect answer options you may see on the exam include the following:\n\u2711 Coverlet\n\u2711 NUnit\n\u2711 Coverage.py\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/test/publish-code-coverage-results",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -7731,7 +8063,18 @@
         "questionIs": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYour company uses Azure DevOps to manage the build and release processes for applications.\nYou use a Git repository for applications source control.\nYou need to implement a pull request strategy that reduces the history volume in the master branch.\nSolution: You implement a pull request strategy that uses an explicit merge.\nDoes this meet the goal?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Yes",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "No",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "Instead use fast-forward merge.\nNote:\nNo fast-forward merge - This option merges the commit history of the source branch when the pull request closes and creates a merge commit in the target branch.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -7834,7 +8177,18 @@
         "questionIs": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYour company has a project in Azure DevOps for a new web application.\nYou need to ensure that when code is checked in, a build runs automatically.\nSolution: From the Triggers tab of the build pipeline, you select Batch changes while a build is in progress.\nDoes this meet the goal?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Yes",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "No",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "Instead, In Visual Designer you enable continuous integration (CI) by:\n1. Select the Triggers tab.\n2. Enable Continuous integration.\n\nNote: Batch changes -\nSelect this check box if you have many team members uploading changes often and you want to reduce the number of builds you are running. If you select this option, when a build is running, the system waits until the build is completed and then queues another build of all changes that have not yet been built.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/pipelines/get-started-designer",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -7893,7 +8247,28 @@
         "questionIs": "Your company deploys applications in Docker containers.\nYou want to detect known exploits in the Docker images used to provision the Docker containers.\nYou need to integrate image scanning into the application lifecycle. The solution must expose the exploits as early as possible during the application lifecycle.\nWhat should you configure?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "a task executed in the continuous integration pipeline and a scheduled task that analyzes the image registry",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "manual tasks performed during the planning phase and the deployment phase",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "a task executed in the continuous deployment pipeline and a scheduled task against a running production container",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "a task executed in the continuous integration pipeline and a scheduled task that analyzes the production container",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "You can use the Docker task to sign into ACR and then use a subsequent script to pull an image and scan the container image for vulnerabilities.\nUse the docker task in a build or release pipeline. This task can be used with Docker or Azure Container registry.\nIncorrect Answers:\nC: We should not wait until deployment. We want to detect the exploits as early as possible.\nD: We should wait until the image is in the product container. We want to detect the exploits as early as possible.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/articles/security-validation-cicd-pipeline?view=vsts",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -8127,7 +8502,18 @@
         "questionIs": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYour company has a project in Azure DevOps for a new web application.\nYou need to ensure that when code is checked in, a build runs automatically.\nSolution: From the Continuous deployment trigger settings of the release pipeline, you enable the Pull request trigger setting.\nDoes this meet the goal?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Yes",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "No",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "In Visual Designer you enable continuous integration (CI) by:\n1. Select the Triggers tab.\n2. Enable Continuous integration.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/pipelines/get-started-designer",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -8139,7 +8525,18 @@
         "questionIs": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYour company has a project in Azure DevOps for a new web application.\nYou need to ensure that when code is checked in, a build runs automatically.\nSolution: From the Pre-deployment conditions settings of the release pipeline, you select After stage.\nDoes this meet the goal?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Yes",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "No",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "Instead, In Visual Designer you enable continuous integration (CI) by:\n1. Select the Triggers tab.\n2. Enable Continuous integration.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/pipelines/get-started-designer",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -8151,7 +8548,18 @@
         "questionIs": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYour company has a project in Azure DevOps for a new web application.\nYou need to ensure that when code is checked in, a build runs automatically.\nSolution: From the Pre-deployment conditions settings of the release pipeline, you select Batch changes while a build is in progress.\nDoes this meet the goal?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Yes",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "No",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "Instead, In Visual Designer you enable continuous integration (CI) by:\n1. Select the Triggers tab.\n2. Enable Continuous integration.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/pipelines/get-started-designer",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -8669,7 +9077,18 @@
         "questionIs": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou have an Azure DevOps project.\nYour build process creates several artifacts.\nYou need to deploy the artifacts to on-premises servers.\nSolution: You deploy an Azure self-hosted agent to an on-premises server. You add a Copy and Publish Build Artifacts task to the deployment pipeline.\nDoes this meet the goal?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Yes",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "No",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "To build your code or deploy your software using Azure Pipelines, you need at least one agent.\nIf your on-premises environments do not have connectivity to a Microsoft-hosted agent pool (which is typically the case due to intermediate firewalls), you'll need to manually configure a self-hosted agent on on-premises computer(s). The agents must have connectivity to the target on-premises environments, and access to the Internet to connect to Azure Pipelines or Team Foundation Server.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -8925,7 +9344,28 @@
         "questionIs": "Your company is building a new solution in Java.\nThe company currently uses a SonarQube server to analyze the code of .NET solutions.\nYou need to analyze and monitor the code quality of the Java solution.\nWhich task types should you add to the build pipeline?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Octopus",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Chef",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "CocoaPods",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Gradle",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "The Gradle build task now supports SonarQube analysis.\nSonarQube analysis for Java.\nIn October 2016, we updated the Maven task to support SonarQube analysis (See The Maven build task now simplifies SonarQube analysis). This time, we are pleased to announce an updated Gradle task which makes it easy for Java developers using Gradle to trigger a SonarQube analysis in Visual Studio Team\nServices.\nUsing the Gradle task with SonarQube.\nJust as for Maven, we have added a Code Analysis section in which you can now check the \u05d2\u20acRun SonarQube Analysis\u05d2\u20ac checkbox, which then shows more options.\n\nReference:\nhttps://devblogs.microsoft.com/devops/the-gradle-build-task-now-supports-sonarqube-analysis/",
         "descriptionImages": [
             "https://www.examtopics.com/assets/media/exam-media/04257/0037600001.jpg"
@@ -8939,7 +9379,28 @@
         "questionIs": "Your company is building a new solution in Java.\nThe company currently uses a SonarQube server to analyze the code of .NET solutions.\nYou need to analyze and monitor the code quality of the Java solution.\nWhich task types should you add to the build pipeline?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Maven",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "CocoaPods",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Xcode",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Gulp",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "The SonarScanner for Maven is recommended as the default scanner for Maven projects.\nThe ability to execute the SonarQube analysis via a regular Maven goal makes it available anywhere Maven is available (developer build, CI server, etc.), without the need to manually download, setup, and maintain a SonarQube Runner installation. The Maven build already has much of the information needed for\nSonarQube to successfully analyze a project. By preconfiguring the analysis based on that information, the need for manual configuration is reduced significantly.\nReference:\nhttps://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-maven/",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -9082,7 +9543,28 @@
             "https://img.examtopics.com/az-400/image32.png"
         ],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Create a feed view named @release and set @release as the default view. After the npm packages test successfully, configure a release pipeline that promotes a package to the @release view.",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "Create a feed view named @release and set @release as the default view. After the npm packages test successfully, configure a release pipeline that tags the packages as release.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Create a feed view named @default. After the npm packages test successfully, configure a release pipeline that tags the packages as release.",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Create a feed view named @default. After the npm packages test successfully, configure a release pipeline that promotes a package to the @default view.",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -9094,7 +9576,28 @@
         "questionIs": "Your company has an Azure DevOps project that produces Node Package Manager (npm) packages. Multiple projects consume the packages.\n\nYou need to minimize the amount of disk space used by older packages in Azure Artifacts.\n\nWhat should you modify?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "the retention settings of the project\u2019s release",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "the retention settings of the project\u2019s pipeline",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "the retention settings of the project\u2019s tests",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "the retention settings of the company pipeline",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -9728,7 +10231,18 @@
         "questionIs": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou have an approval process that contains a condition. The condition requires that releases be approved by a team leader before they are deployed.\nYou have a policy stating that approvals must occur within eight hours.\nYou discover that deployment fail if the approvals take longer than two hours.\nYou need to ensure that the deployments only fail if the approvals take longer than eight hours.\nSolution: From Post-deployment conditions, you modify the Timeout setting for post-deployment approvals.\nDoes this meet the goal?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Yes",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "No",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "Use Pre-deployments conditions instead.\nUse a gate instead of an approval instead.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/pipelines/release/approvals/gates",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -9803,7 +10317,28 @@
         "questionIs": "You have an Azure DevOps project named Project1 and an Azure subscription named Sub1. Sub1 contains an Azure SQL database named DB1.\nYou need to create a release pipeline that uses the Azure SQL Database Deployment task to update DB1.\nWhich artifact should you deploy?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "a BACPAC",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "a DACPAC",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "an LDF file",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "an MDF file",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "Use Azure SQL Database Deployment task in a build or release pipeline to deploy to Azure SQL DB using a DACPAC or run scripts using SQLCMD.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/sql-azure-dacpac-deployment",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -11077,7 +11612,28 @@
         "questionIs": "You are automating the testing process for your company.\n\nYou need to automate UI testing of a web application.\n\nWhich framework should you use?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "JaCoco",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Playwright",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "Xamarin.UITest",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Microsoft.CodeAnalysis",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -11104,12 +11660,12 @@
             },
             {
                 "text": "2.0.0",
-                "correct": false,
+                "correct": true,
                 "voted": false
             },
             {
                 "text": "2.3.1",
-                "correct": true,
+                "correct": false,
                 "voted": true
             }
         ],
@@ -11127,7 +11683,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "1. Kind \n 2. Properties",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "09",
@@ -11141,7 +11697,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "1. 'releases/**' \n 2. 'src/**' \n 3. '*.md'",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "09",
@@ -11222,7 +11778,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "1. Minor \n 2. Major \n 3. Patch",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "09",
@@ -11233,7 +11789,18 @@
         "questionIs": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\n\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\n\nYou have an Azure pipeline that is used to deploy a web app. The pipeline includes a test suite named TestSuite1. TestSuite1 is used to validate the operations of the web app.\n\nTestSuite1 fails intermittently.\n\nYou identify that the failures are unrelated to changes in the source code and execution environment.\n\nYou need to minimize troubleshooting effort for the TestSuite1 failures.\n\nSolution: You enable flaky test management.\n\nDoes this meet the goal?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Yes",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "No",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -11245,7 +11812,18 @@
         "questionIs": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\n\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\n\nYou have an Azure pipeline that is used to deploy a web app. The pipeline includes a test suite named TestSuite1. TestSuite1 is used to validate the operations of the web app.\n\nTestSuite1 fails intermittently.\n\nYou identify that the failures are unrelated to changes in the source code and execution environment.\n\nYou need to minimize troubleshooting effort for the TestSuite1 failures.\n\nSolution: You implement the Test Results Trend widget.\n\nDoes this meet the goal?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Yes",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "No",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -11257,7 +11835,18 @@
         "questionIs": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\n\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\n\nYou have an Azure pipeline that is used to deploy a web app. The pipeline includes a test suite named TestSuite1. TestSuite1 is used to validate the operations of the web app.\n\nTestSuite1 fails intermittently.\n\nYou identify that the failures are unrelated to changes in the source code and execution environment.\n\nYou need to minimize troubleshooting effort for the TestSuite1 failures.\n\nSolution: You enable Test Impact Analysis (TIA).\n\nDoes this meet the goal?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Yes",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "No",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -11269,7 +11858,28 @@
         "questionIs": "You plan to publish build artifacts by using an Azure pipeline.\n\nYou need to create an .artifactignore file that meets the following requirements:\n\n\u2022 Includes all files in the build output folder and all subfolders\n\u2022 Excludes files that have the .dll extension\n\nWhat should you include in the file?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "./**\n!*.dll",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "**/*\n!*.dll",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "*/**\n*.dll",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "**/*\n#*.dll",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -11284,7 +11894,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "1. Login \n 2. Build \n 3. Push",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "09",
@@ -11295,7 +11905,18 @@
         "questionIs": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\n\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\n\nYou have an Azure pipeline that is used to deploy a web app. The pipeline includes a test suite named TestSuite1. TestSuite1 is used to validate the operations of the web app.\n\nTestSuite1 fails intermittently.\n\nYou identify that the failures are unrelated to changes in the source code and execution environment.\n\nYou need to minimize troubleshooting effort for the TestSuite1 failures.\n\nSolution: You increase code coverage.\n\nDoes this meet the goal?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "Yes",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "No",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -11340,7 +11961,28 @@
         "questionIs": "You have an Azure subscription that contains an Azure Pipelines pipeline named Pipeline1 and a user named User1. Pipeline1 is used to build and test an app named App1. User1 is assigned the Contributors role for Pipeline1.\n\nYou plan to test App1 by using an Azure Deployment Environments environment.\n\nYou need to ensure that User1 can provision the environment. The solution must follow the principle of least privilege.\n\nWhich role should you assign to User1?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "DevCenter Project Admin",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Deployment Environments User",
+                "correct": true,
+                "voted": true
+            },
+            {
+                "text": "Contributors",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "Build Administrators",
+                "correct": false,
+                "voted": false
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
@@ -11355,7 +11997,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "1. Key \n 2. Path",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "09",
@@ -11383,7 +12025,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "1. $(Build.SourcesDirectory)/**/packages.lock.json \n 2. $(Agent.OS) \n 3. $(NUGET_PACKAGES)",
+        "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "09",
@@ -11394,7 +12036,28 @@
         "questionIs": "You have an Azure pipeline that is used to deploy an app named App1.\n\nYou need to ensure that new versions of App1 are released only if they exceed performance baselines. The solution must minimize administrative effort.\n\nWhat should you configure?",
         "questionImages": [],
         "isMCQ": true,
-        "myOptionsAre": [],
+        "myOptionsAre": [
+            {
+                "text": "an Azure Pipelines release artifact",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "an Azure Repos branch policy",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "an Azure Monitor alert",
+                "correct": false,
+                "voted": false
+            },
+            {
+                "text": "an Azure Pipelines deployment gate",
+                "correct": true,
+                "voted": true
+            }
+        ],
         "descriptionIs": "",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",

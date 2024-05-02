@@ -1,6 +1,6 @@
 import json
 
-certificationName = "az-305"
+certificationName = "az-400"
 
 iAmData = None
 with open(f"{certificationName}-rawData.json", "r") as oldFile: iAmData = json.load(oldFile)
@@ -29,9 +29,9 @@ for index, questionBlock in enumerate(iAmData):
             # print(votedAnswers, questionBlock['questionNumber'])
             if votedAnswers == None or votedAnswers == []:
                 # print("sdv")
-                if option[0] in correctAnswer and votedAnswers == None:
+                if option[0] in correctAnswer:
                     reformattedOptions.append({'text': option[3:].replace(' Most Voted',''), 'correct': True, 'voted': True})
-                elif option[0] not in correctAnswer and votedAnswers == None:
+                elif option[0] not in correctAnswer:
                     reformattedOptions.append({'text': option[3:].replace(' Most Voted',''), 'correct': False, 'voted': False})
             elif option[0] in correctAnswer and option[0] in votedAnswers:
                 reformattedOptions.append({'text': option[3:].replace(' Most Voted',''), 'correct': True, 'voted': True})
