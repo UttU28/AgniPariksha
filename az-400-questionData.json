@@ -301,7 +301,7 @@
             },
             {
                 "text": "Hosted Windows Container",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -411,12 +411,12 @@
             },
             {
                 "text": "release pipelines",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "boards",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -1238,12 +1238,12 @@
         "myOptionsAre": [
             {
                 "text": "the Microsoft Test & Feedback extension",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "Microsoft Visual Studio App Center integration",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -1671,7 +1671,7 @@
             },
             {
                 "text": "Add the GoogleAnalytics pod to the app.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -1799,7 +1799,7 @@
         "myOptionsAre": [
             {
                 "text": "From the code repository of webapp1, modify the ApplicationInsights.config file.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -2125,7 +2125,7 @@
         "myOptionsAre": [
             {
                 "text": "an HTTPWebhook trigger",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -2135,7 +2135,7 @@
             },
             {
                 "text": "a Request trigger",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -2158,12 +2158,12 @@
         "myOptionsAre": [
             {
                 "text": "Add a liveness probe to the YAML configuration of App1.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "Add a readiness probe to the YAML configuration of App1.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -2201,7 +2201,7 @@
             },
             {
                 "text": "Azure Application Insights",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -2279,12 +2279,12 @@
             },
             {
                 "text": "Azure Data Explorer",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "Azure dashboards",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -2340,22 +2340,22 @@
             },
             {
                 "text": "From the code of the application, enable adaptive sampling.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "From the code of the application, add Azure Application Insights telemetry.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "Add the <MaxTelemetryItemsPerSecond>5</MaxTelemetryItemsPerSecond> parameter to the ApplicationInsights.config file.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "From the code of the application, disable adaptive sampling.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -2511,7 +2511,7 @@
             },
             {
                 "text": "the Azure key vault",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -2526,7 +2526,7 @@
             },
             {
                 "text": "The Windows Server 2019 container images hosted in the Azure Container Registry.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -3027,17 +3027,17 @@
             },
             {
                 "text": "Add a PowerShell task to the pipeline and run Set-AzureKeyVaultSecret.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "Add an Azure Key Vault task to the pipeline.",
                 "correct": false,
-                "voted": true
+                "voted": false
             },
             {
                 "text": "Add Azure Key Vault references to Azure Resource Manger templates.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -3318,12 +3318,12 @@
             },
             {
                 "text": "Create a variable group in Project1.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "Configure the security policy of Contoso.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -3478,12 +3478,12 @@
             },
             {
                 "text": "Modify the devDependencies section of the project's Package.json file.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "Configure WhiteSource Bolt to scan the node_modules directory only.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -3501,12 +3501,12 @@
         "myOptionsAre": [
             {
                 "text": "Yes",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "No",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -3547,12 +3547,12 @@
         "myOptionsAre": [
             {
                 "text": "Yes",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "No",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -3568,7 +3568,7 @@
         "questionImages": [],
         "isMCQ": true,
         "myOptionsAre": [],
-        "descriptionIs": "Instead implement continuous integration.\nNote: WhiteSource is the leader in continuous open source software security and compliance management. WhiteSource integrates into your build process, irrespective of your programming languages, build tools, or development environments. It works automatically, continuously, and silently in the background, checking the security, licensing, and quality of your open source components against WhiteSource constantly-updated definitive database of open source repositories.\nReference:\nhttps://azuredevopslabs.com/labs/vstsextend/whitesource/",
+        "descriptionIs": "NO",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "04",
@@ -3723,7 +3723,7 @@
         "myOptionsAre": [
             {
                 "text": "Octopus Deploy",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -3738,7 +3738,7 @@
             },
             {
                 "text": "SonarQube",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -4322,12 +4322,12 @@
             },
             {
                 "text": "a user-assigned managed identity",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "a service principal",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -4411,12 +4411,12 @@
             },
             {
                 "text": "a system-assigned managed identity",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "a user-assigned managed identity",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -4543,12 +4543,12 @@
         "myOptionsAre": [
             {
                 "text": "Yes",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "No",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -4861,7 +4861,7 @@
         "myOptionsAre": [
             {
                 "text": "Clear Never assign certain team members.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -4871,7 +4871,7 @@
             },
             {
                 "text": "Select Never assign certain team members.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -4960,7 +4960,7 @@
         "myOptionsAre": [
             {
                 "text": "Yes",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -5054,7 +5054,7 @@
             },
             {
                 "text": "Publish the package to a public NuGet repository.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -5072,12 +5072,12 @@
         "myOptionsAre": [
             {
                 "text": "Automatically watch teams",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "Participating",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -5140,12 +5140,12 @@
         "myOptionsAre": [
             {
                 "text": "Add the name of the default branch to the on: push specification in the code scanning workflow.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "Add the name of the non-default branch to the on:push specification in the code scanning workflow.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -5343,12 +5343,12 @@
             },
             {
                 "text": "Use the Microsoft Teams for GitHub app and configure a subscription to receive notifications in the Teams channel.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "Use GitHub Actions with a dispatch to send a message to the Teams channel by using the Teams API.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -5512,7 +5512,7 @@
         "myOptionsAre": [
             {
                 "text": "the administrator of the GitHub organization",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -5527,7 +5527,7 @@
             },
             {
                 "text": "the secret scanning partner",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -5545,7 +5545,7 @@
         "myOptionsAre": [
             {
                 "text": "Dependabot alerts",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -5555,7 +5555,7 @@
             },
             {
                 "text": "CodeQL actions",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -5625,7 +5625,7 @@
         "myOptionsAre": [
             {
                 "text": "minimizes the impact of upstream source availability issues",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -5743,7 +5743,7 @@
         "myOptionsAre": [
             {
                 "text": "Features and Tasks",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -5758,7 +5758,7 @@
             },
             {
                 "text": "Stories and Tasks",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -5816,7 +5816,7 @@
             },
             {
                 "text": "Who should have performed better?",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -5826,7 +5826,7 @@
             },
             {
                 "text": "What went well?",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -6241,7 +6241,7 @@
             },
             {
                 "text": "availability tests in Azure Application Insights",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -6251,7 +6251,7 @@
             },
             {
                 "text": "Application Map in Azure Application Insights",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -6269,7 +6269,7 @@
         "myOptionsAre": [
             {
                 "text": "At the root of the wiki, create a file named .order that defines the page hierarchy.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -6668,7 +6668,7 @@
         "myOptionsAre": [
             {
                 "text": "Fixes #456, #457, #458",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -6706,12 +6706,12 @@
             },
             {
                 "text": ".github/",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": ".git/",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -6753,7 +6753,7 @@
             },
             {
                 "text": "#AB456, #AB457, #AB458",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -6763,7 +6763,7 @@
             },
             {
                 "text": "#AB456, #AB457, #AB458\nCompleted #AB456",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -6814,7 +6814,7 @@
         "myOptionsAre": [
             {
                 "text": "#AB456, #AB457, #AB458\nCompleted #AB456",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -6829,7 +6829,7 @@
             },
             {
                 "text": "#AB456, #AB457, #AB458\nVerifies #AB456",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -6917,7 +6917,7 @@
             },
             {
                 "text": "To the description of the pull request, add #AB123.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -6927,7 +6927,7 @@
             },
             {
                 "text": "From work item 123, open the Links tab, select Add link, select Existing item, and then enter the URL of the commit.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -7002,12 +7002,12 @@
             },
             {
                 "text": "lead time",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "cycle time",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -7037,12 +7037,12 @@
         "myOptionsAre": [
             {
                 "text": "Yes",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "No",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -7093,7 +7093,7 @@
         "myOptionsAre": [
             {
                 "text": "Enable self-hosted build agents.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -7108,7 +7108,7 @@
             },
             {
                 "text": "Purchase an additional parallel job.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -7128,12 +7128,12 @@
         "myOptionsAre": [
             {
                 "text": "Yes",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "No",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -7199,12 +7199,12 @@
         "myOptionsAre": [
             {
                 "text": "Yes",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "No",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -7224,12 +7224,12 @@
         "myOptionsAre": [
             {
                 "text": "Yes",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "No",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -7346,7 +7346,7 @@
             },
             {
                 "text": "Create a service hook in Azure DevOps.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -7496,7 +7496,7 @@
         "myOptionsAre": [
             {
                 "text": "Reader",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -7529,7 +7529,7 @@
         "myOptionsAre": [
             {
                 "text": "Azure Resource Manager templates and the PowerShell Desired State Configuration (DSC) extension for Windows",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -7539,7 +7539,7 @@
             },
             {
                 "text": "Azure Resource Manager templates and the Custom Script Extension for Windows",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -7688,12 +7688,12 @@
         "myOptionsAre": [
             {
                 "text": "Yes",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "No",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -7711,12 +7711,12 @@
         "myOptionsAre": [
             {
                 "text": "Yes",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "No",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -7804,7 +7804,7 @@
         "myOptionsAre": [
             {
                 "text": "1",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -7814,7 +7814,7 @@
             },
             {
                 "text": "4",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -7946,7 +7946,7 @@
             },
             {
                 "text": "From the build server, create a certificate, and then upload the certificate to Azure Storage.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -7956,7 +7956,7 @@
             },
             {
                 "text": "From DevOps, create a personal access token (PAT).",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -7984,12 +7984,12 @@
             },
             {
                 "text": "the subscription ID",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "the client secret",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -8041,12 +8041,12 @@
             },
             {
                 "text": "a multi-stage Dockerfile",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "a Docker Compose file",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -8207,7 +8207,7 @@
             },
             {
                 "text": "Increase the number of parallel jobs",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -8217,7 +8217,7 @@
             },
             {
                 "text": "Create an agent pool",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -8240,7 +8240,7 @@
             },
             {
                 "text": "Configure flaky tests",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -8250,7 +8250,7 @@
             },
             {
                 "text": "Add the Requirements quality widget to your dashboard",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -8305,7 +8305,7 @@
         "myOptionsAre": [
             {
                 "text": "vs2017-win2016",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -8315,7 +8315,7 @@
             },
             {
                 "text": "win1803",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -8390,7 +8390,7 @@
         "myOptionsAre": [
             {
                 "text": "integration testing",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -8405,7 +8405,7 @@
             },
             {
                 "text": "build",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -8478,7 +8478,7 @@
         "myOptionsAre": [
             {
                 "text": "Rebase",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -8488,7 +8488,7 @@
             },
             {
                 "text": "Merge",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -8580,7 +8580,7 @@
         "myOptionsAre": [
             {
                 "text": "Yes",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -8805,7 +8805,7 @@
             },
             {
                 "text": "views",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -8815,7 +8815,7 @@
             },
             {
                 "text": "upstream sources",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -8880,7 +8880,7 @@
         "myOptionsAre": [
             {
                 "text": "modifying group memberships",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -8959,7 +8959,7 @@
             },
             {
                 "text": "a post-deployment task that runs a security and compliance assessment",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -9405,12 +9405,12 @@
         "myOptionsAre": [
             {
                 "text": "Modify the Integrations options for the pipeline.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "Modify the post-deployment conditions for the last stage of the pipeline.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -9670,12 +9670,12 @@
         "myOptionsAre": [
             {
                 "text": "Yes",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "No",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -9693,12 +9693,12 @@
         "myOptionsAre": [
             {
                 "text": "Yes",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "No",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -9767,7 +9767,7 @@
             },
             {
                 "text": "Purchase self-hosted parallel jobs.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -9938,7 +9938,7 @@
             },
             {
                 "text": "Deploy a certificate from an internal certification authority (CA) to each device.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -9953,7 +9953,7 @@
             },
             {
                 "text": "Distribute a new release of the application.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -10408,12 +10408,12 @@
         "myOptionsAre": [
             {
                 "text": "Yes",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "No",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -10431,7 +10431,7 @@
         "myOptionsAre": [
             {
                 "text": "Word Press",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -10441,7 +10441,7 @@
             },
             {
                 "text": "DocFX",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -10532,7 +10532,7 @@
         "myOptionsAre": [
             {
                 "text": "Node > Configuration > Resource",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -10547,7 +10547,7 @@
             },
             {
                 "text": "Configuration > Node > Resource",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -10656,7 +10656,7 @@
             },
             {
                 "text": "Azure Traffic Manager",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -10858,12 +10858,12 @@
             },
             {
                 "text": "a branch policy",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "a pre-deployment gate",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -10902,12 +10902,12 @@
             },
             {
                 "text": "3",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "4",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -11315,7 +11315,7 @@
             },
             {
                 "text": "Deploy a self-hosted agent.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
@@ -11325,7 +11325,7 @@
             },
             {
                 "text": "Purchase more parallel jobs.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -11453,7 +11453,7 @@
             },
             {
                 "text": "Modify the ConfigurationMode property of the Local Configuration Manager (LCM).",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -11710,7 +11710,7 @@
             },
             {
                 "text": "GitHub Importer",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -11720,7 +11720,7 @@
             },
             {
                 "text": "git-tfs",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -11762,7 +11762,7 @@
             },
             {
                 "text": "From SonarQube, obtain an authentication token.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
@@ -11772,7 +11772,7 @@
             },
             {
                 "text": "From SonarQube, create a project.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
@@ -11938,12 +11938,12 @@
         "myOptionsAre": [
             {
                 "text": "a pre-deployment approval",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "a deployment gate",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
