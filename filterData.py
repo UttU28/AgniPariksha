@@ -1,6 +1,6 @@
 import json
 
-certificationName = "az-400"
+certificationName = "az-204"
 
 iAmData = None
 with open(f"{certificationName}-rawData.json", "r") as oldFile: iAmData = json.load(oldFile)

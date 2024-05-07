@@ -7,7 +7,7 @@ import json
 import subprocess
 import sys
 
-certificationName = "az-400"
+certificationName = "az-204"
 
 def writeData(questionsInJSON):
     try: 

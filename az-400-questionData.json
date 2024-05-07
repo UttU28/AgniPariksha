@@ -3135,7 +3135,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "Box 1: Reader -\nMembers of the Reader role can view the organization agent pool as well as agents. You typically use this to add operators that are responsible for monitoring the agents and their health.\n\nBox 2: Service account -\nMembers of the Service account role can use the organization agent pool to create a project agent pool in a project. If you follow the guidelines above for creating new project agent pools, you typically do not have to add any members here.\nIncorrect Answers:\nIn addition to all the permissions given the Reader and the Service Account role, members of the administrator role can register or unregister agents from the organization agent pool. They can also refer to the organization agent pool when creating a project agent pool in a project. Finally, they can also manage membership for all roles of the organization agent pool. The user that created the organization agent pool is automatically added to the Administrator role for that pool.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/pipelines/agents/pools-queues",
+        "descriptionIs": "1. Reader \n 2. User",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "04",
@@ -3248,7 +3248,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "Step 1: Create an AKS cluster -\nStep 2: a system-assigned managed identity\nTo create an RBAC binding, you first need to get the Azure AD Object ID.\n1. Sign in to the Azure portal.\n2. In the search field at the top of the page, enter Azure Active Directory.\n3. Click Enter.\n4. In the Manage menu, select Users.\n5. In the name field, search for your account.\n6. In the Name column, select the link to your account.\n7. In the Identity section, copy the Object ID.\n\n\nStep 3: a RBAC binding -\nReference:\nhttps://docs.microsoft.com/en-us/azure/developer/ansible/aks-configure-rbac",
+        "descriptionIs": "1. Application Registeration \n 2. A Cluster \n 3. An RBAC Binding",
         "descriptionImages": [
             "https://www.examtopics.com/assets/media/exam-media/04257/0015100001.png"
         ],
@@ -3264,7 +3264,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "Box 1: Azure Pipelines service connection\nBox 2: Managed Service Identity Authentication\nThe managed identities for Azure resources feature in Azure Active Directory (Azure AD) provides Azure services with an automatically managed identity in Azure\nAD. You can use the identity to authenticate to any service that supports Azure AD authentication, including Key Vault, without any credentials in your code.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/azure-key-vault https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview",
+        "descriptionIs": "1. Team Foundation Server \n 2. Managed Service Identity Authentication",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "04",
@@ -3316,7 +3316,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "Box 1: Microsoft Visual Studio App Center distribution Groups\nDistribution Groups are used to control access to releases. A Distribution Group represents a set of users that can be managed jointly and can have common access to releases. Example of Distribution Groups can be teams of users, like the QA Team or External Beta Testers or can represent stages or rings of releases, such as Staging.\n\nBox 2: Shared -\nShared distribution groups are private or public distribution groups that are shared across multiple apps in a single organization. Shared distribution groups eliminate the need to replicate distribution groups across multiple apps.\nNote: With the Deploy with App Center Task in Visual Studio Team Services, you can deploy your apps from Azure DevOps (formerly known as VSTS) to App\nCenter. By deploying to App Center, you will be able to distribute your builds to your users.\nReference:\nhttps://docs.microsoft.com/en-us/appcenter/distribution/groups",
+        "descriptionIs": "1. App Center \n 2. Shared",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "04",
@@ -3340,12 +3340,12 @@
             },
             {
                 "text": "Create a variable group in Project1.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             },
             {
                 "text": "Configure the security policy of Contoso.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             }
         ],
@@ -3363,7 +3363,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "",
+        "descriptionIs": "1. Organization Level Admin \n 2. Project Level Admin \n 3. User",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "04",
@@ -3445,7 +3445,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "Step 1: From Developer settings in GitHub Enterprise Server, register a new OAuth app.\nIf you plan to use OAuth to connect Azure DevOps Services or Azure DevOps Server with your GitHub Enterprise Server, you first need to register the application as an OAuth App\nStep 2: Organization settings in Azure DevOps, add an OAuth configuration\nRegister your OAuth configuration in Azure DevOps Services.\nNote:\n1. Sign into the web portal for Azure DevOps Services.\n2. Add the GitHub Enterprise Oauth configuration to your organization.\n3. Open Organization settings>Oauth configurations, and choose Add Oauth configuration.\n4. Fill in the form that appears, and then choose Create.\nStep 3: From Project Settings in Azure DevOps, add a GitHub connection.\nConnect Azure DevOps Services to GitHub Enterprise Server\nChoose the Azure DevOps logo to open Projects, and then choose the Azure Boards project you want to configure to connect to your GitHub Enterprise repositories.\nChoose (1) Project Settings, choose (2) GitHub connections and then (3) Click here to connect to your GitHub Enterprise organization.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/boards/github/connect-to-github",
+        "descriptionIs": "1. Register New O-Auth \n 2. Add O-Auth Configration \n 3. Add a GitHub Connection",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "04",
@@ -3459,7 +3459,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "Step 1: Create a service principal in Azure Active Directory (Azure AD).\nYou will need a service principal to deploy an app to an Azure resource from Azure Pipelines.\nStep 2: Configure an access policy in the key vault.\nYou need to secure access to your key vaults by allowing only authorized applications and users. To access the data from the vault, you will need to provide read\n(Get) permissions to the service principal that you will be using for authentication in the pipeline.\nSelect Access policy and then select + Add Access Policy to setup a new policy.\n\nStep 3: Add an Azure Resource Manager service connection to the pipeline\nYou need to authorize the pipeline to deploy to Azure:\n1. Select Pipelines | Pipelines,\n2. Go to Releases under Pipelines and then select and Edit your pipeline.\n3. Under Tasks, notice the release definition for Dev stage has a Azure Key Vault task. This task downloads Secrets from an Azure Key Vault. You will need to point to the subscription and the Azure Key Vault resource.\n4. Click Manage, this will redirect to the Service connections page.\n\n5.Click on New Service connection -> Azure Resource Manager -> Service Principal (manual). Fill the information from previously created service principal.\nReference:\nhttps://azuredevopslabs.com/labs/vstsextend/azurekeyvault/",
+        "descriptionIs": "1. Create a Service Principal in Azure Active Directory \n 2. Configure an Access Policy in the Key Vault \n 3. Add ARM Service Connection to Pipeline",
         "descriptionImages": [
             "https://www.examtopics.com/assets/media/exam-media/04257/0016300001.png",
             "https://www.examtopics.com/assets/media/exam-media/04257/0016300002.jpg"
@@ -3476,7 +3476,7 @@
         ],
         "isMCQ": false,
         "myOptionsAre": null,
-        "descriptionIs": "User1: Project Administrators -\nYou must have the permission Create Repository to publish code as wiki. By default, this permission is set for members of the Project Administrators group.\n\nUser2: Contributors -\nAnyone who is a member of the Contributors security group can add or edit wiki pages.\nAnyone with access to the team project, including stakeholders, can view the wiki.\nReference:\nhttps://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-create-repo",
+        "descriptionIs": "User1: Project Administrators \n User2: Contributors",
         "descriptionImages": [],
         "linkIs": "https://www.examtopics.com/exams/microsoft/az-400/view/",
         "topicNumber": "04",
@@ -3500,12 +3500,12 @@
             },
             {
                 "text": "Modify the devDependencies section of the project's Package.json file.",
-                "correct": true,
+                "correct": false,
                 "voted": false
             },
             {
                 "text": "Configure WhiteSource Bolt to scan the node_modules directory only.",
-                "correct": false,
+                "correct": true,
                 "voted": true
             }
         ],
